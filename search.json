@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "en/about.html",
+    "href": "en/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Church Governance",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "pl/index.html",
+    "href": "pl/index.html",
+    "title": "ecclesiacybernetica",
+    "section": "",
+    "text": "KKK Kierowanie Kościołem Katolickim"
+  },
+  {
+    "objectID": "pl/about.html",
+    "href": "pl/about.html",
+    "title": "O nas",
+    "section": "",
+    "text": "Strona poświęcona badaniu systemu sterowania Kościoła Katolickiego."
+  }
+]
