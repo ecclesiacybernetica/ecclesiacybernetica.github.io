@@ -1,0 +1,93 @@
+/* css styles */
+
+/*-- navbar --*/
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+    font-size: 1em;
+  }
+  
+  #quarto-header {
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar-brand.navbar-brand-logo {
+    margin-left: 1em;/* logo z boku */
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-brand.navbar-brand-logo {
+      margin-left: 0;
+  
+  }
+  }
+  
+  .navbar-logo {
+    max-height: 70px;
+    width: auto;
+    align-items: baseline;
+    color: red;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-logo {
+      max-height: 50px;
+  
+    } }
+  
+  
+    .nav-item {
+      margin-top: 2rem; 
+    }
+  
+    @media (max-width: 1200px) {
+      .nav-item {
+        margin-right: 0.5rem;
+    }
+    }
+  
+    @media (max-width: 991px) {
+      .nav-item {
+        margin-top: 0;
+        margin-right: 0rem;
+    }
+    }
+    
+    .aa-DetachedSearchButton {
+      margin-top: 2rem;
+    }
+  
+    @media (max-width: 991px) {
+      .aa-DetachedSearchButton {
+        margin-top: 0;
+    }
+    }
+    
+    #title-block-header {
+      margin-block-end: 1rem;
+      position: relative;
+      margin-top: -1px;
+      margin-bottom: 1.8em;
+      /* border-bottom: 1px solid black; */
+      background-color: #FEC017;
+    }
+  
+    #title-block-header.quarto-title-block.default .description {
+      color:  black; /*tekst w banerze opisu*/
+      
+    }
+  
+    /*-- main content --*/
+  
+  body.nav-fixed {
+    padding-top: auto;
+    background-color: #ffffff;
+  }
+  
+  #quarto-content {
+    background-color: white;
+  }
+  
+  
