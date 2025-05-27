@@ -21,6 +21,13 @@
   background-color: white;
 }
 
+/* na telefonie brak tytułu */
+@media (max-width: 991px){
+  .navbar-title {
+    display: none;
+  }
+  }
+
 .navbar-logo {
   max-height: 48px;
   width: auto;
