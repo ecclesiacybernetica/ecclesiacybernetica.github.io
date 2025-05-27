@@ -11,7 +11,7 @@
 }
 
 .menu-text:hover {
-  color: #666;
+  color: #677d;
 }
 
 /* Menu - jednakowe formatowanie dla wszystkich elementów */
@@ -21,12 +21,11 @@
   background-color: white;
 }
 
-/* na telefonie brak tytułu */
 @media (max-width: 991px){
-  .navbar-title {
-    display: none;
-  }
-  }
+.navbar-title {
+  display: none;
+}
+}
 
 .navbar-logo {
   max-height: 48px;
@@ -206,7 +205,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: #677d;
 }
 
 p > a, ul a, li > a {
