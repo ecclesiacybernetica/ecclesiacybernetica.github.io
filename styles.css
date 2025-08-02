@@ -217,7 +217,8 @@
   }
   
   .article-btn a:hover {
-    color: #939bc9;
+    /* color: #939bc9; */
+    color: black;
   }
   
   .further-info {
