@@ -1,0 +1,28 @@
+---
+about:
+  template: trestles
+  image: images/ce-logo-150px.jpg
+toc: false
+#   links:
+#     - icon: twitter
+#       text: twitter
+#       href: https://twitter.com
+#     - icon: github
+#       text: Github
+#       href: https://github.com
+---
+
+# Kontakt
+
+Jeśli masz pytanie lub chcesz się zaangażować, zapraszam do kontaktu.
+
+<p><span id="email">[email chroniony]</span></p>
+
+<script>
+  const user = "ecclesiacybernetica";
+  const domain = "proton.me";
+  const email = `${user}@${domain}`;
+  const link = `<a href="mailto:${email}">${email}</a>`;
+  document.getElementById("email").innerHTML = link;
+</script>
+

@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: ../_site/
+  # output-dir: "../../_site/"
+
+website:
+  title: "Ecclesia Cybernetica"
+  image: images/storm3r.jpg
+  favicon: images/logo-crc.png
+  site-url: https://ecclesiacybernetica.org/
+  cookie-consent: false
+    # Konfiguracja nawigacji - białe tło, czarny tekst
+  navbar:
+    toggle-position: right
+    background: "white"
+    logo: images/logo-black.png 
+    logo-alt: "Ecclesia Cybernetica"
+    collapse-below: lg
+    right:
+      - text: "Artykuły"
+        href: blog/index.qmd
+      - text: "Info"
+        href: about.qmd        
+      - text: "EN"
+        href: /en/
+
+  page-navigation: true
+
+  page-footer:
+    background: "#000000"
+    left: |
+      Copyright &copy; 2025 Tomasz Włodarczyk
+    right: |
+      Zasady korzystania
+ 
+lang: pl-PL
+
+back-to-top-navigation: false
+
+format:
+  html:
+    theme: [cosmo]
+    css: styles.css
+    include-after-body: html/analytics.html
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 250px
+

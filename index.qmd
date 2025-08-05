@@ -1,0 +1,92 @@
+---
+pagetitle: "Ecclesia Cybernetica"
+title: "Nawigowanie wśród złożoności"
+page-layout: full
+section-divs: false
+# editor: source
+sidebar: false
+# margins: false
+search: false
+repo-actions: false
+description: | 
+  Analiza danych w służbie Kościołowi
+#Strona mająca na celu ukazanie możliwych zastosować nowoczesnych narzędzi analizy danych i ich wizualizacji do praktycznych zagadnień dotyczących funkcjonowania Kościoła Katolickiego.
+image: images/storm3r.jpg
+listing:
+  - id: featured
+    contents:  "featured/posts/*f1.qmd"
+    sort: "date desc"
+    type: grid
+    max-items: 1
+    grid-columns: 1
+    image-height: 100% #50vh
+  - id: featured2
+    contents:  
+    - "featured/posts/*f2.qmd"
+    - "featured/posts/*f3.qmd"
+    sort: "date desc"
+    type: grid
+    max-items: 2
+    grid-columns: 1
+    fields: [image, title,date]
+    image-height: auto #25vh 
+  - id: latest-content
+    contents: 
+    - /blog
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 9
+    feed: false
+    image-height: auto
+toc: false
+css: index.css
+title-block-banner: images/storm3r.jpg
+---
+
+
+
+::: grid
+
+::: {.g-col-12 .g-col-lg-8}
+:::{.big-titles}
+::: {#featured}
+
+:::
+:::
+:::
+
+
+::: {.g-col-12 .g-col-lg-4}
+::: {#featured2}
+:::
+:::
+
+:::
+
+<!-- Sekcja z cytatem inspirującym na złotym tle -->
+
+<!--::: {.pullout-text }
+::: {.pullout-block}
+
+## *I tak ustanowił Bóg w Kościele najprzód apostołów, po wtóre proroków, po trzecie nauczycieli, a następnie tych, co mają dar czynienia cudów, wspierania pomocą, przewodzenia [κυβερνήσεις] oraz przemawiania rozmaitymi językami.*  {style="color: white"} 
+
+1 Kor 12,28
+
+:::
+::: -->
+
+::: {.listing-block style="margin-top: 3em"}
+<a href="blog/index.qmd">
+
+## Ostatnie wpisy
+
+</a>
+
+::: {#latest-content}
+:::
+:::
+

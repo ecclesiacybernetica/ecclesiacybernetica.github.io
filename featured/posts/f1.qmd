@@ -1,0 +1,147 @@
+---
+title: "Cybernetyczny Papież"
+description: |
+  Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także najnowżych osiągnięć teorii komunikacji i kontroli złożonych systemów.  
+categories:
+  - Ecclesial Cybernetics
+  - Leon XIV.
+author: Tomasz Włodarczyk
+date: 2025-08-02
+toc: true 
+image: images/helmsman.jpg
+image-alt: Osoba za sterem żaglówki.  
+bibliography: ../literature.bib
+format:
+  html: default
+  pdf: default
+# reference-location: margin
+# citation-location: margin
+lang: pl-PL
+citation: true
+appendix-cite-as: display
+---
+
+Czy papież, który kieruje instytucją religijną tak starą jak Kościół katolicki, może zdecydować o losie sztucznej inteligencji?
+To prawda, Kościół katolicki zawsze był uważany za instytucję konserwatywną, ale także nieustannie starał się odnieść do wydarzeń, którymi żyje świat.
+Tak było w przypadku Leona XIII..
+Jego encyklika *Rerum novarum* była reakcją na nową rzeczywistość, w której ruchy socjalistyczne zdobywały coraz większy wpływ na masy robotnicze pozostawione samym sobie przez radykalną gospodarkę liberalną.
+Papież miał odwagę zaproponować trzecią drogę.
+Dzisiaj tematem numer jeden nie jest socjalizm, ale sztuczna inteligencja, dlatego Watykan wypowiada się także na ten temat.
+W tym wpisie pokażę, jak cybernetyka pozwala zrozumieć decyzje papieża.
+
+...
+
+<!-- ## Z lotu ptaka
+
+Papież działa jak nawigator okrętu, który musi reagować na zmieniające się warunki na morzu.
+Jeśli zauważy zmianę wiatru, niebezpieczną falę, musi z jednej strony dostosować odpowiednio pozycję łodzi, aby jej nie wywrócić, ale z drugiej strony nie minąć portu docelowego.
+Było tak w XIX wieku. 
+W odpowiedzi na fatalną sytuację robotników pojawiły się ruchy socjalistyczne .
+Leon XIII z jednej strony widział zło marksistów, ale także widział tragiczne położenie robotników, których trudna sytuacja była efektem radykalnie liberalnego podejścia do gospodarki.
+Patrząc na kierunek wiatru historii papież musiał zatem przekręcić ster, aby móc płynąć w tym samym kierunku.
+Podobne wyzwanie stoi teraz przed jego następcą, Papieżem Leonem XIV. 
+Obecnie takim wyzwaniem jest sztuczna inteligencja (SI).
+
+SI jest używane prawie wszędzie od szkoły po wojsko, a nawet w liturgii, tempo zmian jest zawrotne.
+Znów istnieją co najmniej dwie opcje, odrzucić SI lub je przyjąć je bez zastrzeżeń.
+To jest zbyt oczywiste.
+
+Radykalny wybór każdej z tych opcji przypomina gwałtowny ruch sterem, który może skończyć się źle dla załogi, dla łodzi i dla podróży.
+W tym sensie papież musi być sprawnym sternikiem i nawigatorem.
+
+## Tło historyczne
+
+Roztropność nakazuje uczyć się z przeszłych doświadczeń, aby rozpoznać, co się powtarza, a co jest nowe. 
+Widać wyraźnie, że występuje tu pewien podobny schemat.
+Stanowi to wskazówkę dla poszukiwania rozwiązania.
+Pod koniec XIX wieku Kościół zmierzył się z socjalizmem i pierwszą rewolucją przemysłową, a raczej jej negatywnymi konsekwencjami.
+Tym zmianom towarzyszyły podziały w Kościele pomiędzy frakcjami konserwatywnymi i liberalnymi w ramach walki z modernizmem.
+Przykładem ofiary tej walki był John Henry Newman.
+W Niemczech toczyła się walka kulturowa pruskiego rządu z katolicyzmem.
+Encyklika była owocem dłuższego projektu.
+W 1950 roku Carlo Maria Curci założył czasopismo *La Civiltà Cattolica*[^1], które miało na celu przedstawienie na najwyższym poziomie intelektualnym punktu widzenia Kościoła w kwestiach religijnych i politycznych [@hales1962PioNono], wobec ataków propagandowych i fizycznych na papiestwo.
+W założeniu tego pisma brali udział dwaj inni Jezuici Matteo Liberatore SJ (1810-1892) oraz Luigi Taparelli SJ (1793-1862).
+Ich pisma przygotowały grunt pod encyklikę *Rerum novarum*, która została przygotowana przez Liberatore i dominkiańskiego kardynała Tommaso Maria Zigliara.
+
+Leon XIII rozpoczął dialog z kulturą, wyznaczając nowy kurs.
+Wybrał imię Leon, ze względu na pojednawcze podejście wobec świeckich rządów poprzedniego papieża o tym imieniu.
+Obrany kurs nie był tak ostry jak jego poprzednika.
+W encyklice także widać ten pojednawczy charakter. 
+Nie opowiedział się za liberalizmem lub marksizmem, ale zaproponował nowe rozwiązanie.
+W ten sposób był w stanie przeprowadzić kościół po tych wzburzonych wodach.
+
+Leon XIII. w wymiarze polityki kościelnej zrobił to, co robi każdy żeglarz: patrzy na  morze i wiatr i koryguje ruchem steru ustawienie statku, aby mimo zmiany otoczenia i zmianie położenia okrętu zachować ten sam kurs.
+W sterowaniu statkiem pozycja steru jest nieustannie dostosowywana do efektu jaki wywiera na okręt, tworząc sprzężenie, dzięki któremu kurs może być zachowany w zmieniającym się otoczeniu, reagując na zaburzenia ze strony wiatru i fal.[@gage2007Helmsman]
+
+To co musi zrobić zatem papież, to jak sternik obserwować gdzie jesteśmy, jakie jest otoczenie, jak może wpływać na statek, aby utrzymać kurs, a ostatecznie dotrzeć do celu, do którego  zmierza Kościół.
+Kluczowe jest nie tylko wydawanie rozkazu, ale także mówienie tak, aby ludzie słuchali, obserwacja otoczenia i zachowania statku, czyli sprzężenie zwrotne.
+Widać zatem wyraźnie analogię między sterowaniem statkiem i polityką Leona XIII.
+To także jest wniosek cybernetyczny. 
+Pewne problemy mimo że dotyczą różnych sytuacji, czy to statku, czy społeczeństwa, czy algorytmu, wykazują pewne podobieństwa. 
+Patrzymy na cel, wydajemy polecenie, sprawdzamy reakcje i odpowiednio korygujemy kurs.
+
+## Paralele odnośnie nowej etyki AI
+
+Dzisiejsza sytuacja nie jest wyjątkiem.
+Nic nie zrobimy z tym, że rozpętała się cyfrowa burza. 
+Prawdopodobnie zakaz SI mógłby nastąpić tylko po jakiejś globalnej katastrofie w stylu Hiroszimy.
+Pytanie jak podejść do tych nowych warunków "na morzu".
+Co może zrobić Kościół?
+W porównaniu do XIX wieku teraz tempo rozwoju jest szalone, informacje które trzeba wziąć pod uwagę olbrzymie.
+W skrócie otoczenie stało się niezwykle złożone.
+Widać jednak, że Kościół nie zamierza stać bezczynnie i patrzeć na nadciągające tsunami, ale wydaje konkretne dokumenty na temat SI i nowych technologii, które wyznaczają punkty odniesienia pozwalające trzeźwo spojrzeć na toczące się zmiany.
+Obecna transformacja społeczna została wyraźnie określona przez Klausa Schwaba, jako kolejna rewolucja przemysłowa, analogicznie do rewolucji przemysłowej w XIX. wieku.
+Jak za czasów Marksa, także dzisiaj sugeruje się, że nauka pozwoli rzucić wyzwanie Bogu. [@harar2017HomoDeus]
+Zatem wyzwania, przed którymi stał Leon XIII i Leon XIV są bardzo podobne.
+
+## Co to pokazuje?
+
+To pokazuje, po pierwsze zdolność Kościoła do adaptacji do zmieniających się warunków. Chociaż często są to reakcje opóźnione, to jednak takie opóźnienie pozwala adekwatnie odnieść się do zmiany i zaproponować rozwiązanie.
+Powolność może być podyktowana tym, że kościół to nie motorówka, ale transoceaniczny okręt.
+Tak jak wcześniej, to do Papieża należy funkcja sternika, który musi nawigować stosując zmiany, aby zachować niezmienność. 
+Podobnie jak żyroskop, który dzięki byciu ciągle w ruchu zachowuje niezwykłą stabilność.
+Ta reguła dotyczy nie tylko Kościoła, ale także innych instytucji, a nawet wszystkich organizmów żywych: aby przetrwać i pozostać sobą trzeba się zmieniać.
+To, co Kościół do tej pory pokazywał, to zadziwiająca zdolność do zachowania tożsamości pomimo zmiany warunków otoczenia.
+
+## Podsumowanie
+
+W tym krótkim wpisie, zatem mogliśmy spojrzeć na Papieża nie tylko jak na kapłana, głowę państwa, ale także na  jego rolę jako sternika, który ma zadanie zachowanie wyznaczonego przez Chrystusa kursu wśród zmiennych wód historii. 
+Pokazane zostały pewne analogie z poprzednimi historycznymi wyzwaniami.
+Te analogie pozwalają zrozumieć zrozumieć adaptację instytucjonalną, ale też stanowi przestrogę dla dalszych decyzji.
+
+Papież jest sternikiem, a doświadczenie Kościoła może wskazać na metody zaradcze dla dzisiejszej sytuacji, która zawiera elementy nowe i stare.
+Z drugiej strony, także rozwój nauki o kierowaniu instytucjami może wskazać na rozwiązania korzystne dla kościoła.
+Odpowiedź na pytanie, co to oznacza w szczególności oraz jakie narzędzia dostarcza współczesna nauka dla poprawy komunikacji i lepszego orientowania się w otaczającym środowisku, będzie rolą tego bloga.
+
+Jak myślicie, jak wygląda obecna sytuacja balansowania pomiędzy tożsamością a adaptacją w Kościele, jakie jeszcze analogie widzicie pomiędzy Leonem 13 a 14?
+
+# Wnioski
+
+- Zadanie Papieża może być postrzegane jako problem sterowniczy.
+- Takie podejście do urzędu papiestwa jest w ciągłości z całą tradycją kościelną
+- Przypomnienie tej analogii pozwala posłużyć się koncepcjami cybernetycznymi do analizy współczesnych nacisków na adaptację.
+- Stanowi punkt wyjścia do pytania, co te ramy teoretyczne pokazują o współczesnych wyzwaniach.
+ -->
+
+[^1]: "Pur essendo una rivista di cultura generale, La Civiltà Cattolica non è un periodico «popolare», bensì di alta divulgazione. Gli argomenti vi sono trattati in modo che possano essere compresi anche da persone non specializzate in quella materia; ma la trattazione è, per quanto possibile, scientificamente rigorosa e seriamente approfondita." (pl. "Mimo że La Civiltà Cattolica jest czasopismem poświęconym kulturze ogólnej, nie jest to magazyn „popularny”, lecz o wysokim poziomie merytorycznym. Tematy są w nim poruszane w sposób zrozumiały również dla osób niebędących specjalistami w danej dziedzinie, ale omówienie jest, w miarę możliwości, naukowo rygorystyczne i poważnie pogłębione.") Oficjalna strona [Zarchiwizowane](https://web.archive.org/web/20070928072606/http://www.laciviltacattolica.it/Storia/Divulgazione.htm) 28 września 2007 na Wayback Machine.
+
+::: {.article-btn}
+[więcej](/blog/index.qmd)
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-6}
+
+O autorze
+: [Ks. Tomasz Włodarczyk](../../about.qmd) 
+
+<!-- Copyright and licence -->
+: &copy; 2025 Ks. Tomasz Włodarczyk
+
+: Obraz <a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Jan_Porcellis_-_Ships_in_a_Storm_on_a_Rocky_Coast_-_Google_Art_Project.jpg">Jan Porcellis</a>, Public domain, via Wikimedia Commons
+
+:::
+::: {.g-col-12 .g-col-md-6}
+
+:::
+:::
