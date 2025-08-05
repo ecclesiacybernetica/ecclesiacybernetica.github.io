@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Analiza danych w służbie Kościołowi">
+<meta name="author" content="Tomasz Włodarczyk">
+<meta name="description" content="Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także najnowżych osiągnięć teorii komunikacji i kontroli złożonych systemów.">
 
-<title>Ecclesia Cybernetica</title>
+<title>Cybernetyczny Papież – Ecclesia Cybernetica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo-crc.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo-crc.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,164 +70,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Szukaj"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured2'] = new List('listing-featured2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-content'] = new List('listing-latest-content', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background-image: url(images/storm3r.jpg);
-background-size: cover;
-      }
-</style>
-<!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
 
 
-</head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-<script id="progressbar" type="text/javascript">
-
-document.addEventListener("DOMContentLoaded", function() {
-
-    const bar = document.querySelector('#progress-bar');
-    const post = document.querySelector('#quarto-content');
-    const html = document.documentElement;
-    
-    const height = post.scrollHeight + post.offsetTop;
-    
-    window.addEventListener('scroll', () => {
-        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
-    });
-});
-</script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
-
-
-
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
     </a>
   </div>
@@ -239,15 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Artykuły</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Info</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./en/"> 
+    <a class="nav-link" href="../../en/"> 
 <span class="menu-text">EN</span></a>
   </li>  
 </ul>
@@ -260,211 +117,177 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Nawigowanie wśród złożoności</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Cybernetyczny Papież</h1>
                   <div>
         <div class="description">
-          <p>Analiza danych w służbie Kościołowi</p>
+          <p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także najnowżych osiągnięć teorii komunikacji i kontroli złożonych systemów.</p>
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Ecclesial Cybernetics</div>
+                <div class="quarto-category">Leon XIV.</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tomasz Włodarczyk </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Opublikowano</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2 sierpnia 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Inne formaty</h2><ul><li><a href="f1.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>Czy papież, który kieruje instytucją religijną tak starą jak Kościół katolicki, może zdecydować o losie sztucznej inteligencji? To prawda, Kościół katolicki zawsze był uważany za instytucję konserwatywną, ale także nieustannie starał się odnieść do wydarzeń, którymi żyje świat. Tak było w przypadku Leona XIII.. Jego encyklika <em>Rerum novarum</em> była reakcją na nową rzeczywistość, w której ruchy socjalistyczne zdobywały coraz większy wpływ na masy robotnicze pozostawione samym sobie przez radykalną gospodarkę liberalną. Papież miał odwagę zaproponować trzecią drogę. Dzisiaj tematem numer jeden nie jest socjalizm, ale sztuczna inteligencja, dlatego Watykan wypowiada się także na ten temat. W tym wpisie pokażę, jak cybernetyka pozwala zrozumieć decyzje papieża.</p>
+<p>…</p>
+<!-- ## Z lotu ptaka
+
+Papież działa jak nawigator okrętu, który musi reagować na zmieniające się warunki na morzu.
+Jeśli zauważy zmianę wiatru, niebezpieczną falę, musi z jednej strony dostosować odpowiednio pozycję łodzi, aby jej nie wywrócić, ale z drugiej strony nie minąć portu docelowego.
+Było tak w XIX wieku. 
+W odpowiedzi na fatalną sytuację robotników pojawiły się ruchy socjalistyczne .
+Leon XIII z jednej strony widział zło marksistów, ale także widział tragiczne położenie robotników, których trudna sytuacja była efektem radykalnie liberalnego podejścia do gospodarki.
+Patrząc na kierunek wiatru historii papież musiał zatem przekręcić ster, aby móc płynąć w tym samym kierunku.
+Podobne wyzwanie stoi teraz przed jego następcą, Papieżem Leonem XIV. 
+Obecnie takim wyzwaniem jest sztuczna inteligencja (SI).
+
+SI jest używane prawie wszędzie od szkoły po wojsko, a nawet w liturgii, tempo zmian jest zawrotne.
+Znów istnieją co najmniej dwie opcje, odrzucić SI lub je przyjąć je bez zastrzeżeń.
+To jest zbyt oczywiste.
+
+Radykalny wybór każdej z tych opcji przypomina gwałtowny ruch sterem, który może skończyć się źle dla załogi, dla łodzi i dla podróży.
+W tym sensie papież musi być sprawnym sternikiem i nawigatorem.
+
+## Tło historyczne
+
+Roztropność nakazuje uczyć się z przeszłych doświadczeń, aby rozpoznać, co się powtarza, a co jest nowe. 
+Widać wyraźnie, że występuje tu pewien podobny schemat.
+Stanowi to wskazówkę dla poszukiwania rozwiązania.
+Pod koniec XIX wieku Kościół zmierzył się z socjalizmem i pierwszą rewolucją przemysłową, a raczej jej negatywnymi konsekwencjami.
+Tym zmianom towarzyszyły podziały w Kościele pomiędzy frakcjami konserwatywnymi i liberalnymi w ramach walki z modernizmem.
+Przykładem ofiary tej walki był John Henry Newman.
+W Niemczech toczyła się walka kulturowa pruskiego rządu z katolicyzmem.
+Encyklika była owocem dłuższego projektu.
+W 1950 roku Carlo Maria Curci założył czasopismo *La Civiltà Cattolica*[^1], które miało na celu przedstawienie na najwyższym poziomie intelektualnym punktu widzenia Kościoła w kwestiach religijnych i politycznych [@hales1962PioNono], wobec ataków propagandowych i fizycznych na papiestwo.
+W założeniu tego pisma brali udział dwaj inni Jezuici Matteo Liberatore SJ (1810-1892) oraz Luigi Taparelli SJ (1793-1862).
+Ich pisma przygotowały grunt pod encyklikę *Rerum novarum*, która została przygotowana przez Liberatore i dominkiańskiego kardynała Tommaso Maria Zigliara.
+
+Leon XIII rozpoczął dialog z kulturą, wyznaczając nowy kurs.
+Wybrał imię Leon, ze względu na pojednawcze podejście wobec świeckich rządów poprzedniego papieża o tym imieniu.
+Obrany kurs nie był tak ostry jak jego poprzednika.
+W encyklice także widać ten pojednawczy charakter. 
+Nie opowiedział się za liberalizmem lub marksizmem, ale zaproponował nowe rozwiązanie.
+W ten sposób był w stanie przeprowadzić kościół po tych wzburzonych wodach.
+
+Leon XIII. w wymiarze polityki kościelnej zrobił to, co robi każdy żeglarz: patrzy na  morze i wiatr i koryguje ruchem steru ustawienie statku, aby mimo zmiany otoczenia i zmianie położenia okrętu zachować ten sam kurs.
+W sterowaniu statkiem pozycja steru jest nieustannie dostosowywana do efektu jaki wywiera na okręt, tworząc sprzężenie, dzięki któremu kurs może być zachowany w zmieniającym się otoczeniu, reagując na zaburzenia ze strony wiatru i fal.[@gage2007Helmsman]
+
+To co musi zrobić zatem papież, to jak sternik obserwować gdzie jesteśmy, jakie jest otoczenie, jak może wpływać na statek, aby utrzymać kurs, a ostatecznie dotrzeć do celu, do którego  zmierza Kościół.
+Kluczowe jest nie tylko wydawanie rozkazu, ale także mówienie tak, aby ludzie słuchali, obserwacja otoczenia i zachowania statku, czyli sprzężenie zwrotne.
+Widać zatem wyraźnie analogię między sterowaniem statkiem i polityką Leona XIII.
+To także jest wniosek cybernetyczny. 
+Pewne problemy mimo że dotyczą różnych sytuacji, czy to statku, czy społeczeństwa, czy algorytmu, wykazują pewne podobieństwa. 
+Patrzymy na cel, wydajemy polecenie, sprawdzamy reakcje i odpowiednio korygujemy kurs.
+
+## Paralele odnośnie nowej etyki AI
+
+Dzisiejsza sytuacja nie jest wyjątkiem.
+Nic nie zrobimy z tym, że rozpętała się cyfrowa burza. 
+Prawdopodobnie zakaz SI mógłby nastąpić tylko po jakiejś globalnej katastrofie w stylu Hiroszimy.
+Pytanie jak podejść do tych nowych warunków "na morzu".
+Co może zrobić Kościół?
+W porównaniu do XIX wieku teraz tempo rozwoju jest szalone, informacje które trzeba wziąć pod uwagę olbrzymie.
+W skrócie otoczenie stało się niezwykle złożone.
+Widać jednak, że Kościół nie zamierza stać bezczynnie i patrzeć na nadciągające tsunami, ale wydaje konkretne dokumenty na temat SI i nowych technologii, które wyznaczają punkty odniesienia pozwalające trzeźwo spojrzeć na toczące się zmiany.
+Obecna transformacja społeczna została wyraźnie określona przez Klausa Schwaba, jako kolejna rewolucja przemysłowa, analogicznie do rewolucji przemysłowej w XIX. wieku.
+Jak za czasów Marksa, także dzisiaj sugeruje się, że nauka pozwoli rzucić wyzwanie Bogu. [@harar2017HomoDeus]
+Zatem wyzwania, przed którymi stał Leon XIII i Leon XIV są bardzo podobne.
+
+## Co to pokazuje?
+
+To pokazuje, po pierwsze zdolność Kościoła do adaptacji do zmieniających się warunków. Chociaż często są to reakcje opóźnione, to jednak takie opóźnienie pozwala adekwatnie odnieść się do zmiany i zaproponować rozwiązanie.
+Powolność może być podyktowana tym, że kościół to nie motorówka, ale transoceaniczny okręt.
+Tak jak wcześniej, to do Papieża należy funkcja sternika, który musi nawigować stosując zmiany, aby zachować niezmienność. 
+Podobnie jak żyroskop, który dzięki byciu ciągle w ruchu zachowuje niezwykłą stabilność.
+Ta reguła dotyczy nie tylko Kościoła, ale także innych instytucji, a nawet wszystkich organizmów żywych: aby przetrwać i pozostać sobą trzeba się zmieniać.
+To, co Kościół do tej pory pokazywał, to zadziwiająca zdolność do zachowania tożsamości pomimo zmiany warunków otoczenia.
+
+## Podsumowanie
+
+W tym krótkim wpisie, zatem mogliśmy spojrzeć na Papieża nie tylko jak na kapłana, głowę państwa, ale także na  jego rolę jako sternika, który ma zadanie zachowanie wyznaczonego przez Chrystusa kursu wśród zmiennych wód historii. 
+Pokazane zostały pewne analogie z poprzednimi historycznymi wyzwaniami.
+Te analogie pozwalają zrozumieć zrozumieć adaptację instytucjonalną, ale też stanowi przestrogę dla dalszych decyzji.
+
+Papież jest sternikiem, a doświadczenie Kościoła może wskazać na metody zaradcze dla dzisiejszej sytuacji, która zawiera elementy nowe i stare.
+Z drugiej strony, także rozwój nauki o kierowaniu instytucjami może wskazać na rozwiązania korzystne dla kościoła.
+Odpowiedź na pytanie, co to oznacza w szczególności oraz jakie narzędzia dostarcza współczesna nauka dla poprawy komunikacji i lepszego orientowania się w otaczającym środowisku, będzie rolą tego bloga.
+
+Jak myślicie, jak wygląda obecna sytuacja balansowania pomiędzy tożsamością a adaptacją w Kościele, jakie jeszcze analogie widzicie pomiędzy Leonem 13 a 14?
+
+# Wnioski
+
+- Zadanie Papieża może być postrzegane jako problem sterowniczy.
+- Takie podejście do urzędu papiestwa jest w ciągłości z całą tradycją kościelną
+- Przypomnienie tej analogii pozwala posłużyć się koncepcjami cybernetycznymi do analizy współczesnych nacisków na adaptację.
+- Stanowi punkt wyjścia do pytania, co te ramy teoretyczne pokazują o współczesnych wyzwaniach.
+ -->
+<div class="article-btn">
+<p><a href="../../blog/index.html">więcej</a></p>
+</div>
 <div class="grid">
-<div class="g-col-12 g-col-lg-8">
-<div class="big-titles">
-<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="RWNjbGVzaWFsJTIwQ3liZXJuZXRpY3MlMkNMZW9uJTIwWElWLg==" data-listing-date-sort="1754085600000" data-listing-file-modified-sort="1754317588878" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1221">
-<a href="./featured/posts/f1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/helmsman.jpg" class="thumbnail-image card-img" style="height: 100%;" alt="Osoba za sterem żaglówki.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cybernetyczny Papież
-</h5>
-<div class="card-text listing-description delink">
-<p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także…</p>
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>O autorze</dt>
+<dd>
+<a href="../../about.html">Ks. Tomasz Włodarczyk</a>
+</dd>
+<dt><!-- Copyright and licence --></dt>
+<dd>
+© 2025 Ks. Tomasz Włodarczyk
+</dd>
+<dd>
+<p>Obraz <a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Jan_Porcellis_-_Ships_in_a_Storm_on_a_Rocky_Coast_-_Google_Art_Project.jpg">Jan Porcellis</a>, Public domain, via Wikimedia Commons</p>
+</dd>
+</dl>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-2 sie 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Brak pasujących</div>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-4">
-<div id="listing-featured2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="QUk=" data-listing-date-sort="1778104800000" data-listing-file-modified-sort="1752746223814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
-<a href="./featured/posts/f2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/ai2.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI image...">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-F2 artykuł 2
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-7 maj 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QUk=" data-listing-date-sort="1701817200000" data-listing-file-modified-sort="1752747598006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="./featured/posts/f3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/ai3.jpg" class="thumbnail-image card-img" style="height: auto;" alt="ai image etc.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-F3 Trzeci artykuł featured
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-6 gru 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Brak pasujących</div>
-</div>
-</div>
-</div>
-<!-- Sekcja z cytatem inspirującym na złotym tle -->
-<!--::: {.pullout-text }
-::: {.pullout-block}
+<div class="g-col-12 g-col-md-6">
 
-## *I tak ustanowił Bóg w Kościele najprzód apostołów, po wtóre proroków, po trzecie nauczycieli, a następnie tych, co mają dar czynienia cudów, wspierania pomocą, przewodzenia [κυβερνήσεις] oraz przemawiania rozmaitymi językami.*  {style="color: white"} 
-
-1 Kor 12,28
-
-:::
-::: -->
-<div class="listing-block" style="margin-top: 3em">
-<p><a href="./blog/index.html"></a></p><a href="./blog/index.html">
-<h2 id="ostatnie-wpisy" class="anchored">Ostatnie wpisy</h2>
-</a><p><a href="./blog/index.html"></a></p>
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUk=" data-listing-date-sort="1752962400000" data-listing-file-modified-sort="1754153897452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
-<a href="./blog/posts/2025/04/18/ART-1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/04/18/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI image again..">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ART 1
-</h5>
-<div class="card-text listing-description delink">
-<p>Lorem ipsum…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-20 lip 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QUklMkNpbnRybw==" data-listing-date-sort="1752789600000" data-listing-file-modified-sort="1752755943887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<a href="./blog/posts/2025/05/11/ART-2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/05/11/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI...">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Art 2.
-</h5>
-<div class="card-text listing-description delink">
-<p>222 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-ks. Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-18 lip 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="QUklMkNjdWx0dXJl" data-listing-date-sort="1752616800000" data-listing-file-modified-sort="1752753008067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
-<a href="./blog/posts/2025/05/18/ART-3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/05/18/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Art 3
-</h5>
-<div class="card-text listing-description delink">
-<p>333 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-16 lip 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Brak pasujących</div>
 </div>
 </div>
 
 
 
-
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Włodarczyk, Tomasz. 2025. <span>“Cybernetyczny Papież.”</span> August 2,
+2025. <a href="https://ecclesiacybernetica.org/featured/posts/f1.html">https://ecclesiacybernetica.org/featured/posts/f1.html</a>.
+</div></div></section></div></main> <!-- /main -->
 <!-- 100% privacy-first analytics -->
 <script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>

@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Analiza danych w służbie Kościołowi">
 
-<title>Ecclesia Cybernetica</title>
+<title>Artykuły | Ecclesia Cybernetica – Ecclesia Cybernetica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo-crc.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/logo-crc.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,76 +73,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured2'] = new List('listing-featured2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-content'] = new List('listing-latest-content', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -156,33 +99,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background-image: url(images/storm3r.jpg);
-background-size: cover;
-      }
-</style>
-<!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
-
-
-</head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
-
-<script id="progressbar" type="text/javascript">
-
-document.addEventListener("DOMContentLoaded", function() {
-
-    const bar = document.querySelector('#progress-bar');
-    const post = document.querySelector('#quarto-content');
-    const html = document.documentElement;
-    
-    const height = post.scrollHeight + post.offsetTop;
-    
-    window.addEventListener('scroll', () => {
-        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
-    });
-});
-</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -214,21 +130,20 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
 
-
-
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
     </a>
   </div>
@@ -239,15 +154,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Artykuły</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Info</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./en/"> 
+    <a class="nav-link" href="../en/"> 
 <span class="menu-text">EN</span></a>
   </li>  
 </ul>
@@ -260,18 +175,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Nawigowanie wśród złożoności</h1>
-                  <div>
-        <div class="description">
-          <p>Analiza danych w służbie Kościołowi</p>
-        </div>
-      </div>
-                </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Archiwum artykułów</h1>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
       
     
@@ -279,195 +189,122 @@ window.Quarto = {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Kategorie</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Wszystkie <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y3VsdHVyZQ==">culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50cm8=">intro <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<div class="grid">
-<div class="g-col-12 g-col-lg-8">
-<div class="big-titles">
-<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="RWNjbGVzaWFsJTIwQ3liZXJuZXRpY3MlMkNMZW9uJTIwWElWLg==" data-listing-date-sort="1754085600000" data-listing-file-modified-sort="1754317588878" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1221">
-<a href="./featured/posts/f1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/helmsman.jpg" class="thumbnail-image card-img" style="height: 100%;" alt="Osoba za sterem żaglówki.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cybernetyczny Papież
-</h5>
-<div class="card-text listing-description delink">
-<p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-2 sie 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Brak pasujących</div>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-4">
-<div id="listing-featured2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="QUk=" data-listing-date-sort="1778104800000" data-listing-file-modified-sort="1752746223814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
-<a href="./featured/posts/f2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/ai2.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI image...">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-F2 artykuł 2
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-7 maj 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QUk=" data-listing-date-sort="1701817200000" data-listing-file-modified-sort="1752747598006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="./featured/posts/f3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./featured/posts/images/ai3.jpg" class="thumbnail-image card-img" style="height: auto;" alt="ai image etc.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-F3 Trzeci artykuł featured
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-6 gru 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">Brak pasujących</div>
-</div>
-</div>
-</div>
-<!-- Sekcja z cytatem inspirującym na złotym tle -->
-<!--::: {.pullout-text }
-::: {.pullout-block}
 
-## *I tak ustanowił Bóg w Kościele najprzód apostołów, po wtóre proroków, po trzecie nauczycieli, a następnie tych, co mają dar czynienia cudów, wspierania pomocą, przewodzenia [κυβερνήσεις] oraz przemawiania rozmaitymi językami.*  {style="color: white"} 
 
-1 Kor 12,28
 
-:::
-::: -->
-<div class="listing-block" style="margin-top: 3em">
-<p><a href="./blog/index.html"></a></p><a href="./blog/index.html">
-<h2 id="ostatnie-wpisy" class="anchored">Ostatnie wpisy</h2>
-</a><p><a href="./blog/index.html"></a></p>
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUk=" data-listing-date-sort="1752962400000" data-listing-file-modified-sort="1754153897452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
-<a href="./blog/posts/2025/04/18/ART-1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/04/18/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI image again..">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ART 1
-</h5>
-<div class="card-text listing-description delink">
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="QUk=" data-listing-date-sort="1752962400000" data-listing-file-modified-sort="1754153897452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="thumbnail"><a href="../blog/posts/2025/04/18/ART-1.html" class="no-external">
+
+<img loading="lazy" src="../blog/posts/2025/04/18/images/ai1.jpg" class="thumbnail-image" alt="AI image again..">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2025/04/18/ART-1.html" class="no-external">ART 1</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2025/04/18/ART-1.html" class="no-external">
 <p>Lorem ipsum…</p>
+</a></div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
+<div class="metadata">
+<a href="../blog/posts/2025/04/18/ART-1.html" class="no-external">
 <div class="listing-date">
 20 lip 2025
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QUklMkNpbnRybw==" data-listing-date-sort="1752789600000" data-listing-file-modified-sort="1752755943887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<a href="./blog/posts/2025/05/11/ART-2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/05/11/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;" alt="AI...">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Art 2.
-</h5>
-<div class="card-text listing-description delink">
-<p>222 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-ks. Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-18 lip 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="QUklMkNjdWx0dXJl" data-listing-date-sort="1752616800000" data-listing-file-modified-sort="1752753008067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
-<a href="./blog/posts/2025/05/18/ART-3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/posts/2025/05/18/images/ai1.jpg" class="thumbnail-image card-img" style="height: auto;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Art 3
-</h5>
-<div class="card-text listing-description delink">
-<p>333 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud…</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QUklMkNpbnRybw==" data-listing-date-sort="1752789600000" data-listing-file-modified-sort="1752755943887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="thumbnail"><a href="../blog/posts/2025/05/11/ART-2.html" class="no-external">
+
+<img loading="lazy" src="../blog/posts/2025/05/11/images/ai1.jpg" class="thumbnail-image" alt="AI...">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2025/05/11/ART-2.html" class="no-external">Art 2.</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50cm8='); return false;">intro</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2025/05/11/ART-2.html" class="no-external">
+<p>222 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2025/05/11/ART-2.html" class="no-external">
+<div class="listing-date">
+18 lip 2025
+</div>
+<div class="listing-author">
+ks. Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="QUklMkNjdWx0dXJl" data-listing-date-sort="1752616800000" data-listing-file-modified-sort="1752753008067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
+<div class="thumbnail"><a href="../blog/posts/2025/05/18/ART-3.html" class="no-external">
+
+<img loading="lazy" src="../blog/posts/2025/05/18/images/ai1.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2025/05/18/ART-3.html" class="no-external">Art 3</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y3VsdHVyZQ=='); return false;">culture</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2025/05/18/ART-3.html" class="no-external">
+<p>333 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2025/05/18/ART-3.html" class="no-external">
 <div class="listing-date">
 16 lip 2025
 </div>
+<div class="listing-author">
+Tomasz Włodarczyk
 </div>
+</a>
 </div>
-</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">Brak pasujących</div>
-</div>
-</div>
-
-
-
-
-</main> <!-- /main -->
-<!-- 100% privacy-first analytics -->
-<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
