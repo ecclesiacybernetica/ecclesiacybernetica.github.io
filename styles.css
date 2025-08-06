@@ -196,9 +196,9 @@
     color: white;
     padding: 0.85em 1em;
     text-align: center;
-    display: inline-block;
-    margin: 1.5em 0;
-    margin: 0;
+    display: block;
+    margin: 1.5em auto;
+    /* margin: 0; */
     cursor: pointer;
     width: 100%;
   }
@@ -294,10 +294,12 @@
   .quarto-grid-item .card-attribution.justify {
     justify-content: left;
   }
-  
+ 
   .quarto-grid-item img.thumbnail-image {
     object-fit: cover;
-  } */
+    width: 100%; 
+    height: auto;
+  }  */
   
   /* ===========================
      RESPONSYWNOŚĆ
@@ -314,5 +316,63 @@
     .nav-footer {
       padding: 1em;
     }
+  }
+  
+    /* ===========================
+     BANNER GŁÓWNY
+     =========================== */
+
+     #title-block-header {
+      border-bottom: none;
+  }
+
+  .quarto-title-banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    /* height: 100vh; */
+    color: black;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    box-sizing: border-box;
+    z-index: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .quarto-title-banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    /* height: 100vh; */
+    /* color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    box-sizing: border-box;
+    z-index: 0;
+  }
+  }
+  .quarto-title-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+  }
+  
+  .quarto-title-banner > * {
+    position: relative;
+    z-index: 2;
+    /* color: white; */
   }
   
