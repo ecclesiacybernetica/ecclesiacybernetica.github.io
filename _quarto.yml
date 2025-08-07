@@ -18,7 +18,7 @@ website:
     collapse-below: lg
     right:
       - text: "Artykuły"
-        href: blog/index.qmd
+        href: articles/index.qmd
       - text: "Info"
         href: about.qmd        
       - text: "EN"

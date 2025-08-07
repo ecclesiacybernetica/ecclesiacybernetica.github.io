@@ -1,0 +1,51 @@
+---
+title: "Statek Platona"
+description: |
+  Fragment z *Republiki* Platona o sterowaniu okrętem pańśtwa.
+categories:
+  - cytat
+  - Platon
+author:
+  - name: Tomasz Włodarczyk
+date: 2025-08-02
+toc: false 
+image: featured3.jpg
+image-alt: Akademia platona  
+format:
+  html: default
+  pdf: default
+# reference-location: margin
+# citation-location: margin
+lang: pl-PL
+citation: 
+  type: article-journal
+  container-title: "Ecclesia Cybernetica"
+appendix-cite-as: display
+title-block-banner: featured3.jpg
+---
+
+Gdy obywatele, zamiast słuchać nawigatora, zaczynają walczyć, by dostać się do steru, statek płynie źle i nie dotrze do swego celu:
+
+>Więc weź pod uwagę takie oto zdarzenie — na wielu okrętach albo na jednym okręcie. Kapitan statku przewyższa wszystkich na okręcie wielkością i siłą, a tylko przygłuchy jest i ma jakoś krótki wzrok, a na sztuce żeglarskiej też się mało rozumie. A żeglarze kłócą się z sobą o sterowanie. Każdy z nich uważa, że powinien siedzieć przy sterze, chociaż się nigdy sztuki sterowania nie uczył ani nie potrafi wskazać tego, u kogo by się jej uczył, ani czasu, w którym by tę naukę pobierał. Oprócz tego oni twierdzą nawet, że się tej sztuki nauczyć nie można. A jeśli kto mówi, że można, gotowi go zabić. Sami wciąż tylko kapitana oblegają, nastają na niego i robią, co mogą, żeby im ster powierzył. A nieraz, jeśli on im nie ulega, tylko innym raczej, wtedy oni tych innych albo zabijają, albo ich wyrzucają z okrętu, a dzielnemu kapitanowi podają ziółka czarodziejskie na sen albo go upijają czymkolwiek, aby go z nóg zwalić, i panują nad okrętem, mają na swoje usługi wszystko, co na nim jest; piją i używają sobie w podróży po swojemu, oczywiście; a do tego chwalą jako znakomitego żeglarza i nazywają zawołanym sternikiem i znawcą okrętu każdego, kto potrafi razem z nimi rękę przykładać do tego, żeby im władza przypadła w udziale, kiedy zbałamucą albo gwałtem zmogą kapitana. Każdego innego oni ganią i mówią, że jest do niczego, a o prawdziwym sterniku nie mają bladego pojęcia, nie przeczuwają nawet, że on powinien się interesować porami roku i dnia, i niebem, i gwiazdami, i wiatrami, i wszystkim, co leży w zakresie umiejętności, jeżeli ma być naprawdę przygotowany do prowadzenia okrętu. A żeby ktoś mógł okrętem kierować, czy tam zgodnie z wolą tych, czy owych, czy wbrew ich woli, tego, oni uważają, ani się wyuczyć, ani w tym wyćwiczyć nie można — wraz z umiejętnością sterniczą. Kiedy się tak dzieje na okrętach, to czy nie myślisz, że o sterniku prawdziwym będą rzeczywiście mówili, że tylko w gwiazdy patrzy i w niebo, że dużo gada i że jest do niczego, ci, co w tych stosunkach płyną okrętami?
+
+-- Platon, *Państwo*, Księga VI
+
+::: {.article-btn}
+[więcej](/articles/index.qmd)
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-6}
+
+O autorze
+: [Ks. Tomasz Włodarczyk](../../about.qmd) 
+
+<!-- Copyright and licence -->
+: &copy; 2025 Ks. Tomasz Włodarczyk
+
+: Obraz Akadamia Platona, Mozaika rzymska z 1 w. p. Chr., Museo Nazionale Archeologico, Neapol.
+:::
+::: {.g-col-12 .g-col-md-6}
+
+:::
+:::

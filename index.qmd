@@ -19,7 +19,7 @@ listing:
     type: grid
     max-items: 1
     grid-columns: 1
-    image-height: 100% #50vh
+    image-height: 50vh  #50vh
   - id: featured2
     contents:  
     - "featured/posts/*f2.qmd"
@@ -29,11 +29,11 @@ listing:
     max-items: 2
     grid-columns: 1
     fields: [image, title,date]
-    image-height: auto #25vh 
+    image-height: 180px #25vh 
   - id: latest-content
     contents: 
-    - /blog
-    - "!index.qmd"
+    - /articles
+    - "!/articles/index.qmd"
     sort: "date desc"
     type: grid
     categories: false
@@ -41,7 +41,7 @@ listing:
     filter-ui: false
     max-items: 9
     feed: false
-    image-height: auto
+    image-height: 180px
 toc: false
 css: index.css
 title-block-banner: images/storm3r.jpg
@@ -80,7 +80,7 @@ title-block-banner: images/storm3r.jpg
 ::: -->
 
 ::: {.listing-block style="margin-top: 3em"}
-<a href="blog/index.qmd">
+<a href="articles/index.qmd">
 
 ## Ostatnie wpisy
 

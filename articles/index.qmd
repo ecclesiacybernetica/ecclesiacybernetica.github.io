@@ -1,0 +1,18 @@
+---
+pagetitle: Artykuły | Ecclesia Cybernetica
+title: Archiwum artykułów
+# subtitle: "Archiwum opublikowanych do tej pory artykułów dotyczących zagadnień od analizy danych, do duchowości."
+# search: false
+# repo-actions: false
+listing:
+  contents:
+  - "**/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  image-height: 180px
+---
+
+
