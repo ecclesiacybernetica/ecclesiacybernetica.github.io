@@ -1,8 +1,0 @@
-title-block-banner: true
-sidebar: false
-page-layout: article
-format:
-  html:
-    include-in-header: 
-      - ../progressbar.html
-

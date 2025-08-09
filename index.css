@@ -235,6 +235,8 @@
   .quarto-grid-item {
     border: none;
     background-color: white;
+      position: relative; /* Add this for positioning context */
+  overflow: hidden; /* Ensure overflow is hidden */
   }
   
   .quarto-grid-item.borderless {
@@ -265,3 +267,5 @@
     object-fit: cover;
   }
 
+
+  

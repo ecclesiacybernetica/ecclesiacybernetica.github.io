@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tomasz Włodarczyk">
+<meta name="description" content="W tym artykule zostanie pokazane, jak odnaleźć wszystkie wystąpienia danego słowa w Biblii, różne rodzaje tłumaczeń i sposoby ich graficznej prezentacji.">
 
-<title>about – Ecclesia Cybernetica</title>
+<title>Jak szukać słów w Biblii? – Ecclesia Cybernetica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo-crc.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo-crc.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +70,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Szukaj"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(images/ploion.png);
+background-size: cover;
+      }
+</style>
 <!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
 
 
@@ -89,20 +99,20 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 
 
 
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
     </a>
   </div>
@@ -113,19 +123,19 @@ document.addEventListener("DOMContentLoaded", function() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./articles/index.html"> 
+    <a class="nav-link" href="../../articles/index.html"> 
 <span class="menu-text">Artykuły</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Info</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Cybernetics/index.html"> 
+    <a class="nav-link" href="../../Cybernetics/index.html"> 
 <span class="menu-text">Cybernetyka</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./en/"> 
+    <a class="nav-link" href="../../en/"> 
 <span class="menu-text">EN</span></a>
   </li>  
 </ul>
@@ -136,42 +146,137 @@ document.addEventListener("DOMContentLoaded", function() {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Jak szukać słów w Biblii?</h1>
+                  <div>
+        <div class="description">
+          <p>W tym artykule zostanie pokazane, jak odnaleźć wszystkie wystąpienia danego słowa w Biblii, różne rodzaje tłumaczeń i sposoby ich graficznej prezentacji.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Biblia</div>
+                <div class="quarto-category">tutorial</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tomasz Włodarczyk </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Opublikowano</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">7 sierpnia 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/ce-logo-150px.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block"></header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="kontakt" class="level1">
-<h1>Kontakt</h1>
-<p>Jeśli masz pytanie lub chcesz się zaangażować, zapraszam do kontaktu.</p>
-<p>
-<span id="email">[email chroniony]</span>
-</p>
-<script>
-  const user = "ecclesiacybernetica";
-  const domain = "proton.me";
-  const email = `${user}@${domain}`;
-  const link = `<a href="mailto:${email}">${email}</a>`;
-  document.getElementById("email").innerHTML = link;
-</script>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>W <a href="../../articles/2025-08-06-Jezus-ratuje-Piotra/index.html">ostatnim artykule</a> przedstawiłem fragmeny, które zawierały słowa takie jak “łódź” oraz “Piotr”. Te fragmenty są dobrze znane, ale ciekawe jest, że zostały pominięte fragmenty z Ewangelii św. Jana i św. Marka, które także mówiły o tym wydarzeniu. Zostały one pominięte, bo nie został tam wyróżniony św. Piotr.</p>
+<p>W tym wpisie przedstawię jak odpowiedzieć na pytanie, które fragmenty w Biblii używają jakiegoś słowa, jak brzmi ono w oryginale i jak zostało przetłumaczone w Biblii. Biblia została napisana w języku greckim i hebrajskim, dlatego pewna podstawowa znajomość tych języków jest przydatna przy tym wyszukiwaniu.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/1108146113" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="po-co" class="level2">
+<h2 class="anchored" data-anchor-id="po-co">Po co?</h2>
+<p>Takie wyszukiwanie słów w Biblii jest bardzo ważne, nie tylko dla egzegetów, ale dla każdego wiernego. W dziedzinie kierowania Kościołem możliwość sprawdzenia wszystkich wystąpień danego słowa pozwala na samodzielną interpretację.</p>
+<p>Po pierwsze, umożliwia to pogłębione zrozumienie pewnych tematów w Biblii. Na przykład, jeśli chce się poznać, co Biblia mówi o miłości nieprzyjaciół, można porównać Pięcioksiąg, Księgi Historyczne oraz Nowy Testament i zobaczyć, jak ewoluowało rozumienie tej miłości.</p>
+<p>Po drugie, takie wyszukiwanie umożliwia analizę kontekstualną. Wierzymy, że Biblia jest Pismem Świętym natchnionym przez Boga, a każde słowo ma znaczenie zamierzone przez Niego, które trzeba odkryć. Mimo że różne księgi były pisane przez różnych autorów, mają jednego boskiego Autora — Ducha Świętego. Dlatego można powiedzieć, że Biblia tłumaczy się sama.</p>
+<p>W praktyce oznacza to, że jeśli na przykład w Apokalipsie znajduje się słowo “lampa” i trudno zrozumieć z kontekstu, co ono oznacza, można sprawdzić, gdzie w innym miejscu tej księgi zostało użyte to słowo. Następnie można poszukać, gdzie w Nowym Testamencie lub całej Biblii występuje to słowo. Każde wystąpienie tego słowa zawiera inny kontekst, który pozwala poznać nowe aspekty w jego rozumieniu. Na przykład słowo “wiara” może pojawiać się w różnych kontekstach, w jednym oznaczając postawę — zaufanie, a w innym zestaw przekonań dotyczących budowy i powstania wszechświata.</p>
+<p>Po trzecie, dla osób tłumaczących Biblię taka analiza pozwala odpowiednio dobrać słowo, które należy wykorzystać w tłumaczeniu. Z drugiej strony, osobom czytającym Biblię umożliwia sprawdzenie, czy “nowe tłumaczenie Biblii” jest uzasadnione. Na przykład, czy w Biblii mowa jest o pannach głupich, czy nieroztropnych.</p>
+<!-- ::: {.column-margin} -->
+<!-- ::: -->
+<p>Z punktu widzenia kierowania Kościołem jest to także bardzo ważne. Wiara opiera się na Piśmie Świętym i Tradycji, więc manipulując tłumaczeniem, można wpływać na treść wiary i postawy ludzi. Posiadanie narzędzi i procedur badania tekstu oryginalnego pozwala w sposób rzeczowy dochodzić do sensu oryginalnego. Jest to także doskonałe ćwiczenie w poszukiwaniu i weryfikacji informacji w oparciu o źródła, co chroni przed manipulacją.</p>
+<p>Zwłaszcza dzisiaj, gdy przestrzeń publiczna jest zalewana przez generowane przez sztuczną inteligencję treści i często bardzo trudno rozróżnić rzeczywistość od fikcji, umiejętność sprawdzania inforacji jest nieoceniona.</p>
+</section>
+<section id="opis-wideo" class="level2">
+<h2 class="anchored" data-anchor-id="opis-wideo">Opis wideo</h2>
+<p>Poniżej zamieściłem nagranie pokazujące jak można w przykładowym programie bibiljnym sprawidzić wystąpienia słowa “łódź” w Biblii.</p>
+<p>Najpierw zostaje wyszukane słowo “łódź”. (59 wystąpień) Następnie sprawdzone zostaje jak to słowo brzmi w oryginale (πλοῖον) oraz jak to słowo zostało przetłumaczone w różnych miejscach w Biblii.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ploion.png" class="img-fluid figure-img"></p>
+<figcaption>Tłumaczenia wyrazu πλοῖον na język angielski. Wygenerowane w programie <em>Verbum</em></figcaption>
+</figure>
+</div>
+<p>Wyszukując fragmentów które zawierają słowo “łódź LUB statek” otrzymuje się już 131 rezultatów. Następnie można spojrzeć na przygotowane zestawienia opisujące statki i łodzie w Biblii, który zawiera wszystkie słowa greckie i hebrajskie użyte do określenia statków i łodzi oraz słowa, które użyto przy ich tłumaczeniu, w tym fragmenty, w których zostało ono wywnioskowane na podstawie zastosowanego czasowonika.</p>
+<p>Istnieje możliwość wygenerowani i prezentacji wszystkich wystąpień słowa “πλοῖον” w formie graficznej.</p>
+<p>W ostatnim fragmencie w wyszukiwaniu dodaje się dodatkowe kryteria: wyszukaj fragmentów tylko w Ewangeliach i miejsca, gdzie jest wymieniony Piotr. W efekcie otrzymuje się trzy fragmenty, które zotały przedstawione w <a href="../../articles/2025-08-06-Jezus-ratuje-Piotra/index.html">poprzednim</a> wpisie.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/LXX.png" class="img-fluid figure-img"></p>
+<figcaption>Występowanie wyrazu πλοῖον w Septuagincie (Greckie tłumaczenie Biblii). Wygenerowane w programie <em>Verbum</em></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/NRSVCE.png" class="img-fluid figure-img"></p>
+<figcaption>Występowanie tłumaczeń wyrazu πλοῖον w Biblii w języku angielskim. Wygenerowane w programie <em>Verbum</em></figcaption>
+</figure>
+</div>
+<div class="article-btn">
+<p><a href="../../articles/index.html">więcej</a></p>
+</div>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>O autorze</dt>
+<dd>
+<a href="../../about.html">Ks. Tomasz Włodarczyk</a>
+</dd>
+<dt><!-- Copyright and licence --></dt>
+<dd>
+© 2025 Ks. Tomasz Włodarczyk
+</dd>
+<dd>
+<p>Obraz Akadamia Platona, Mozaika rzymska z 1 w. p.&nbsp;Chr., Museo Nazionale Archeologico, Neapol.</p>
+</dd>
+</dl>
+</div>
+<div class="g-col-12 g-col-md-6">
+
+</div>
+</div>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Włodarczyk, Tomasz. 2025. <span>“Jak szukać słów w Biblii?”</span>
+<em>Ecclesia Cybernetica</em>, August. <a href="https://ecclesiacybernetica.org/articles/2025-08-07-Biblia-lodz/">https://ecclesiacybernetica.org/articles/2025-08-07-Biblia-lodz/</a>.
+</div></div></section></div></main> <!-- /main -->
 <!-- 100% privacy-first analytics -->
 <script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

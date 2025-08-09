@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tomasz Włodarczyk">
+<meta name="description" content="Sprzężenie zwrotne jako mechanizm samoregulacji w systemach, polegający na przekazywaniu informacji o wyniku działania, umożliwiający korektę, adaptację i optymalizację procesów.">
 
-<title>about – Ecclesia Cybernetica</title>
+<title>Sprzężenie zwrotne – Feedback – Ecclesia Cybernetica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo-crc.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo-crc.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +70,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Szukaj"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(featured.png);
+background-size: cover;
+      }
+</style>
 <!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
 
 
@@ -89,20 +99,20 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 
 
 
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
     </a>
   </div>
@@ -113,19 +123,19 @@ document.addEventListener("DOMContentLoaded", function() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./articles/index.html"> 
+    <a class="nav-link" href="../../articles/index.html"> 
 <span class="menu-text">Artykuły</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Info</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Cybernetics/index.html"> 
+    <a class="nav-link" href="../../Cybernetics/index.html"> 
 <span class="menu-text">Cybernetyka</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./en/"> 
+    <a class="nav-link" href="../../en/"> 
 <span class="menu-text">EN</span></a>
   </li>  
 </ul>
@@ -136,42 +146,214 @@ document.addEventListener("DOMContentLoaded", function() {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Sprzężenie zwrotne – Feedback</h1>
+                  <div>
+        <div class="description">
+          <p>Sprzężenie zwrotne jako mechanizm samoregulacji w systemach, polegający na przekazywaniu informacji o wyniku działania, umożliwiający korektę, adaptację i optymalizację procesów.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Tag</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Tomasz Włodarczyk </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Opublikowano</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">7 sierpnia 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/ce-logo-150px.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block"></header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="kontakt" class="level1">
-<h1>Kontakt</h1>
-<p>Jeśli masz pytanie lub chcesz się zaangażować, zapraszam do kontaktu.</p>
-<p>
-<span id="email">[email chroniony]</span>
-</p>
-<script>
-  const user = "ecclesiacybernetica";
-  const domain = "proton.me";
-  const email = `${user}@${domain}`;
-  const link = `<a href="mailto:${email}">${email}</a>`;
-  document.getElementById("email").innerHTML = link;
-</script>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="wprowadzenie" class="level2">
+<h2 class="anchored" data-anchor-id="wprowadzenie">Wprowadzenie:</h2>
+<p>Sprzężenie zwrotne (feedback) stanowi kluczowy mechanizm komunikacyjny w teorii cybernetyki. Jest to proces, w którym rezultat działania systemu wpływa na jego dalsze funkcjonowanie, tworząc mechanizm samoregulacji i adaptacji.</p>
+</section>
+<section id="charakterystyka" class="level2">
+<h2 class="anchored" data-anchor-id="charakterystyka">Charakterystyka:</h2>
+<p>Sprzężenie zwrotne to mechanizm informacyjny, który pozwala systemom na:</p>
+<ol type="1">
+<li>Automatyczną korektę własnych działań</li>
+<li>Dostosowanie się do zmieniających warunków</li>
+<li>Utrzymanie równowagi</li>
+<li>Optymalizację procesów</li>
+</ol>
+<p>Rodzaje sprzężeń zwrotnych:</p>
+<ul>
+<li>Dodatnie (wzmacniające) - nasilające zmiany w systemie</li>
+<li>Ujemne (hamujące) - stabilizujące i kontrolujące procesy</li>
+</ul>
+</section>
+<section id="przykłady-praktyczne-z-różnych-dziedzin" class="level2">
+<h2 class="anchored" data-anchor-id="przykłady-praktyczne-z-różnych-dziedzin">Przykłady praktyczne z różnych dziedzin:</h2>
+<p>Psychologia i relacje społeczne:</p>
+<ol type="1">
+<li>Rozmowa, gdzie rozmówcy wzajemnie dostosowują komunikację</li>
+<li>Terapia psychologiczna - analiza zachowań pacjenta</li>
+<li>Proces wychowawczy - reakcje rodzica na zachowanie dziecka</li>
+</ol>
+<p>Ekonomia i biznes:</p>
+<ol type="1">
+<li>Badania satysfakcji klienta</li>
+<li>Raporty pracownicze i ocena wydajności</li>
+<li>Mechanizmy rynkowe korygujące cenę produktu</li>
+<li>Systemy motywacyjne w firmach</li>
+</ol>
+<p>Technologia:</p>
+<ol type="1">
+<li>Termostaty regulujące temperaturę</li>
+<li>Systemy nawigacji GPS</li>
+<li>Automatyczne sterowanie w robotyce</li>
+<li>Algorytmy uczenia maszynowego</li>
+</ol>
+<p>Biologia:</p>
+<ol type="1">
+<li>Regulacja temperatury ciała</li>
+<li>Mechanizmy odpornościowe organizmu</li>
+<li>Procesy metaboliczne</li>
+<li>Homeostaza</li>
+</ol>
+<p>Komunikacja:</p>
+<ol type="1">
+<li>Mediacje i negocjacje</li>
+<li>Dyskusje grupowe</li>
+<li>Procesy demokratyczne</li>
+<li>Komunikacja w zespołach</li>
+</ol>
+</section>
+<section id="wnioski" class="level2">
+<h2 class="anchored" data-anchor-id="wnioski">Wnioski</h2>
+<p>Sprzężenie zwrotne to uniwersalny mechanizm adaptacyjny występujący we wszystkich złożonych systemach. Umożliwia ich samoregulację, doskonalenie i efektywne funkcjonowanie poprzez ciągłą wymianę informacji i korektę działań.</p>
+<div class="article-btn">
+<p><a href="../../articles/index.html">więcej</a></p>
+</div>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>O autorze</dt>
+<dd>
+<a href="../../about.html">Ks. Tomasz Włodarczyk</a>
+</dd>
+<dt><!-- Copyright and licence --></dt>
+<dd>
+© 2025 Ks. Tomasz Włodarczyk
+</dd>
+<dd>
+<p>Obraz Robert A. Taylor, U.S. Department of Energy - “Feedback”. In: U.S. Department of Energy’s Introduction to System Dynamics.Public domain via Wikipedia Commons</p>
+</dd>
+</dl>
+</div>
+<div class="g-col-12 g-col-md-6">
+
+</div>
+</div>
+<!-- **Feedback** as a self-regulation mechanism in systems, involving the transmission of information about the outcome of actions, enabling correction, adaptation, and optimization of processes.
+
+## Introduction:
+
+Feedback is a key communication mechanism in cybernetics theory. It is a process in which the result of a system's action influences its further functioning, creating a mechanism for self-regulation and adaptation.
+
+## Characteristics:
+
+Feedback is an informational mechanism that allows systems to:
+
+1. Automatically correct their actions
+2. Adapt to changing conditions
+3. Maintain balance
+4. Optimize processes
+
+### Types of Feedback:
+
+- **Positive (reinforcing)** - amplifying changes in the system
+- **Negative (damping)** - stabilizing and controlling processes
+
+## Practical Examples from Various Fields:
+
+### Psychology and Social Relationships:
+
+1. Conversations where participants mutually adjust their communication
+2. Psychological therapy - analyzing patient behaviors
+3. Parenting processes - parental responses to a child's behavior
+
+### Economics and Business:
+
+1. Customer satisfaction surveys
+2. Employee reports and performance evaluations
+3. Market mechanisms correcting product prices
+4. Motivational systems in companies
+
+### Technology:
+
+1. Thermostats regulating temperature
+2. GPS navigation systems
+3. Automatic control in robotics
+4. Machine learning algorithms
+
+### Biology:
+
+1. Regulation of body temperature
+2. Immune system mechanisms
+3. Metabolic processes
+4. Homeostasis
+
+### Communication:
+
+1. Mediation and negotiations
+2. Group discussions
+3. Democratic processes
+4. Team communication
+
+## Conclusions:
+
+Feedback is a universal adaptive mechanism present in all complex systems. It enables self-regulation, improvement, and effective functioning through continuous information exchange and action correction. -->
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Włodarczyk, Tomasz. 2025. <span>“Sprzężenie zwrotne -- Feedback.”</span>
+<em>Ecclesia Cybernetica</em>, August. <a href="https://ecclesiacybernetica.org/Cybernetics/Feedback/">https://ecclesiacybernetica.org/Cybernetics/Feedback/</a>.
+</div></div></section></div></main> <!-- /main -->
 <!-- 100% privacy-first analytics -->
 <script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
