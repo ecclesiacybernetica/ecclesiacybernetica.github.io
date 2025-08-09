@@ -13,7 +13,17 @@
   },
   {
     "listing": "/Cybernetics/index.html",
-    "items": []
+    "items": [
+      "/Cybernetics/Adaptation/index.html",
+      "/Cybernetics/Communication/index.html",
+      "/Cybernetics/Complexity/index.html",
+      "/Cybernetics/Control/index.html",
+      "/Cybernetics/Enthropy/index.html",
+      "/Cybernetics/Feedback/index.html",
+      "/Cybernetics/Homeostasis/index.html",
+      "/Cybernetics/Steering/index.html",
+      "/Cybernetics/System/index.html"
+    ]
   },
   {
     "listing": "/articles/index.html",
