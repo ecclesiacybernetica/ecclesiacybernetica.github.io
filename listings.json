@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/featured/posts/f1.html",
+      "/featured/posts/f2.html",
+      "/featured/posts/f3.html",
+      "/articles/2025-08-07-Biblia-lodz/index.html",
+      "/articles/2025-08-05-platon-statek-panstwa/index.html",
+      "/articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
+    ]
+  },
+  {
+    "listing": "/Cybernetics/index.html",
+    "items": [
+      "/Cybernetics/Adaptation/index.html",
+      "/Cybernetics/Communication/index.html",
+      "/Cybernetics/Complexity/index.html",
+      "/Cybernetics/Control/index.html",
+      "/Cybernetics/Enthropy/index.html",
+      "/Cybernetics/Feedback/index.html",
+      "/Cybernetics/Homeostasis/index.html",
+      "/Cybernetics/Steering/index.html",
+      "/Cybernetics/System/index.html"
+    ]
+  },
+  {
+    "listing": "/articles/index.html",
+    "items": [
+      "/articles/2025-08-07-Biblia-lodz/index.html",
+      "/articles/2025-08-05-platon-statek-panstwa/index.html",
+      "/articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
+    ]
+  }
+]

@@ -1,0 +1,349 @@
+/* ===========================
+   NAWIGACJA - białe tło, czarny tekst
+   =========================== */
+   .navbar {
+    padding: 0 1em;
+    font-size: 1em;
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+  /*
+  .menu-text {
+    color: black;
+  }
+  
+  .menu-text:hover {
+    color: #666;
+  }
+  
+  .navbar-title {
+    color: black;
+    background-color: white;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-title {
+      display: none;
+    }
+  }
+  
+  .navbar-logo {
+    max-height: 48px;
+    width: auto;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .nav-item {
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .nav-item {
+      margin-right: 0.5rem;
+    }
+  }*/
+  
+  @media (max-width: 991px) {
+    .nav-item,
+    .aa-DetachedSearchButton {
+      margin-top: 0;
+    }
+  }
+  
+  .aa-DetachedSearchButton {
+    margin-top: 0rem;
+  } 
+  
+  
+  /* ===========================
+     TYPOGRAFIA i KOLORYSTYKA
+     =========================== */
+  .quarto-title > h1.title {
+    color: #FEC017;
+    padding-bottom: 0.1em;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 3em;
+    /* font-size: clamp(1.25rem, -0.179rem + 7.143cqw, 2.4rem); */
+    /* font-size: clamp(2rem, 2.5vw, 3rem); */
+  }
+  
+  #title-block-header.quarto-title-block.default .description {
+    font-size: 2em;
+    color: white;
+    margin-top: 1em;
+  }
+  
+  @media (max-width: 991px) {
+    .quarto-title > h1.title {
+      font-size: clamp(2rem, -0.179rem + 12cqw, 2.8rem);
+      letter-spacing: 2px;
+    }
+  
+    #title-block-header.quarto-title-block.default .description {
+      font-size: 1.5em;
+    }
+  }
+  
+  h2, .h2 {
+    border-bottom: none;
+  }
+  
+  h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* ===========================
+     LINKI
+     =========================== */
+  /* a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  p > a, ul a, li > a {
+    color: #FEC017;
+    font-weight: 600;
+  }
+  
+  p > a:hover, ul a:hover, li > a:hover {
+    color: #e3b638;
+  } */
+  
+  /* ===========================
+     TABELE
+     =========================== */
+  /* .table {
+    color: black;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: 600;
+    background-color: #FEC017;
+    color: black;
+  }
+   */
+  /* ===========================
+     KOMPONENTY
+     =========================== */
+  /* .callout {
+    background-color: white;
+    border-left: 4px solid #FEC017;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .btn-primary, .button {
+    background-color: #FEC017;
+    border-color: #FEC017;
+    color: black;
+  }
+  
+  .btn-primary:hover, .button:hover {
+    background-color: #e3b638;
+    border-color: #e3b638;
+    color: black;
+  } */
+  
+  /* ===========================
+     GRID LISTINGS
+     =========================== */
+  /* Featured (big-titles) */
+  .big-titles .quarto-grid-item {
+    container-type: inline-size;
+  }
+  
+  .big-titles .quarto-grid-item .card-title {
+    font-size: clamp(1.75rem, -0.179rem + 7.143cqw, 2.4rem);
+    font-weight: bold;
+  }
+
+
+  /* Standard listing */
+  .quarto-grid-item {
+    border: none;
+    background-color: white;
+      position: relative; /* Add this for positioning context */
+  overflow: hidden; /* Ensure overflow is hidden */
+  }
+  
+  .quarto-grid-item.borderless {
+    background-color: white;
+  }
+  
+  .quarto-grid-item div.post-contents {
+    padding: 0;
+  }
+  
+  .quarto-grid-item .card-title {
+    margin-top: 0.5em;
+    color: black;
+    font-size: clamp(1rem, 1.5vw, 1.35rem);
+  }
+  
+  .quarto-grid-item .listing-description {
+    font-size: clamp(0.875rem, 1.2vw, 1.1rem);
+  }
+  
+  .card-body {
+    color: black;
+    background-color: white;
+  }
+  
+  .quarto-grid-item img.thumbnail-image {
+     /* max-height: 200px;  */
+    object-fit: cover;
+  }
+
+
+  /* BUTTON: .btn-action-primary */
+
+
+.btn-action-primary {
+  background-color: var(--color-primary-dark);
+  border: 1px solid var(--color-hero-bg);
+  color: var(--color-hero-bg);
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+/* ===========================
+     BANNER GŁÓWNY
+     =========================== */
+
+     #title-block-header {
+      border-bottom: none;
+  }
+  
+  .quarto-title-banner {
+      position: relative;
+      background: center/cover no-repeat;
+      margin-bottom: 0;
+      height: 100vh;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-sizing: border-box;
+      z-index: 0;
+  }
+  
+  .quarto-title-banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+  }
+  
+  .quarto-title-banner > * {
+      position: relative;
+      z-index: 2;
+      color: white;
+  }
+  
+  /* Buttons */
+  .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px ;
+      margin-top: 75px;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  
+  .custom-button {
+      background-color: #FEC017;
+      color: black !important;
+      font-size: clamp(0.5em, 1vw, 0.6em);
+      text-align: center;
+      width: clamp(100px, 12vw, 140px);
+      height: clamp(30px, 4vh, 35px);
+      letter-spacing: 1px;
+      text-decoration: none;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      /* margin: 3em; */
+
+  }
+  
+  .mobile-button {
+    display: none;
+}
+  .custom-button:hover {
+      background-color: #E5A812;
+      transform: scale(1.05);
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 991px) {
+      .button-container {
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 25px;
+          padding: 10px 20px;
+          margin-top: 20px;
+      }
+  
+      .custom-button {
+          /* width: clamp(100px, 30vw, 150px); */
+          /* width: clamp(200px, 70vw, 250px); */
+          /* height: clamp(42px, 8vh, 48px); */
+          font-size: clamp(0.8em, 4vw, 0.9em);
+          margin-top: 1em;
+      }
+  
+      /* Hide second button on mobile */
+      .no-button {
+        display: none;
+    }
+    .mobile-button {
+      display: flex;
+  }
+  }
+  
+  /* Very small screens */
+  @media (max-width: 375px) {
+      .custom-button {
+          width: 90%;
+          max-width: 250px;
+      }
+
+  }
+  
