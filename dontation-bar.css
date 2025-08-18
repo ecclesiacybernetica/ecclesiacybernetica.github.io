@@ -1,0 +1,38 @@
+/* --------------------------- */
+/*  Snippflow Donation Widget  */
+/* --------------------------- */
+
+.sf-donate {
+    --sf-donate-bar-bg: rgba(0,0,0,.05);
+    --sf-donate-bar-progress-bg: #63D9B3;
+    --sf-donate-bar-point-bg: #63D9B3;
+    --sf-donate-bar-point-border: #E8FFF7;
+  }
+  
+  .sf-donate { max-width: 700px; text-align: center; margin: 50px auto; }
+  .sf-donate > * { margin-bottom: 35px; }
+  .sf-donate h2 { font-size: clamp(1.2rem, 4vw, 50px); line-height: 1.2; font-weight: 600; }
+  
+  .sf-donate .number { display: inline-flex; align-items: center; gap: 10px; font-size: clamp(2.5rem, 10vw, 130px); letter-spacing: -2%; line-height: 1; font-weight: 600; color: #46A787; background: rgb(99,217,179); background: linear-gradient(260deg, rgba(99,217,179,1) 0%, rgba(70,167,135,1) 51%, rgba(83,198,160,1) 100%); background-clip: text;  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;  }
+  .sf-donate .number .currency { font-size: 30%; font-weight: 100; }
+  
+  .sf-donate .progress-bar { display: flex; position: relative; height: 10px; border-radius: 5px; background-color: var(--sf-donate-bar-bg); }
+  .sf-donate .progress-bar > span { display: block; position: relative; width: 0; height: 100%; border-radius: 5px; background-color: var(--sf-donate-bar-progress-bg); animation: bar-animation 2s ease-in-out forwards; }
+  .sf-donate .progress-bar > span:after { content: ""; width: 20px; height: 20px; border-radius: 100%; background-color: var(--sf-donate-bar-point-bg); border: 5px solid var(--sf-donate-bar-point-border); position: absolute; left: 100%; top: 50%; transform: translate(-15px,-50%); }
+  
+  .sf-donate .stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px 30px; list-style: none; }
+  .sf-donate .desc { opacity: .5; filter: saturate(0%); }
+  
+  .sf-donate a.button { display: inline-flex; align-items: center; gap: 10px; margin-left: 3px; margin-right: 3px; padding: 15px 30px; background: #46a787; color: #fff; border-radius: 8px; text-decoration: none; font-weight: 500; transition: all .3s ease-in-out; }
+  .sf-donate a.button:hover { background-color: #4eba96; }
+  .sf-donate a.button.secondary { background: #393939; }
+  .sf-donate a.button.secondary:hover { background: #505050; }
+  
+  @keyframes bar-animation {
+    from { width: 0; }
+    to { width: var(--bar-width); }
+  }
+  
+  @media only screen and (max-width: 767px) { 
+    .sf-donate a.button:not(.secondary) { margin-bottom: 10px; }
+  }
