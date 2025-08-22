@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -103,9 +103,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Artykuły | Ecclesia Cybernetica">
-<meta property="og:image" content="https://ecclesiacybernetica.org/articles/2025-08-05-platon-statek-panstwa/featured3.jpg">
+<meta property="og:image" content="https://ecclesiacybernetica.org/articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg">
 <meta property="og:site_name" content="Ecclesia Cybernetica">
-<meta property="og:image:alt" content="Akademia platona">
 </head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
@@ -191,12 +190,16 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-info">    
         <li>
-    <a class="dropdown-item" href="../about.html">
- <span class="dropdown-text">O autorze</span></a>
+    <a class="dropdown-item" href="../About/about.html">
+ <span class="dropdown-text">O stronie</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../contribute.html">
+    <a class="dropdown-item" href="../About/contribute.html">
  <span class="dropdown-text">Dołącz!</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../About/contact.html">
+ <span class="dropdown-text">Kontakt</span></a>
   </li>  
     </ul>
   </li>
@@ -233,7 +236,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorie</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Wszystkie <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QmlibGlh">Biblia <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y3l0YXQ=">cytat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWd6ZWdlemE=">Egzegeza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhdG9u">Platon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHV0b3JpYWw=">tutorial <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorie</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Wszystkie <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QmlibGU=">Bible <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q3liZXJuZXRpY3M=">Cybernetics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RWNjbGVzaWFsJTIwQ3liZXJuZXRpY3M=">Ecclesial Cybernetics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhlZ2VzaXM=">Exegesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmVlZGJhY2stTG9vcA==">Feedback-Loop <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGVhZGVyc2hpcA==">Leadership <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGVvJTIwWElWLg==">Leo XIV. <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGhpbG9zb3BoeQ==">Philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhdG8=">Plato <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9wZQ==">Pope <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVvdGF0aW9u">Quotation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3QuJTIwUGV0ZXI=">St. Peter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHV0b3JpYWw=">Tutorial <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -247,7 +250,116 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QmlibGlhJTJDdHV0b3JpYWw=" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1755287553718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
+<div class="quarto-post image-right" data-index="0" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1755784856678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1355">
+<div class="thumbnail"><a href="../articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+
+<img loading="lazy" src="../articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">Święty Piotr jest większym filozofem od Platona</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UXVvdGF0aW9u'); return false;">Quotation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3QuJTIwUGV0ZXI='); return false;">St. Peter</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGhpbG9zb3BoeQ=='); return false;">Philosophy</div>
+
+</div>
+<div class="delink listing-description"><a href="../articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<p>Kazanie świętego Jana Chryzostoma, w którym argumentuje, dlaczego święty Piotr jest większym filozofem niż Platon</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<div class="listing-date">
+21 sie 2025
+</div>
+<div class="listing-author">
+Jan Chryzostom
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1755862625106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1193">
+<div class="thumbnail"><a href="../featured/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+
+<img loading="lazy" src="../featured/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../featured/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Sprzężenia zwrotne w zarządzaniu Watykanem</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../featured/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Skąd Papież bierze informacje?</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q3liZXJuZXRpY3M='); return false;">Cybernetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9wZQ=='); return false;">Pope</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmVlZGJhY2stTG9vcA=='); return false;">Feedback-Loop</div>
+
+</div>
+<div class="delink listing-description"><a href="../featured/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+<p>Wyjaśnienie czym jest sprzężenie zwrotne na przykładzie procesów informacyjnych w Watykanie.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../featured/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+<div class="listing-date">
+21 sie 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1755852164367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
+<div class="thumbnail"><a href="../featured/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+
+<img loading="lazy" src="../featured/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../featured/2025-08-20-Peter-and-Plato/index.html" class="no-external">Platon i Piotr jako cybernetycy</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../featured/2025-08-20-Peter-and-Plato/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q3liZXJuZXRpY3M='); return false;">Cybernetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVhZGVyc2hpcA=='); return false;">Leadership</div>
+
+</div>
+<div class="delink listing-description"><a href="../featured/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+<p>Porównanie Piotra i Platona i ich wizji sterowania okrętem państwa i Kościoła. Choć zasada działania sprzężenia zwrotnego jest wszędzie ta sama, może być ona różnie zaimplementowana.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../featured/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+<div class="listing-date">
+21 sie 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="QmlibGUlMkNUdXRvcmlhbA==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1755871909473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
 <div class="thumbnail"><a href="../articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
 
 <img loading="lazy" src="../articles/2025-08-07-Biblia-lodz/images/ploion.png" class="thumbnail-image" style="height: 180px;" alt="Wideo.">
@@ -257,11 +369,14 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="../articles/2025-08-07-Biblia-lodz/index.html" class="no-external">Jak szukać słów w Biblii?</a>
 </h3>
+<div class="listing-subtitle">
+<a href="../articles/2025-08-07-Biblia-lodz/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('QmlibGlh'); return false;">Biblia</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QmlibGU='); return false;">Bible</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('dHV0b3JpYWw='); return false;">tutorial</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VHV0b3JpYWw='); return false;">Tutorial</div>
 
 </div>
 <div class="delink listing-description"><a href="../articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
@@ -279,7 +394,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y3l0YXQlMkNQbGF0b24=" data-listing-date-sort="1754085600000" data-listing-file-modified-sort="1755285453062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
+<div class="quarto-post image-right" data-index="4" data-categories="UXVvdGF0aW9uJTJDUGxhdG8=" data-listing-date-sort="1754085600000" data-listing-file-modified-sort="1755871871309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
 <div class="thumbnail"><a href="../articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">
 
 <img loading="lazy" src="../articles/2025-08-05-platon-statek-panstwa/featured3.jpg" class="thumbnail-image" style="height: 180px;" alt="Akademia platona">
@@ -289,11 +404,14 @@ Tomasz Włodarczyk
 <h3 class="no-anchor listing-title">
 <a href="../articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">Statek Platona</a>
 </h3>
+<div class="listing-subtitle">
+<a href="../articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y3l0YXQ='); return false;">cytat</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UXVvdGF0aW9u'); return false;">Quotation</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UGxhdG9u'); return false;">Platon</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhdG8='); return false;">Plato</div>
 
 </div>
 <div class="delink listing-description"><a href="../articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">
@@ -311,7 +429,42 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="QmlibGlhJTJDRWd6ZWdlemE=" data-listing-date-sort="1752962400000" data-listing-file-modified-sort="1754500204829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="603">
+<div class="quarto-post image-right" data-index="5" data-categories="RWNjbGVzaWFsJTIwQ3liZXJuZXRpY3MlMkNMZW8lMjBYSVYu" data-listing-date-sort="1754085600000" data-listing-file-modified-sort="1755872084004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1239">
+<div class="thumbnail"><a href="../featured/featured/index.html" class="no-external">
+
+<img loading="lazy" src="../featured/featured/images/helmsman.jpg" class="thumbnail-image" style="height: 180px;" alt="Osoba za sterem żaglówki.">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../featured/featured/index.html" class="no-external">Cybernetyczny Papież</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../featured/featured/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWNjbGVzaWFsJTIwQ3liZXJuZXRpY3M='); return false;">Ecclesial Cybernetics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGVvJTIwWElWLg=='); return false;">Leo XIV.</div>
+
+</div>
+<div class="delink listing-description"><a href="../featured/featured/index.html" class="no-external">
+<p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także najnowżych osiągnięć teorii komunikacji i kontroli złożonych systemów.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../featured/featured/index.html" class="no-external">
+<div class="listing-date">
+2 sie 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752962400000" data-listing-file-modified-sort="1755872326237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="602">
 <div class="thumbnail"><a href="../articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
 
 <img loading="lazy" src="../articles/2025-08-06-Jezus-ratuje-Piotra/featured2.jpg" class="thumbnail-image" style="height: 180px;" alt="AI image again..">
@@ -321,11 +474,14 @@ Tomasz Włodarczyk
 <h3 class="no-anchor listing-title">
 <a href="../articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">Jezus Chrystus, Piotr i jego łódź</a>
 </h3>
+<div class="listing-subtitle">
+<a href="../articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('QmlibGlh'); return false;">Biblia</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QmlibGU='); return false;">Bible</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('RWd6ZWdlemE='); return false;">Egzegeza</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhlZ2VzaXM='); return false;">Exegesis</div>
 
 </div>
 <div class="delink listing-description"><a href="../articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
@@ -345,10 +501,7 @@ Tomasz Włodarczyk
 </div>
 </div>
 <div class="listing-no-matching d-none">Brak pasujących</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-untitled" class="csl-entry quarto-appendix-citeas" role="listitem">
-<span>“Archiwum artykułów.”</span> n.d. <em>Ecclesia Cybernetica</em>.
-<a href="https://ecclesiacybernetica.org/articles/">https://ecclesiacybernetica.org/articles/</a>.
-</div></div></section></div></main> <!-- /main -->
+</div></main> <!-- /main -->
 <!-- 100% privacy-first analytics -->
 <script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>

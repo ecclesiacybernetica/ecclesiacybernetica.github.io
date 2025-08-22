@@ -169,7 +169,8 @@
   }
   
   .big-titles .quarto-grid-item .card-title {
-    font-size: clamp(1.75rem, -0.179rem + 7.143cqw, 2.4rem);
+    /* font-size: clamp(1.75rem, -0.179rem + 7.143cqw, 2.4rem); */
+    font-size:clamp(1.25rem,-0.179rem + 7.143cqw,2.75rem);
     font-weight: bold;
   }
 
@@ -193,7 +194,10 @@
   .quarto-grid-item .card-title {
     margin-top: 0.5em;
     color: black;
-    font-size: clamp(1rem, 1.5vw, 1.35rem);
+    /* font-size: clamp(1rem, 1.5vw, 1.35rem); */
+    font-size:clamp(1rem,.62rem + 1.689cqw,1.3125rem);
+    font-weight:700;
+    line-height:1.14;
   }
   
   .quarto-grid-item .listing-description {
