@@ -39,7 +39,14 @@
   .nav-item {
     margin-top: 2rem;
   }
-  
+  /* .quarto-grid-item .card-attribution */
+
+  .quarto-grid-item .card-attribution{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: none;
+  }
+
+
   @media (max-width: 1200px) {
     .nav-item {
       margin-right: 0.5rem;

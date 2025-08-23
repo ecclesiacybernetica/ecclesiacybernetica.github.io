@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Analiza danych w służbie KościołowiCzytaj 🇬🇧">
+<meta name="description" content="Analiza danych w służbie Kościołowi.Czytaj 🇬🇧">
 
 <title>Ecclesia Cybernetica</title>
 <style>
@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/logo-crc.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -156,6 +158,24 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"pl-PL"
+  });
+});
+</script> 
+  
 <style>html{ scroll-behavior: smooth; }</style>
 <style>
 
@@ -167,6 +187,10 @@ background-size: cover;
 <!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
 
 
+<meta property="og:title" content="Ecclesia Cybernetica">
+<meta property="og:description" content="Analiza danych w służbie Kościołowi. Strona poświęcona analizie danych dotyczących życia Kościoła, w celu lepszego jego zrozumienia.">
+<meta property="og:image" content="https://ecclesiacybernetica.org/images/storm3r.jpg">
+<meta property="og:site_name" content="Ecclesia Cybernetica">
 </head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
@@ -284,7 +308,7 @@ window.Quarto = {
       <h1 class="title">Nawigowanie wśród złożoności</h1>
                   <div>
         <div class="description">
-          Analiza danych w służbie Kościołowi
+          Analiza danych w służbie Kościołowi.
           <div class="button-container">
           <p><a href="#content" class="custom-button">Czytaj</a> <a href="https://example.com" class="custom-button mobile-button" style="background-color:white;width:auto;background: rgba(250, 250, 250, 0.4);">🇬🇧</a></p>
           </div>
@@ -923,8 +947,8 @@ Tomasz Włodarczyk
 <p>Copyright © 2025 Tomasz Włodarczyk</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
 <p>Zasady korzystania</p>
 </div>
