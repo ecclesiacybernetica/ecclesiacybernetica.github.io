@@ -40,22 +40,4 @@ Na koniec scena zamykająca Ewangelie, "Zmartwychwstały ukazuje się nad Jezior
 
 W każdym z tych fragmentów to sam Jezus rozwiązuje problemy Apostołów, z którymi sami nie dawali sobie rady.
 
-::: {.article-btn}
-[więcej](/articles/index.qmd)
-:::
-
-::: grid
-::: {.g-col-12 .g-col-md-6}
-
-O autorze
-: [Ks. Tomasz Włodarczyk](../../About/about.qmd) 
-
-<!-- Copyright and licence -->
-: &copy; 2025 Ks. Tomasz Włodarczyk
-
-: Obraz: Lorenzo Veneziano, [Christ Rescuing Peter from Drowning](https://upload.wikimedia.org/wikipedia/commons/6/60/16_Lorenzo_Veneziano%2C_Christ_Rescuing_Peter_from_Drowning._1370_Staatliche_Museen%2C_Berlin..jpg). 1370 Staatliche Museen, Berlin, Public domain, via Wikimedia Commons
-:::
-::: {.g-col-12 .g-col-md-6}
-
-:::
-:::
+{{< include info.txt >}}
