@@ -299,8 +299,17 @@
   }  */
   
   /* ===========================
-     RESPONSYWNOŚĆ
+     Listings
      =========================== */
+
+/* data w monospace */
+
+  .quarto-grid-item .card-attribution{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: none;
+  }
+
+
   @media (max-width: 768px) {
     .navbar {
       padding: 0 0.5em;

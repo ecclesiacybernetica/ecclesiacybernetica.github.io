@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/articles/index.html",
+    "listing": "/Articles/index.html",
     "items": [
-      "/articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/featured/2025-08-20-Feedback-in-Vatican/index.html",
-      "/featured/2025-08-20-Peter-and-Plato/index.html",
-      "/featured/featured/index.html",
-      "/articles/2025-08-07-Biblia-lodz/index.html",
-      "/articles/2025-08-05-platon-statek-panstwa/index.html",
-      "/articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Biblia-lodz/index.html",
+      "/Featured/2025-08-20-Peter-and-Plato/index.html",
+      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-05-Platon-statek-panstwa/index.html",
+      "/Featured/Hero/index.html",
+      "/Articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
     ]
   },
   {
@@ -28,13 +28,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/featured/featured/index.html",
-      "/featured/2025-08-20-Feedback-in-Vatican/index.html",
-      "/featured/2025-08-20-Peter-and-Plato/index.html",
-      "/articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/articles/2025-08-07-Biblia-lodz/index.html",
-      "/articles/2025-08-05-platon-statek-panstwa/index.html",
-      "/articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
+      "/Featured/Hero/index.html",
+      "/Featured/2025-08-20-Peter-and-Plato/index.html",
+      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Biblia-lodz/index.html",
+      "/Articles/2025-08-05-Platon-statek-panstwa/index.html",
+      "/Articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
     ]
   }
 ]
