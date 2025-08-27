@@ -10,7 +10,7 @@
   }
   
   .sf-donate { max-width: 700px; text-align: center; margin: 50px auto; }
-  .sf-donate > * { margin-bottom: 35px; }
+  .sf-donate > * { margin-bottom: 20px; }
   .sf-donate h2 { font-size: clamp(1.2rem, 4vw, 50px); line-height: 1.2; font-weight: 600; }
   
   .sf-donate .number { display: inline-flex; align-items: center; gap: 10px; font-size: clamp(2.5rem, 10vw, 130px); letter-spacing: -2%; line-height: 1; font-weight: 600; color: #46A787; background: rgb(99,217,179); background: linear-gradient(260deg, rgba(99,217,179,1) 0%, rgba(70,167,135,1) 51%, rgba(83,198,160,1) 100%); background-clip: text;  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;  }
