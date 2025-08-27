@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/Cybernetics/index.html",
+    "items": [
+      "/Cybernetics/Adaptation/index.html",
+      "/Cybernetics/Communication/index.html",
+      "/Cybernetics/Complexity/index.html",
+      "/Cybernetics/Control/index.html",
+      "/Cybernetics/Enthropy/index.html",
+      "/Cybernetics/Feedback/index.html",
+      "/Cybernetics/Homeostasis/index.html",
+      "/Cybernetics/Steering/index.html",
+      "/Cybernetics/System/index.html"
+    ]
+  },
+  {
+    "listing": "/Articles/index.html",
+    "items": [
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
+      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Featured/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Featured/Hero/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/Featured/Hero/index.html",
+      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Featured/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
+    ]
+  }
+]
