@@ -74,62 +74,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured2'] = new List('listing-featured2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -137,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -321,221 +265,232 @@ window.Quarto = {
 
 
 
-<div id="content" style="padding-top: 3rem ">
-<div class="grid">
-<div class="g-col-12 g-col-lg-8">
-<div class="big-titles">
-<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1757861445634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1528">
-<a href="./Featured/Hero/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Featured/Hero/images/featured.jpg" class="thumbnail-image card-img" style="height: 50vh;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cybernetic Pope
-</h5>
-<div class="card-text listing-description delink">
-<p>What does Pope Leo XIV have in common with cybernetics? His task is to govern the Church. This task requires enormous experience, knowledge of history, but also the latest…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
-<div class="listing-date">
-Aug 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-4">
-<div id="listing-featured2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1755036000000" data-listing-file-modified-sort="1756309213155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1552">
-<a href="./Featured/2025-08-20-Feedback-in-Vatican/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Featured/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Feedback loops in Vatican
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 13, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1756311332964" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1712">
-<a href="./Featured/2025-08-20-Peter-and-Plato/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Featured/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Peter and Plato as cyberneticians
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 12, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Sekcja z cytatem inspirującym na złotym tle -->
-<!--::: {.pullout-text }
-::: {.pullout-block}
+<div id="content" style="padding-top: 1rem">
+<div id="listing-latest-content" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1757714400000" data-listing-file-modified-sort="1757922768320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1917">
+<div class="thumbnail"><a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="no-external">
 
-## *And God has appointed in the church first apostles, second prophets, third teachers; then deeds of power, then gifts of healing, forms of assistance, forms of **leadership** [κυβερνήσεις], various kinds of tongues.*
+<img loading="lazy" src="./Articles/2025-09-13-Poppies-and-power/images/featured.jpg" class="thumbnail-image">
 
-1 Cor 12:28
-
-:::
-::: -->
-<div class="listing-block" style="margin-top: 3em">
-<p><a href="./Articles/index.html"></a></p><a href="./Articles/index.html">
-<h2 id="latest" class="anchored">Latest</h2>
-</a><p><a href="./Articles/index.html"></a></p>
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1757714400000" data-listing-file-modified-sort="1757922768320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1917">
-<a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Articles/2025-09-13-Poppies-and-power/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Poppies and power
-</h5>
-<div class="card-text listing-description delink">
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="no-external">Poppies and power</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="no-external">How to conquer a state without a single battle.</a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="no-external">
 <p>An excerpt from Livy’s <em>The History of Rome</em> and Aristotle’s <em>Politics</em> on tyrants’ way of controlling the state.</p>
+</a></div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tomasz Włodarczyk
-</div>
+<div class="metadata">
+<a href="./Articles/2025-09-13-Poppies-and-power/index.html" class="no-external">
 <div class="listing-date">
 Sep 13, 2025
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1756308418308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1823">
-<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why St.&nbsp;Peter is a greater philosopher than Plato
-</h5>
-<div class="card-text listing-description delink">
-<p>A sermon by Saint John Chrysostom, in which he argues why Saint Peter is a greater philosopher than Plato.</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-John Chrysostom
+Tomasz Włodarczyk
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1756308418308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1823">
+<div class="thumbnail"><a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">Why St.&nbsp;Peter is a greater philosopher than Plato</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<p>A sermon by Saint John Chrysostom, in which he argues why Saint Peter is a greater philosopher than Plato.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
 <div class="listing-date">
 Aug 21, 2025
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1756308693521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="745">
-<a href="./Articles/2025-08-07-Bible-boat/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Articles/2025-08-07-Bible-boat/images/ploion.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How to search for words in the Bible?
-</h5>
-<div class="card-text listing-description delink">
-<p>This article will demonstrate how to locate all instances of a specific word in the Bible, the various types of translation available, and how to present them graphically.</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Tomasz Włodarczyk
+John Chrysostom
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1756308693521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="745">
+<div class="thumbnail"><a href="./Articles/2025-08-07-Bible-boat/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-07-Bible-boat/images/ploion.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-07-Bible-boat/index.html" class="no-external">How to search for words in the Bible?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-07-Bible-boat/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-07-Bible-boat/index.html" class="no-external">
+<p>This article will demonstrate how to locate all instances of a specific word in the Bible, the various types of translation available, and how to present them graphically.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-07-Bible-boat/index.html" class="no-external">
 <div class="listing-date">
 Aug 15, 2025
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1757923645909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="851">
-<a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Articles/2025-08-05-Platos-ship-of-state/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Plato’s ship of state
-</h5>
-<div class="card-text listing-description delink">
-<p>An excerpt from Plato’s <em>Republic</em> on steering the ship of state.</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1755036000000" data-listing-file-modified-sort="1769973237041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1552">
+<div class="thumbnail"><a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Feedback loops in Vatican</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Where does the Pope get his information?</a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+<p>Explanation of what feedback loops are, using the example of information processes in the Vatican.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
+<div class="listing-date">
+Aug 13, 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1769973237068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1712">
+<div class="thumbnail"><a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">Peter and Plato as cyberneticians</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+<p>A comparison of Peter and Plato and their visions of steering the ship of state and the Church. Although the principle of feedback is the same everywhere, it can be implemented in different ways.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
+<div class="listing-date">
+Aug 12, 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1757923645909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="851">
+<div class="thumbnail"><a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-05-Platos-ship-of-state/images/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="no-external">Plato’s ship of state</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="no-external">
+<p>An excerpt from Plato’s <em>Republic</em> on steering the ship of state.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-05-Platos-ship-of-state/index.html" class="no-external">
 <div class="listing-date">
 Aug 10, 2025
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1756308985550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="766">
-<a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Articles/2025-08-06-Jesus-saves-Peter/images/featured2.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jesus Christ, St.&nbsp;Peter, and his boat
-</h5>
-<div class="card-text listing-description delink">
-<p>A selection of Gospel passages about St.&nbsp;Peter and his boat.</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="6" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1769973237103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1528">
+<div class="thumbnail"><a href="./Articles/2025-08-01-Cybernetic-Pope/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-01-Cybernetic-Pope/images/featured.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-01-Cybernetic-Pope/index.html" class="no-external">Cybernetic Pope</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-01-Cybernetic-Pope/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-01-Cybernetic-Pope/index.html" class="no-external">
+<p>What does Pope Leo XIV have in common with cybernetics? His task is to govern the Church. This task requires enormous experience, knowledge of history, but also the latest achievements in communication theory and control of complex systems.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-01-Cybernetic-Pope/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2025
+</div>
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="7" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1756308985550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="766">
+<div class="thumbnail"><a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="no-external">
+
+<img loading="lazy" src="./Articles/2025-08-06-Jesus-saves-Peter/images/featured2.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="no-external">Jesus Christ, St.&nbsp;Peter, and his boat</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="no-external"></a>
+</div>
+<div class="delink listing-description"><a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="no-external">
+<p>A selection of Gospel passages about St.&nbsp;Peter and his boat.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./Articles/2025-08-06-Jesus-saves-Peter/index.html" class="no-external">
 <div class="listing-date">
 Jul 17, 2025
 </div>
+<div class="listing-author">
+Tomasz Włodarczyk
 </div>
+</a>
 </div>
-</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>

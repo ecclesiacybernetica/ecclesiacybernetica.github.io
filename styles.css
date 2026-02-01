@@ -244,6 +244,18 @@
     text-transform: none;
   }
 
+  .listing-author{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: none;
+  }
+
+
+  div.quarto-post .thumbnail img {
+    margin-top: 0em; /* .4em;kontroluje wygląd obrazka*/
+    /* width: 100%;
+    object-fit: cover; */
+    height: 188px !important;
+  }
 
   @media (max-width: 768px) {
     .navbar {

@@ -74,6 +74,62 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured2 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured2'] = new List('listing-featured2', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -81,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -265,204 +321,211 @@ window.Quarto = {
 
 
 
-<div id="content" style="padding-top: 1rem">
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1756307621590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1388">
-<div class="thumbnail"><a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<div id="content" style="padding-top: 1rem ">
+<div class="grid">
+<div class="g-col-12 g-col-lg-8">
+<div class="big-titles">
+<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
 
-<img loading="lazy" src="./Articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">Święty Piotr jest większym filozofem od Platona</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external"></a>
 </div>
-<div class="delink listing-description"><a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<div class="listing-no-matching d-none">Brak pasujących</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-4">
+<div id="listing-featured2" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">Brak pasujących</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sekcja z cytatem inspirującym na złotym tle -->
+<!--::: {.pullout-text }
+::: {.pullout-block}
+
+## *I tak ustanowił Bóg w Kościele najprzód apostołów, po wtóre proroków, po trzecie nauczycieli, a następnie tych, co mają dar czynienia cudów, wspierania pomocą, przewodzenia [κυβερνήσεις] oraz przemawiania rozmaitymi językami.*  {style="color: white"} 
+
+1 Kor 12,28
+
+:::
+::: -->
+<div class="listing-block" style="margin-top: 3em">
+<p><a href="./Articles/index.html"></a></p><a href="./Articles/index.html">
+<h2 id="ostatnie-wpisy" class="anchored">Ostatnie wpisy</h2>
+</a><p><a href="./Articles/index.html"></a></p>
+<div id="listing-latest-content" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1756307621590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1388">
+<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-20-Peter-greater-than-Plato/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Święty Piotr jest większym filozofem od Platona
+</h5>
+<div class="card-text listing-description delink">
 <p>Kazanie świętego Jana Chryzostoma, w którym argumentuje, dlaczego święty Piotr jest większym filozofem niż Platon</p>
-</a></div>
 </div>
-<div class="metadata">
-<a href="./Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Tomasz Włodarczyk
+</div>
 <div class="listing-date">
 21 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1755945003547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
+<a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-07-Biblia-lodz/images/ploion.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jak szukać słów w Biblii?
+</h5>
+<div class="card-text listing-description delink">
+<p>W tym artykule zostanie pokazane, jak odnaleźć wszystkie wystąpienia danego słowa w Biblii, różne rodzaje tłumaczeń i sposoby ich graficznej prezentacji.</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1755945003547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
-<div class="thumbnail"><a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-07-Biblia-lodz/images/ploion.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="no-external">Jak szukać słów w Biblii?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
-<p>W tym artykule zostanie pokazane, jak odnaleźć wszystkie wystąpienia danego słowa w Biblii, różne rodzaje tłumaczeń i sposoby ich graficznej prezentacji.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
 <div class="listing-date">
 15 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1755852164367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
+<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Platon i Piotr jako cybernetycy
+</h5>
+<div class="card-text listing-description delink">
+<p>Porównanie Piotra i Platona i ich wizji sterowania okrętem państwa i Kościoła. Choć zasada działania sprzężenia zwrotnego jest wszędzie ta sama, może być ona różnie…</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1755852164367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
-<div class="thumbnail"><a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">Platon i Piotr jako cybernetycy</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
-<p>Porównanie Piotra i Platona i ich wizji sterowania okrętem państwa i Kościoła. Choć zasada działania sprzężenia zwrotnego jest wszędzie ta sama, może być ona różnie zaimplementowana.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
 <div class="listing-date">
 12 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1754863200000" data-listing-file-modified-sort="1755948261573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1209">
+<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sprzężenia zwrotne w zarządzaniu Watykanem
+</h5>
+<div class="card-text listing-description delink">
+<p>Wyjaśnienie czym jest sprzężenie zwrotne na przykładzie procesów informacyjnych w Watykanie.</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1754863200000" data-listing-file-modified-sort="1755948261573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1209">
-<div class="thumbnail"><a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Sprzężenia zwrotne w zarządzaniu Watykanem</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">Skąd Papież bierze informacje?</a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
-<p>Wyjaśnienie czym jest sprzężenie zwrotne na przykładzie procesów informacyjnych w Watykanie.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
 <div class="listing-date">
 11 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1755945288568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
+<a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-05-Platon-statek-panstwa/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statek Platona
+</h5>
+<div class="card-text listing-description delink">
+<p>Fragment z <em>Republiki</em> Platona o sterowaniu okrętem państwa.</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1755945288568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
-<div class="thumbnail"><a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-05-Platon-statek-panstwa/images/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">Statek Platona</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
-<p>Fragment z <em>Republiki</em> Platona o sterowaniu okrętem państwa.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
 <div class="listing-date">
 10 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1757861389472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1242">
+<a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-1-Cybernetic-Pope/images/featured.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cybernetyczny Papież
+</h5>
+<div class="card-text listing-description delink">
+<p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także…</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="5" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1757861389472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1242">
-<div class="thumbnail"><a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-1-Cybernetic-Pope/images/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external">Cybernetyczny Papież</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external">
-<p>Co wspólnego ma Papież Leon XIV. z cybernetyką? Jego zadaniem jest sterowanie Kościołem. To zadanie wymaga olbrzymiego doświadczenia, znajomości historii, ale także najnowżych osiągnięć teorii komunikacji i kontroli złożonych systemów.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external">
 <div class="listing-date">
 1 sie 2025
 </div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1755945244161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="568">
+<a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Articles/2025-08-06-Jezus-ratuje-Piotra/images/featured2.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jezus Chrystus, Piotr i jego łódź
+</h5>
+<div class="card-text listing-description delink">
+<p>Wybór fragmentów ewangelicznych mówiących o łodzi piotrowej.</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tomasz Włodarczyk
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="6" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1755945244161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="568">
-<div class="thumbnail"><a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
-
-<img loading="lazy" src="./Articles/2025-08-06-Jezus-ratuje-Piotra/images/featured2.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">Jezus Chrystus, Piotr i jego łódź</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
-<p>Wybór fragmentów ewangelicznych mówiących o łodzi piotrowej.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
 <div class="listing-date">
 17 lip 2025
 </div>
-<div class="listing-author">
-Tomasz Włodarczyk
 </div>
-</a>
 </div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">Brak pasujących</div>

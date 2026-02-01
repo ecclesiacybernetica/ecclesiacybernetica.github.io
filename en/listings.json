@@ -1,5 +1,31 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/Articles/2025-09-13-Poppies-and-power/index.html",
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
+      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-01-Cybernetic-Pope/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
+    ]
+  },
+  {
+    "listing": "/Articles/index.html",
+    "items": [
+      "/Articles/2025-09-13-Poppies-and-power/index.html",
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
+      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-01-Cybernetic-Pope/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
+    ]
+  },
+  {
     "listing": "/Cybernetics/index.html",
     "items": [
       "/Cybernetics/Adaptation/index.html",
@@ -14,28 +40,15 @@
     ]
   },
   {
-    "listing": "/Articles/index.html",
+    "listing": "/index-hero-left.html",
     "items": [
       "/Articles/2025-09-13-Poppies-and-power/index.html",
       "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
       "/Articles/2025-08-07-Bible-boat/index.html",
-      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
-      "/Featured/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-20-Peter-and-Plato/index.html",
       "/Articles/2025-08-05-Platos-ship-of-state/index.html",
-      "/Featured/Hero/index.html",
-      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/Featured/Hero/index.html",
-      "/Featured/2025-08-20-Feedback-in-Vatican/index.html",
-      "/Featured/2025-08-20-Peter-and-Plato/index.html",
-      "/Articles/2025-09-13-Poppies-and-power/index.html",
-      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/Articles/2025-08-07-Bible-boat/index.html",
-      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-01-Cybernetic-Pope/index.html",
       "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
     ]
   }

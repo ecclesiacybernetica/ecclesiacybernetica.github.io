@@ -48,7 +48,7 @@
     .nav-item {
       margin-right: 0.5rem;
     }
-  }*/
+  }
   
   @media (max-width: 991px) {
     .nav-item,
@@ -217,7 +217,10 @@
      /* max-height: 200px;  */
     object-fit: cover;
   }
-
+  .quarto-grid-item img.thumbnail-image {
+    object-fit: cover;
+    height: 188px !important;
+  }
 
   /* BUTTON: .btn-action-primary */
 
