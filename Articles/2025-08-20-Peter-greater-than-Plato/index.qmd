@@ -1,7 +1,7 @@
 ---
 title: "Święty Piotr jest większym filozofem od Platona"
 description: |
-  Kazanie świętego Jana Chryzostoma, w którym argumentuje, dlaczego święty Piotr jest większym filozofem niż Platon
+  Kazanie świętego Jana Chryzostoma, w którym argumentuje, dlaczego święty Piotr jest większym filozofem niż Platon.
 ---
 
 # Komentarz do Dziejów Apostolskich, Homilia 4[^1]
@@ -27,7 +27,7 @@ O autorze
 
 <!-- Copyright and licence -->
 : &copy; 2025 Ks. Tomasz Włodarczyk. All rights reserved.
-: Imgae: Peter Paul Rubens, *The Apostle Saint Peter*, Public domain, via [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/2d/Pope-peter_pprubens.jpg).
+: Image: Peter Paul Rubens, *The Apostle Saint Peter*, Public domain, via [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/2d/Pope-peter_pprubens.jpg).
 
 :::
 ::: {.g-col-12 .g-col-md-6}

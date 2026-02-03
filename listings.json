@@ -12,7 +12,7 @@
     ]
   },
   {
-    "listing": "/index-hero-side-old.html",
+    "listing": "/Articles/index.html",
     "items": [
       "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
       "/Articles/2025-08-07-Biblia-lodz/index.html",
@@ -35,18 +35,6 @@
       "/Cybernetics/Homeostasis/index.html",
       "/Cybernetics/Steering/index.html",
       "/Cybernetics/System/index.html"
-    ]
-  },
-  {
-    "listing": "/Articles/index.html",
-    "items": [
-      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/Articles/2025-08-07-Biblia-lodz/index.html",
-      "/Articles/2025-08-20-Peter-and-Plato/index.html",
-      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
-      "/Articles/2025-08-05-Platon-statek-panstwa/index.html",
-      "/Articles/2025-08-1-Cybernetic-Pope/index.html",
-      "/Articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
     ]
   }
 ]
