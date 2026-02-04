@@ -2,25 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
+      "/Articles/2026-01-22-Round-Table-Revolution/index.html",
+      "/Articles/2025-09-13-Poppies-and-power/index.html",
       "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/Articles/2025-08-07-Biblia-lodz/index.html",
-      "/Articles/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
       "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
-      "/Articles/2025-08-05-Platon-statek-panstwa/index.html",
-      "/Articles/2025-08-1-Cybernetic-Pope/index.html",
-      "/Articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
-    ]
-  },
-  {
-    "listing": "/Articles/index.html",
-    "items": [
-      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
-      "/Articles/2025-08-07-Biblia-lodz/index.html",
       "/Articles/2025-08-20-Peter-and-Plato/index.html",
-      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
-      "/Articles/2025-08-05-Platon-statek-panstwa/index.html",
-      "/Articles/2025-08-1-Cybernetic-Pope/index.html",
-      "/Articles/2025-08-06-Jezus-ratuje-Piotra/index.html"
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-01-Cybernetic-Pope/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
     ]
   },
   {
@@ -35,6 +25,20 @@
       "/Cybernetics/Homeostasis/index.html",
       "/Cybernetics/Steering/index.html",
       "/Cybernetics/System/index.html"
+    ]
+  },
+  {
+    "listing": "/Articles/index.html",
+    "items": [
+      "/Articles/2026-01-22-Round-Table-Revolution/index.html",
+      "/Articles/2025-09-13-Poppies-and-power/index.html",
+      "/Articles/2025-08-20-Peter-greater-than-Plato/index.html",
+      "/Articles/2025-08-07-Bible-boat/index.html",
+      "/Articles/2025-08-20-Feedback-in-Vatican/index.html",
+      "/Articles/2025-08-20-Peter-and-Plato/index.html",
+      "/Articles/2025-08-05-Platos-ship-of-state/index.html",
+      "/Articles/2025-08-01-Cybernetic-Pope/index.html",
+      "/Articles/2025-08-06-Jesus-saves-Peter/index.html"
     ]
   }
 ]

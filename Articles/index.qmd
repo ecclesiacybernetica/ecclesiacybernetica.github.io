@@ -1,7 +1,7 @@
 ---
-pagetitle: Artykuły | Ecclesia Cybernetica
-title: Archiwum artykułów
-subtitle: "Archiwum opublikowanych do tej pory artykułów dotyczących zagadnień od analizy danych, do duchowości."
+pagetitle: Articles | Ecclesia Cybernetica
+title: Article archive
+subtitle: "This is an archive of articles that have been published to date on a range of topics, from data analysis to spirituality."
 citation: false
 format:
   html:
@@ -10,13 +10,13 @@ format:
 listing:
   contents:
   - "**/index.qmd"
-  - "../Featured/**/index.qmd"
+  # - "../Featured/**/index.qmd"
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
-  image-height: 180px
+  # image-height: 180px
 ---
 
 
