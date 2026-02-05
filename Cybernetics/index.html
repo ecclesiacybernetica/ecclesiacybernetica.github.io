@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-847726366c15bd814306986e68ed70ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +142,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -168,7 +169,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo light-content">
+    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
@@ -183,6 +185,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../Articles/index.html"> 
 <span class="menu-text">Articles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ECNews/index.html"> 
+<span class="menu-text">EC News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../Cybernetics/index.html" aria-current="page"> 
@@ -257,7 +263,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QWRhcHRhdGlvbiUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308017873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
+<div class="g-col-1" data-index="0" data-categories="QWRhcHRhdGlvbiUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
 <a href="../Cybernetics/Adaptation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -273,7 +279,7 @@ Adaptation
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Q29tcGxleGl0eSUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308022933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<div class="g-col-1" data-index="1" data-categories="Q29tcGxleGl0eSUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333356" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
 <a href="../Cybernetics/Communication/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -289,7 +295,7 @@ Communication
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Q29tbXVuaWNhdGlvbiUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308026090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="303">
+<div class="g-col-1" data-index="2" data-categories="Q29tbXVuaWNhdGlvbiUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="303">
 <a href="../Cybernetics/Complexity/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -305,7 +311,7 @@ Complexity
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Q29udHJvbCUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756312212737" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="g-col-1" data-index="3" data-categories="Q29udHJvbCUyQ0N5YmVybmV0aWNzJTJDVGhlb3J5" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333361" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <a href="../Cybernetics/Control/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -321,7 +327,7 @@ Control
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="RW50aHJvcHklMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308029987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
+<div class="g-col-1" data-index="4" data-categories="RW50aHJvcHklMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="346">
 <a href="../Cybernetics/Enthropy/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -337,7 +343,7 @@ Entropy
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="RmVlZGJhY2slMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308032977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="g-col-1" data-index="5" data-categories="RmVlZGJhY2slMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
 <a href="../Cybernetics/Feedback/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -353,7 +359,7 @@ Feedback
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="SG9tZW9zdGFzaXMlMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308033956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="g-col-1" data-index="6" data-categories="SG9tZW9zdGFzaXMlMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <a href="../Cybernetics/Homeostasis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -369,7 +375,7 @@ Homeostasis
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="U3R0ZXJpbmclMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756312308771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
+<div class="g-col-1" data-index="7" data-categories="U3R0ZXJpbmclMkNDeWJlcm5ldGljcyUyQ1RoZW9yeQ==" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
 <a href="../Cybernetics/Steering/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -385,7 +391,7 @@ Steering
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="U3lzdGVtJTJDQ3liZXJuZXRpY3MlMkNUaGVvcnk=" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1756308036067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="g-col-1" data-index="8" data-categories="U3lzdGVtJTJDQ3liZXJuZXRpY3MlMkNUaGVvcnk=" data-listing-date-sort="1754517600000" data-listing-file-modified-sort="1770287333368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <a href="../Cybernetics/System/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -458,13 +464,14 @@ System
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

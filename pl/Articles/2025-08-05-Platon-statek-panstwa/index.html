@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../images/logo-crc.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-847726366c15bd814306986e68ed70ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +83,7 @@ background-size: cover;
 
 <meta property="og:title" content="Statek Platona – Ecclesia Cybernetica">
 <meta property="og:description" content="Fragment z Republiki Platona o sterowaniu okrętem państwa.">
-<meta property="og:image" content="https://ecclesiacybernetica.org/Articles/2025-08-05-Platon-statek-panstwa/images/featured.jpg">
+<meta property="og:image" content="https://ecclesiacybernetica.org/Articles/2025-08-05-platon-statek-panstwa/images/featured.jpg">
 <meta property="og:site_name" content="Ecclesia Cybernetica">
 <meta name="citation_title" content="Statek Platona">
 <meta name="citation_author" content="Tomasz Włodarczyk">
@@ -90,7 +91,7 @@ background-size: cover;
 <meta name="citation_cover_date" content="2025-08-10">
 <meta name="citation_year" content="2025">
 <meta name="citation_online_date" content="2025-08-10">
-<meta name="citation_fulltext_html_url" content="https://ecclesiacybernetica.org/Articles/2025-08-05-Platon-statek-panstwa/">
+<meta name="citation_fulltext_html_url" content="https://ecclesiacybernetica.org/Articles/2025-08-05-platon-statek-panstwa/">
 <meta name="citation_language" content="pl">
 <meta name="citation_journal_title" content="Ecclesia Cybernetica">
 </head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
@@ -123,7 +124,8 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo light-content">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
@@ -261,7 +263,7 @@ Image: Plato’s Academy mosaic. Roman mosaic of the 1st century BCE from Pompei
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas" role="listitem">
 Włodarczyk, Tomasz. 2025. <span>“Statek Platona.”</span> <em>Ecclesia
-Cybernetica</em>, August. <a href="https://ecclesiacybernetica.org/Articles/2025-08-05-Platon-statek-panstwa/">https://ecclesiacybernetica.org/Articles/2025-08-05-Platon-statek-panstwa/</a>.
+Cybernetica</em>, August. <a href="https://ecclesiacybernetica.org/Articles/2025-08-05-platon-statek-panstwa/">https://ecclesiacybernetica.org/Articles/2025-08-05-platon-statek-panstwa/</a>.
 </div></div></section></div></main> <!-- /main -->
 <!-- 100% privacy-first analytics -->
 <script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
@@ -317,13 +319,14 @@ Cybernetica</em>, August. <a href="https://ecclesiacybernetica.org/Articles/2025
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

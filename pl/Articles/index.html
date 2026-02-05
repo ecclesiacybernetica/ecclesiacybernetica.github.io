@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1397e646ec021ba0b6cecafaa61a6a46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-847726366c15bd814306986e68ed70ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +142,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -168,7 +169,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo">
+    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo light-content">
+    <img src="../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ecclesia Cybernetica</span>
@@ -258,7 +260,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1770149557052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1388">
+<div class="quarto-post image-right" data-index="0" data-categories="UXVvdGF0aW9uJTJDU3QuJTIwUGV0ZXIlMkNQaGlsb3NvcGh5" data-listing-date-sort="1755727200000" data-listing-file-modified-sort="1770287333392" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1388">
 <div class="thumbnail"><a href="../Articles/2025-08-20-Peter-greater-than-Plato/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-20-Peter-greater-than-Plato/images/featuredp.jpg" class="thumbnail-image" style="height: 180px;">
@@ -295,7 +297,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1755945003547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
+<div class="quarto-post image-right" data-index="1" data-categories="VHV0b3JpYWwlMkNCaWJsZSUyQ1NvdXJjZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1770287333389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
 <div class="thumbnail"><a href="../Articles/2025-08-07-Biblia-lodz/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-07-Biblia-lodz/images/ploion.png" class="thumbnail-image" style="height: 180px;">
@@ -332,7 +334,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1755852164367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
+<div class="quarto-post image-right" data-index="2" data-categories="Q3liZXJuZXRpY3MlMkNMZWFkZXJzaGlw" data-listing-date-sort="1754949600000" data-listing-file-modified-sort="1770287333391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1443">
 <div class="thumbnail"><a href="../Articles/2025-08-20-Peter-and-Plato/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-20-Peter-and-Plato/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
@@ -367,7 +369,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1754863200000" data-listing-file-modified-sort="1755948261573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1209">
+<div class="quarto-post image-right" data-index="3" data-categories="Q3liZXJuZXRpY3MlMkNQb3BlJTJDRmVlZGJhY2stTG9vcA==" data-listing-date-sort="1754863200000" data-listing-file-modified-sort="1770287333390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1209">
 <div class="thumbnail"><a href="../Articles/2025-08-20-Feedback-in-Vatican/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-20-Feedback-in-Vatican/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
@@ -404,18 +406,18 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1755945288568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
-<div class="thumbnail"><a href="../Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="UXVvdGF0aW9uJTJDUGxhdG8lMkNQaGlsb3NvcGh5" data-listing-date-sort="1754776800000" data-listing-file-modified-sort="1770287333387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
+<div class="thumbnail"><a href="../Articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">
 
-<img loading="lazy" src="../Articles/2025-08-05-Platon-statek-panstwa/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
+<img loading="lazy" src="../Articles/2025-08-05-platon-statek-panstwa/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">Statek Platona</a>
+<a href="../Articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">Statek Platona</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external"></a>
+<a href="../Articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 
@@ -426,12 +428,12 @@ Tomasz Włodarczyk
 <div class="listing-category" onclick="window.quartoListingCategory('UGhpbG9zb3BoeQ=='); return false;">Philosophy</div>
 
 </div>
-<div class="delink listing-description"><a href="../Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
+<div class="delink listing-description"><a href="../Articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">
 <p>Fragment z <em>Republiki</em> Platona o sterowaniu okrętem państwa.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="../Articles/2025-08-05-Platon-statek-panstwa/index.html" class="no-external">
+<a href="../Articles/2025-08-05-platon-statek-panstwa/index.html" class="no-external">
 <div class="listing-date">
 10 sie 2025
 </div>
@@ -441,7 +443,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1757861389472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1242">
+<div class="quarto-post image-right" data-index="5" data-categories="Q3liZXJuZXRpY3MlMkNMZW8lMjBYSVYuJTJDTGVvJTIwWElJSS4lMkNMZWFkZXJzaGlw" data-listing-date-sort="1753999200000" data-listing-file-modified-sort="1770287333390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1242">
 <div class="thumbnail"><a href="../Articles/2025-08-1-Cybernetic-Pope/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-1-Cybernetic-Pope/images/featured.jpg" class="thumbnail-image" style="height: 180px;">
@@ -480,7 +482,7 @@ Tomasz Włodarczyk
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1755945244161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="568">
+<div class="quarto-post image-right" data-index="6" data-categories="QmlibGUlMkNFeGVnZXNpcw==" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1770287333389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="568">
 <div class="thumbnail"><a href="../Articles/2025-08-06-Jezus-ratuje-Piotra/index.html" class="no-external">
 
 <img loading="lazy" src="../Articles/2025-08-06-Jezus-ratuje-Piotra/images/featured2.jpg" class="thumbnail-image" style="height: 180px;">
@@ -572,13 +574,14 @@ Tomasz Włodarczyk
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
