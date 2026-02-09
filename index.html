@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
+    const listingTargetEl = window.document.querySelector('#listing-Articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -88,7 +88,36 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-content'] = new List('listing-latest-content', options);
+    window['quarto-listings']['listing-Articles'] = new List('listing-Articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ECNews .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ECNews'] = new List('listing-ECNews', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -271,8 +300,19 @@ window.Quarto = {
 
 
 
-<div id="content" style="padding-top: 1rem">
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-default">
+<!-- :::{#content style="padding-top: 1rem"}
+
+::: {#latest-content}
+:::
+::: -->
+<!-- ~~~~~~ -->
+<div id="content" style="padding-top: 1rem ">
+<div class="grid">
+<div class="g-col-12 g-col-lg-8">
+<p><a href="./Articles/index.html"></a></p><a href="./Articles/index.html">
+<h2 id="articles" class="anchored">Articles</h2>
+</a><p><a href="./Articles/index.html"></a></p>
+<div id="listing-Articles" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-left" data-index="0" data-categories="VHJhZGl0aW9uYWwlMjBMYXRpbiUyME1hc3MlMkNTZWNvbmQlMjBWYXRpY2FuJTIwQ291bmNpbCUyQ1N1bW1vcnVtJTIwUG9udGlmaWN1bSUyQ1RyYWRpdGlvbmlzJTIwQ3VzdG9kZXMlMkNFY2NsZXNpYSUyMERlaSUyQ1BlcnNvbmFsJTIwUHJlbGF0dXJlJTJDQ2Fub25pY2FsJTIwaXJyZWd1bGFyaXR5JTJDQXJjaGJpc2hvcCUyME1hcmNlbCUyMExlZmVidnJlJTJDQ2FyZGluYWwlMjBWJUMzJUFEY3RvciUyME1hbnVlbCUyMEZlcm4lQzMlQTFuZGV6" data-listing-date-sort="1770418800000" data-listing-file-modified-sort="1770492473645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="511">
 <div class="thumbnail"><a href="./Articles/2026-02-07-SSPX-sspx-vatican-relations-timeline-1970-2026-crisis/index.html" class="no-external">
@@ -556,6 +596,144 @@ Tomasz Włodarczyk
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-4">
+<p><a href="./Articles/index.html"></a></p><a href="./Articles/index.html">
+<h3 id="news" class="anchored">News</h3>
+</a><p><a href="./Articles/index.html"></a></p>
+<div id="listing-ECNews" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+
+<th>
+Date
+</th>
+
+<th>
+Title
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="T3BpbmklQzMlQjNuJTIwJTI2JTIwQ29tZW50YXJpb3MlMkNUcmlidW5hJTJDU3QlMjBGcmFuY2lzJTIwQXNzaXNpJTJDU3QlMjBUaG9tYXMlMjBBcXVpbmFzJTJDVGhvbWlzbQ==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589404303" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150" data-listing-title-sort="The Doctrine of the Act of Being of Saint Thomas - INFOVATICANA" data-listing-filename-sort="2026-02-08-the-doctrine-of-the-act-of-being-of-saint-thomas-i.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-the-doctrine-of-the-act-of-being-of-saint-thomas-i.html" class="title listing-title">The Doctrine of the Act of Being of Saint Thomas - INFOVATICANA</a>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="bm90aXppZSUyQ1ZhdGljYW4lMjBDaXR5JTJDU2Vzc2FnZXNpbWElMkNFeHN1cmdlJTIwcXVhcmUlMjBvYmRvcm1pcw==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589291909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158" data-listing-title-sort="Exsurge, quare obdormis: Wake Up the Lord Who Sleeps" data-listing-filename-sort="2026-02-08-exsurge-quare-obdormis-wake-up-the-lord-who-sleeps.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-exsurge-quare-obdormis-wake-up-the-lord-who-sleeps.html" class="title listing-title">Exsurge, quare obdormis: Wake Up the Lord Who Sleeps</a>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="UmVjdXJzb3MlMkNFdmFuZ2VsaW8lMjBkZWwlMjBEJUMzJUFEYSUyQ0lzYWlhaCUyQzElMjBDb3JpbnRoaWFucyUyQ0NocmlzdCUyMGNydWNpZmllZA==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589423330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126" data-listing-title-sort="Gospel of the day February 8, 2026 – Matthew 5:13" data-listing-filename-sort="2026-02-08-gospel-of-the-day-february-8-2026-matthew-513.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-gospel-of-the-day-february-8-2026-matthew-513.html" class="title listing-title">Gospel of the day February 8, 2026 – Matthew 5:13</a>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="UGF0cmlvdHMlMjB2cy4lMjBTZWFoYXdrcyUyQ1R1cm5pbmclMjBQb2ludCUyMFVTQSUyQ0NhdGhvbGljJTIwQ2h1cmNo" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589198488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214" data-listing-title-sort="Super Bowl LX: 3 Faith Storylines to Follow with Patriots vs. Seahawks" data-listing-filename-sort="2026-02-08-super-bowl-lx-3-faith-storylines-to-follow-with-pa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-super-bowl-lx-3-faith-storylines-to-follow-with-pa.html" class="title listing-title">Super Bowl LX: 3 Faith Storylines to Follow with Patriots vs.&nbsp;Seahawks</a>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="V29ybGQlMkNQZWRybyUyMEJhbGxlc3RlciUyQ09wdXMlMjBEZWklMkNDYW5vbml6YXRpb24lMkNzYWludGhvb2QtY2F1c2UlMkNtaWxsZW5uaWFscyUyQ2NhdGhvbGljLWNodXJjaC1pbi1lbmdsYW5kLWFuZC13YWxlcyUyQ2NhdGhvbGljLW5ld3M=" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589147588" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191" data-listing-title-sort="England student university being considered for canonization" data-listing-filename-sort="2026-02-08-england-student-university-being-considered-for-ca.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-england-student-university-being-considered-for-ca.html" class="title listing-title">England student university being considered for canonization</a>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="QmVudWUlMjBTdGF0ZSUyQ0Fud2FzZSUyME1hcmtldCUyQ0t3YW5kZSUyMExvY2FsJTIwR292ZXJubWVudCUyMEFyZWElMkN2aW9sZW5jZSUyQ05pZ2VyaWE=" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589019965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166" data-listing-title-sort="Violence continues to sweep across Nigeria" data-listing-filename-sort="2026-02-08-violence-continues-to-sweep-across-nigeria.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-violence-continues-to-sweep-across-nigeria.html" class="title listing-title">Violence continues to sweep across Nigeria</a>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="Q2l2aWxpemFjaSVDMyVCM24lMkNTYW50YSUyMFNlZGUlMkNKZWZmcmV5JTIwRXBzdGVpbiUyQ1BvcGUlMjBGcmFuY2lzJTJDQmFubm9u" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589364028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120" data-listing-title-sort="Did Epstein and Bannon want to overthrow Francis? – INFOVATICANA" data-listing-filename-sort="2026-02-08-did-epstein-and-bannon-want-to-overthrow-francis-i.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-did-epstein-and-bannon-want-to-overthrow-francis-i.html" class="title listing-title">Did Epstein and Bannon want to overthrow Francis? – INFOVATICANA</a>
+</td>
+
+</tr>
+
+<tr data-index="7" data-categories="U2luJTIwY2F0ZWdvciVDMyVBRGElMkNWYXRpY2FuJTIwQ2l0eSUyQ0JlY2NpdSUyMGNhc2UlMkNQb3BlJTIwRnJhbmNpcw==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589355266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Secret decrees halt Becciu case process: Did Francis know or was he manipulated? – INFOVATICANA" data-listing-filename-sort="2026-02-08-secret-decrees-halt-becciu-case-process-did-franci.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-secret-decrees-halt-becciu-case-process-did-franci.html" class="title listing-title">Secret decrees halt Becciu case process: Did Francis know or was he manipulated? – INFOVATICANA</a>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="UG9wZSUyMExlbyUyMFhJViUyQ1VuaXRlZCUyMFN0YXRlcyUyQ3NlbWlxdWluY2VudGVubmlhbA==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770589187512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220" data-listing-title-sort="No US trip for Pope Leo in 2026, Vatican says" data-listing-filename-sort="2026-02-08-no-us-trip-for-pope-leo-in-2026-vatican-says.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-no-us-trip-for-pope-leo-in-2026-vatican-says.html" class="title listing-title">No US trip for Pope Leo in 2026, Vatican says</a>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="bm90aXppZSUyQ0RvbiUyMENhbWlsbG8lMkNkb3R0cmluYSUyQ2xpYnJpJTIwY29uc2lnbGlhdGklMjBkYSUyME1pTCUyQ0NhcmRpbmFsJTIwR2lhY29tbyUyMEJpZmZpJTJDUGlub2NjaGlvJTJDUGVwcG9uZQ==" data-listing-date-sort="1770505200000" data-listing-file-modified-sort="1770622755115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124" data-listing-title-sort="Trevisan, Beltramello. 'Pinocchio, Peppone and the Antichrist of Cardinal Giacomo Biffi'" data-listing-filename-sort="2026-02-08-trevisan-beltramello-pinocchio-peppone-and-the-ant.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">2/8/26</span>
+</td>
+<td>
+<a href="./ECNews/2026-02-08-trevisan-beltramello-pinocchio-peppone-and-the-ant.html" class="title listing-title">Trevisan, Beltramello. ‘Pinocchio, Peppone and the Antichrist of Cardinal Giacomo Biffi’</a>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
 </div>
 </div>
 
