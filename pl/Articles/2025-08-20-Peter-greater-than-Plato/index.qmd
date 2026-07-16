@@ -16,7 +16,7 @@ Dlaczego więc, pyta się, Chrystus nie wywarł wpływu na Platona i Pitagorasa?
 
 
 ::: {.article-btn}
-[więcej](/articles/index.qmd)
+[Więcej](../../Articles/index.qmd)
 :::
 
 ::: grid

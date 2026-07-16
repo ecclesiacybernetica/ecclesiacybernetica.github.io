@@ -41,7 +41,7 @@ Na koniec scena zamykająca Ewangelie, "Zmartwychwstały ukazuje się nad Jezior
 W każdym z tych fragmentów to sam Jezus rozwiązuje problemy Apostołów, z którymi sami nie dawali sobie rady.
 
 ::: {.article-btn}
-[więcej](../../Articles/index.qmd)
+[Więcej](../../Articles/index.qmd)
 :::
 
 ::: grid
