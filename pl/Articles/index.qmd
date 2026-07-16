@@ -10,7 +10,7 @@ format:
 listing:
   contents:
   - "**/index.qmd"
-  - "../Featured/**/index.qmd"
+ # - "../Featured/**/index.qmd"
   sort: "date desc"
   type: default
   categories: true
