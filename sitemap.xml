@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ecclesiacybernetica.org/index.html</loc>
-    <lastmod>2026-02-09T22:35:02.786Z</lastmod>
+    <lastmod>2026-09-30T17:17:07.877Z</lastmod>
   </url>
   <url>
     <loc>https://ecclesiacybernetica.org/About/contribute.html</loc>
@@ -65,43 +65,19 @@
     <lastmod>2026-07-16T20:17:10.951Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-08-06-Jesus-saves-Peter/index.html</loc>
-    <lastmod>2026-07-16T20:17:10.944Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-08-07-Bible-boat/index.html</loc>
+    <lastmod>2026-07-16T20:17:10.951Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/index.html</loc>
-    <lastmod>2026-07-16T20:14:14.380Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-09-13-Poppies-and-power/index.html</loc>
+    <lastmod>2026-07-16T20:15:20.668Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Donate/index.html</loc>
-    <lastmod>2026-02-05T10:28:53.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Steering/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Control/index.html</loc>
     <lastmod>2026-07-16T19:58:07.850Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Adaptation/index.html</loc>
-    <lastmod>2026-07-16T20:07:42.526Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/System/index.html</loc>
-    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Enthropy/index.html</loc>
-    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Complexity/index.html</loc>
-    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/index.html</loc>
-    <lastmod>2026-02-05T10:28:53.368Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Feedback/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Communication/index.html</loc>
     <lastmod>2026-07-16T19:58:07.850Z</lastmod>
   </url>
   <url>
@@ -109,24 +85,52 @@
     <lastmod>2026-07-16T19:58:07.880Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Communication/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Feedback/index.html</loc>
     <lastmod>2026-07-16T19:58:07.850Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Control/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/index.html</loc>
+    <lastmod>2026-02-05T10:28:53.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Complexity/index.html</loc>
     <lastmod>2026-07-16T19:58:07.850Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-09-13-Poppies-and-power/index.html</loc>
-    <lastmod>2026-07-16T20:15:20.668Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Enthropy/index.html</loc>
+    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-08-07-Bible-boat/index.html</loc>
-    <lastmod>2026-07-16T20:17:10.951Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/System/index.html</loc>
+    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Adaptation/index.html</loc>
+    <lastmod>2026-07-16T20:07:42.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Steering/index.html</loc>
+    <lastmod>2026-07-16T19:58:07.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Donate/index.html</loc>
+    <lastmod>2026-02-05T10:28:53.370Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/index.html</loc>
+    <lastmod>2026-07-16T20:14:14.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-08-06-Jesus-saves-Peter/index.html</loc>
+    <lastmod>2026-07-16T20:17:10.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/index.html</loc>
+    <lastmod>2026-09-30T17:06:13.044Z</lastmod>
   </url>
   <url>
     <loc>https://ecclesiacybernetica.org/Articles/2025-08-05-Platos-ship-of-state/index.html</loc>
-    <lastmod>2026-07-16T20:17:10.951Z</lastmod>
+    <lastmod>2026-09-29T21:39:01.298Z</lastmod>
   </url>
   <url>
     <loc>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-and-Plato/index.html</loc>

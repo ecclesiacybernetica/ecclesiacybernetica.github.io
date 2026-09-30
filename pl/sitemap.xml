@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ecclesiacybernetica.org/index.html</loc>
-    <lastmod>2026-02-05T10:28:53.393Z</lastmod>
+    <lastmod>2026-09-30T17:17:46.218Z</lastmod>
   </url>
   <url>
     <loc>https://ecclesiacybernetica.org/About/contribute.html</loc>
@@ -21,35 +21,23 @@
     <lastmod>2026-07-16T20:16:59.146Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-08-1-Cybernetic-Pope/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/index.html</loc>
+    <lastmod>2026-09-30T16:39:37.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/index.html</loc>
     <lastmod>2026-07-16T20:16:59.146Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Control/index.html</loc>
-    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Donate/index.html</loc>
+    <lastmod>2026-02-05T10:28:53.383Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Communication/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Steering/index.html</loc>
     <lastmod>2026-07-16T19:59:02.257Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Homeostasis/index.html</loc>
-    <lastmod>2026-07-16T19:59:02.265Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Feedback/index.html</loc>
-    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/index.html</loc>
-    <lastmod>2026-02-05T10:28:53.382Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Complexity/index.html</loc>
-    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Enthropy/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Adaptation/index.html</loc>
     <lastmod>2026-07-16T19:59:02.252Z</lastmod>
   </url>
   <url>
@@ -57,19 +45,35 @@
     <lastmod>2026-07-16T19:59:02.252Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Adaptation/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Enthropy/index.html</loc>
     <lastmod>2026-07-16T19:59:02.252Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Cybernetics/Steering/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Complexity/index.html</loc>
+    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/index.html</loc>
+    <lastmod>2026-02-05T10:28:53.382Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Feedback/index.html</loc>
+    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Homeostasis/index.html</loc>
+    <lastmod>2026-07-16T19:59:02.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Communication/index.html</loc>
     <lastmod>2026-07-16T19:59:02.257Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Donate/index.html</loc>
-    <lastmod>2026-02-05T10:28:53.383Z</lastmod>
+    <loc>https://ecclesiacybernetica.org/Cybernetics/Control/index.html</loc>
+    <lastmod>2026-07-16T19:59:02.252Z</lastmod>
   </url>
   <url>
-    <loc>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/index.html</loc>
+    <loc>https://ecclesiacybernetica.org/Articles/2025-08-1-Cybernetic-Pope/index.html</loc>
     <lastmod>2026-07-16T20:16:59.146Z</lastmod>
   </url>
   <url>
