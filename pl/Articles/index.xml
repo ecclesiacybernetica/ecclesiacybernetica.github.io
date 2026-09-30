@@ -6,18 +6,13 @@
       version="2.0">
 <channel>
 <title>Ecclesia Cybernetica</title>
-<link>https://ecclesiacybernetica.org/</link>
-<atom:link href="https://ecclesiacybernetica.org/index.xml" rel="self" type="application/rss+xml"/>
-<description>Analiza danych w służbie Kościołowi.
-&lt;div class=&quot;button-container&quot;&gt;
-&lt;a href=&quot;#content&quot; class=&quot;custom-button&quot;&gt;Czytaj&lt;/a&gt;
-&lt;a href=&quot;https://ecclesiacybernetica.org/&quot; class=&quot;custom-button mobile-button&quot;  style=&quot;background-color:white;width:auto;background: rgba(250, 250, 250, 0.4);&quot;&gt;🇬🇧&lt;/a&gt;
-&lt;/div&gt;
-</description>
+<link>https://ecclesiacybernetica.org/Articles/</link>
+<atom:link href="https://ecclesiacybernetica.org/Articles/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
 <image>
 <url>https://ecclesiacybernetica.org/images/storm3r.jpg</url>
 <title>Ecclesia Cybernetica</title>
-<link>https://ecclesiacybernetica.org/</link>
+<link>https://ecclesiacybernetica.org/Articles/</link>
 </image>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Tue, 29 Sep 2026 22:00:00 GMT</lastBuildDate>
