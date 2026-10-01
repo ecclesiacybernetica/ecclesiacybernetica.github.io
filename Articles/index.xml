@@ -27,6 +27,13 @@
 
 
 <p>Below is a summary of the Constitution <em>Lumen Gentium</em>, which provides a quick overview of the content of this important encyclical.<sup>1</sup></p>
+<p>First the bird’s eye view on the whole constitution.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/images/wordcloud.png" class="img-fluid figure-img"></p>
+<figcaption>Wordcloud of Lumen Gentium</figcaption>
+</figure>
+</div>
 <section id="i-the-mystery-of-the-church" class="level1">
 <h1>I: The Mystery of the Church</h1>
 <table class="caption-top table">
@@ -352,9 +359,9 @@
 <h1>IV: The Call of the Whole Church to Holiness</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 12%">
+<col style="width: 25%">
+<col style="width: 62%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -578,6 +585,51 @@
 </tr>
 </tbody>
 </table>
+</section>
+<section id="corpus-statistics" class="level1">
+<h1>Corpus Statistics</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/images/Frequency1.png" class="img-fluid figure-img"></p>
+<figcaption>LG Frequency of top 3 words: Church (green), God (blue), Christ(purple)</figcaption>
+</figure>
+</div>
+<p>This corpus has 8 documents with 107,205 total words and 3,120 unique word forms.</p>
+<p>Document Length:</p>
+<ul>
+<li>Longest: ch1 (26135); ch2 (22972); ch3 (18759); ch4 (13106)</li>
+<li>Shortest: ch8 (3519); ch7 (5612); ch6 (7291); ch5 (9811)</li>
+</ul>
+<p>Vocabulary Density:</p>
+<ul>
+<li>Highest: ch8 (0.263); ch7 (0.230); ch6 (0.212); ch5 (0.186)</li>
+<li>Lowest: ch1 (0.119); ch2 (0.128); ch3 (0.141); ch4 (0.166)</li>
+</ul>
+<p>Average Words Per Sentence:</p>
+<ul>
+<li>Highest: ch7 (57.9); ch6 (49.3); ch1 (48.7); ch3 (48.0)</li>
+<li>Lowest: ch4 (42.1); ch8 (44.0); ch5 (45.4); ch2 (47.9)</li>
+</ul>
+<p>Readability Index:</p>
+<ul>
+<li>Highest: ch3 (10.689); ch2 (10.479); ch1 (10.343); ch4 (10.262)</li>
+<li>Lowest: ch8 (9.701); ch7 (9.864); ch6 (10.169); ch5 (10.245)</li>
+</ul>
+<p>Most frequent words in the corpus:</p>
+<ul>
+<li>church (1042); god (1040); christ (968); life (400); holy (393); spirit (378); mother (375); faithful (327); faith (308); lord (300); world (287); charity (259); virgin (256); people (255); men (253); body (252); way (248); son (224); love (222); blessed (208); father (204); salvation (201); holiness (187); glory (186); jesus (184); mary (182); things (181); called (181); grace (176); word (173); divine (172); bishops (171); let (164); power (160); sacred (156)</li>
+</ul>
+<p>Distinctive words (compared to the rest of the corpus):</p>
+<ul>
+<li>ch1: laity (31); peter (20); roman (17); bishops (55); visible (16); successor (12); college (11); priests (22); believe (10); children (13); ministry (19); successors (9); nations (9); teaching (12); covenant (6); likeness (4); appointed (8); serve (11); religious (25); shepherd (15); means (15); bread (5); preach (7); exercise (14); bishop (14); authority (22); symbolized (3); risen (3); proclaim (6); peoples (6); morals (6); legitimate (6); israel (6); govern (6); pontiff (20).</li>
+<li>ch2: laity (31); peter (18); roman (17); bishops (54); successor (11); college (11); priests (22); visible (10); children (13); successors (9); ministry (18); believe (8); appointed (8); teaching (11); religious (25); preach (7); nations (7); exercise (14); bishop (14); morals (6); legitimate (6); govern (6); pontiff (20); churches (20); authority (20); shepherd (12); means (12); covenant (4); flock (18); orders (11); peoples (5); parts (5); israel (5); infallibility (5); collegiate (5).</li>
+<li>ch3: laity (31); roman (17); peter (16); bishops (52); college (11); successor (10); priests (20); successors (9); ministry (17); religious (23); bishop (14); visible (6); govern (6); teaching (8); pontiff (19); authority (19); shepherd (11); exercise (11); preach (5); morals (5); legitimate (5); infallibility (5); collegiate (5); appointed (5); accordance (5); counsels (17); teachers (7); serve (7); secular (7); function (7); children (7); orders (10); episcopal (10); flock (16); profession (15).</li>
+<li>ch4: laity (31); religious (20); counsels (17); secular (7); profession (15); evangelical (14); children (5); temporal (7); freedom (7); christians (6); activity (6); function (4); spiritual (20); service (9); daily (9); apostolate (9); society (5); priests (5); follow (5); hierarchy (8); state (17); teachers (3); social (3); ordinary (3); occupations (3); diversity (3); creator (3); affairs (3); become (7); authority (7); use (4); sharers (4); sanctification (4); participation (4); orders (4).</li>
+<li>ch5: counsels (17); religious (15); evangelical (14); profession (13); priests (5); service (7); use (4); follow (4); state (13); daily (6); institutes (5); grow (5); become (5); authority (5); sharers (3); participation (3); means (3); manifested (3); labors (3); hardships (3); working (4); vows (4); particular (4); hierarchy (4); chosen (4); bride (4); bond (4); bishops (4); spiritual (8); lives (8); greater (8); good (8); communion (8); walk (2); society (2).</li>
+<li>ch6: religious (15); counsels (14); profession (12); evangelical (11); institutes (5); authority (5); state (9); vows (4); communion (7); hierarchy (3); consecration (3); consecrated (3); believers (3); city (6); vocation (5); strengthened (5); working (2); welfare (2); undertaken (2); support (2); structure (2); states (2); stable (2); spiritually (2); service (2); rules (2); purpose (2); proven (2); progress (2); particular (2); ought (2); one’s (2); multiple (2); liberty (2); hierarchical (2).</li>
+<li>ch7: communion (7); praise (4); dead (4); closely (4); strengthened (3); resurrection (3); present (3); pilgrim (3); lamb (3); greater (3); good (3); evil (3); worship (2); won (2); witness (2); wayfarers (2); triune (2); teach (2); sufferings (2); signed (2); restoration (2); real (2); purified (2); practice (2); perfectly (2); offers (2); martyrs (2); majesty (2); lives (2); hand (2); groan (2); genuine (2); fuller (2); end (2); dwells (2).</li>
+<li>ch8: zealously (1); wrinkle (1); world (5); works (1); work (6); words (4); word (14); wonderfully (1); wonder (1); women (1); womb (1); woman (5); wishing (1); wish (1); wise (1); wisdom (1); willed (1); wherefore (3); ways (2); way (5); wavering (1); wandering (1); visit (1); virtues (2); virginal (3); virgin (30); viii (1); victory (1); victim (1); veneration (1); venerated (1); venerable (1); various (2); vain (1); used (1).</li>
+</ul>
 <div class="article-btn">
 <p><a href="../../Articles/index.html">More</a></p>
 </div>
@@ -586,7 +638,7 @@
 <dl>
 <dt>Author</dt>
 <dd>
-<p><a href="../../About/about.html">Fr.&nbsp;Tomasz Włodarczyk</a></p>
+<p><a href="../../About/about.html">Fr.&nbsp;Dr.&nbsp;Tomasz Włodarczyk</a></p>
 </dd>
 <dt><!-- Copyright and licence --></dt>
 <dd>
@@ -1655,7 +1707,7 @@ Włodarczyk, Tomasz. 2025. <span>“Plato’s Ship of State.”</span>
 </dd>
 <dt><!-- Copyright and licence --></dt>
 <dd>
-<p>© 2025 Ks. Tomasz Włodarczyk. All rights reserved.</p>
+<p>© 2026 Fr.&nbsp;Tomasz Włodarczyk. All rights reserved.</p>
 </dd>
 <dd>
 <p>Image <a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Jan_Porcellis_-_Ships_in_a_Storm_on_a_Rocky_Coast_-_Google_Art_Project.jpg">Jan Porcellis</a>, Public domain, via Wikimedia Commons</p>
