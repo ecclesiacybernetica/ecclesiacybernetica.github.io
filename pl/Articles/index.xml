@@ -15,10 +15,119 @@
 <link>https://ecclesiacybernetica.org/Articles/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 29 Sep 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Czym jest governance (ład korporacyjny)? Przewodnik dla początkujących i znaczenie dla Kościoła</title>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
+  <link>https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="wprowadzenie" class="level1">
+<h1>Wprowadzenie</h1>
+<p>Zajrzyj do klasycznych książek, do greckich filozofów czy Ojców Kościoła, i zapytaj, czym jest kierowanie (łac. <em>gubernare</em>, gr. <em>kybernein</em>). Potem zapytaj współczesnego dyrektora firmy, czym jest <em>governance</em>, czyli ład korporacyjny. Usłyszysz dwie różne odpowiedzi.</p>
+<p>Słowo pochodzi od greckiego <em>kybernein</em>, czyli sterować: okrętem, państwem, każdą instytucją. W tradycji klasycznej i kościelnej oznacza ono przede wszystkim prowadzenie, pasterzowanie. W zarządzaniu znaczy coś węższego: to system, dzięki któremu organizacja, przez swoich odpowiedzialnych przedstawicieli, przestrzega zasad, przepisów i dobrych praktyk, a to ma prowadzić do lepszych wyników. Zajmuje się tym zwykle rada dyrektorów.</p>
+<p>Opieram się na rozprawie doktorskiej Raymonda Pfanga o zarządzaniu w Kościele katolickim w Anglii [2015, uczelnia]. Postaram się wyjaśnić, co znaczy to słowo, czy ta koncepcja sprawdza się w biznesie i dlaczego pytanie o governance pojawia się w kontekście Kościoła, mimo że nie jest on instytucją rynkową.</p>
+</section>
+<section id="co-oznacza-pojęcie-governance" class="level1">
+<h1>Co oznacza pojęcie „governance”</h1>
+<p>W zarządzaniu firmą <em>governance</em> to system, za pomocą którego organizacja jest kierowana i rozliczana. Jest to zazwyczaj zadanie rady. Rada zatwierdza strategię firmy i rozlicza menedżerów z jej wykonania. Na przykład rada firmy technologicznej może zatwierdzić pięcioletni plan ekspansji w usługach opartych na sztucznej inteligencji, a potem co kwartał sprawdzać przychody, postępy w rozwoju produktów i ryzyka.</p>
+<p>Choć <em>governance</em> dosłownie znaczy kierowanie, w żargonie organizacyjnym nie jest tym samym co zarządzanie (<em>management</em>). Jedno wyznacza kierunek i sprawdza, czy idziemy dobrze. Drugie prowadzi codzienną działalność w tych ramach. Wróćmy do okrętu: rada ustala port docelowy i sprawdza, czy statek płynie właściwym kursem, a menedżerowie dbają o to, jak tam dopłynąć, i prowadzą statek na co dzień. Pierwsza strona pyta: „Czy to właściwy kierunek i czy jesteśmy na dobrej drodze?”. Druga: „Jak osiągnąć nasze cele?”. W polityce jest podobnie. Politycy wyznaczają cele, a eksperci wskazują jak je osiągnąć.</p>
+<p>Dobry ład korporacyjny opiera się na trzech filarach, które można zweryfikować: odpowiedzialności, przejrzystości i ujawnianiu informacji. Odpowiedzialność wymaga trzech elementów: jasnych standardów, informacji o tym, jak się do nich stosujemy, i sankcji za ich łamanie.</p>
+<p>Autor rozprawy opisuje governance także przez trzy elementy: mechanizmy, zgodność i wyniki. Skuteczne mechanizmy i przestrzeganie zasad mają prowadzić do lepszych rezultatów, niezależnie od tego, czy mierzy się je zwrotem dla inwestorów, wartością firmy czy realizacją celów strategicznych.</p>
+<p>Autor zaznacza też, że governance nie jest jedynym czynnikiem wpływającym na wyniki. Liczą się również strategia, zasoby, sytuacja w branży i otoczenie zewnętrzne. Dobry ład tworzy jednak warunki, w których kierownictwo może skutecznie działać w tych ograniczeniach.</p>
+</section>
+<section id="dlaczego-organizacje-zadają-sobie-tyle-trudu" class="level1">
+<h1>Dlaczego organizacje zadają sobie tyle trudu</h1>
+<p>Na jaki problem odpowiada governance? Istnieje dlatego, że właściciele firmy rzadko kierują nią osobiście, tylko przez zarządców. W literaturze nazywa się to problemem pryncypała i agenta (teorią agencji). Menedżerowie wiedzą o firmie znacznie więcej niż właściciele, a ich cele, zwłaszcza gdy są zatrudnieni na kilka lat, mogą być inne niż cele właścicieli.</p>
+<p>Ewangelie znają ten konflikt. W przypowieści o talentach właściciel wyjeżdża, powierza majątek sługom, a po powrocie żąda rozliczenia (Mt 25,14–30). W przypowieści o dzierżawcach winnicy ludzie, którym powierzono winnicę, nie chcą oddać właścicielowi plonów i zabijają jego syna, licząc na przejęcie dziedzictwa (Mt 21,33–39).</p>
+<p>W biznesie ten konflikt przybiera różne formy. Po kryzysie finansowym z 2007 roku brytyjski przegląd Walkera i raport De Larosière’a dla Komisji Europejskiej wskazały wśród przyczyn słabości rad dyrektorów oraz system zachęt, który premiował chciwość i nadmierne ryzyko.</p>
+<p>Celem governance jest ograniczenie ryzyka, że zarządca będzie działał na własną korzyść. Dzięki niemu menedżerowie powinni kierować organizacją uczciwie i zgodnie z celami właścicieli, w nadziei, że to da też lepsze wyniki. Założenie jest takie: skoro na rynku wypracowano praktyki chroniące przed znanymi błędami, firma, która ich przestrzega, powinna tych błędów popełniać mniej i średnio osiągać lepsze wyniki.</p>
+</section>
+<section id="czy-to-się-sprawdza-w-praktyce" class="level1">
+<h1>Czy to się sprawdza w praktyce?</h1>
+<p>Zaskakujące, ale badania nie dają jednoznacznej odpowiedzi, czy governance poprawia wyniki firm. Część badań znajduje związek, inne nie. Jedna duża analiza łącząca dziesiątki badań nie wykazała istotnego związku między strukturą rady a wynikami firm (Dalton i współautorzy, 1998, za: Pfang).</p>
+<p>Przyczyn sporu jest kilka. Po pierwsze, trudno zmierzyć, jak przejrzystość, struktura rady czy odpowiedzialność przekładają się na wyniki, i oddzielić ich wpływ od innych czynników. Po drugie, nie wiadomo, w którą stronę idzie przyczynowość: czy dobre rady tworzą dobre firmy, czy dobre firmy stać na dobre rady. Po trzecie, governance dotyczy ludzkich zachowań, które trudno obserwować i mierzyć. Każdy nauczyciel wie, że uczeń, który chce, znajdzie sposób na obejście reguł. Pytanie brzmi, czy przepisy mogą sprawić, że nawet człowiek zły będzie postępował dobrze. Dużo zależy od motywacji.</p>
+<p>Są też powody czysto praktyczne. Posiedzenia rad odbywają się za zamkniętymi drzwiami, więc badacze rzadko widzą, co się na nich dzieje, a badania posługują się wskaźnikami finansowymi jako miarą wyników. Mimo niejednoznacznych wyników badań statystycznych regulatorzy i inwestorzy nadal domagają się ładu korporacyjnego.</p>
+</section>
+<section id="czy-governance-to-coś-dla-kościoła" class="level1">
+<h1>Czy governance to coś dla Kościoła?</h1>
+<p>Ład korporacyjny, rada dyrektorów, wyniki finansowe: to nie jest słownictwo, do którego przywykliśmy w Kościele. Te pojęcia nie powstały w kontekście Kościoła ani dla Kościoła. A jednak pytania o governance wciąż płyną pod jego adresem.</p>
+<p>Zasady ładu korporacyjnego opracowano z myślą o spółkach giełdowych, które mają akcjonariuszy, wskaźniki finansowe i dążą do zysku. Misja Kościoła jest inna: zbawienie dusz. To cel trudny do zmierzenia.</p>
+<p>Dlaczego mimo to problem governance dla Kościoła jest dyskutowany? Po pierwsze dlatego, że Kościół ma własne prawo, które nakłada na zarządców dóbr kościelnych obowiązki o charakterze zarządczym. Kanon 1284 Kodeksu Prawa Kanonicznego mówi, że zarządcy mają działać „starannością dobrego gospodarza”, prowadzić księgi, spłacać zobowiązania, inwestować nadwyżki. To jeszcze nie jest governance w sensie nadzoru nad rządzącymi, ale pokazuje, że Kościół nie traktuje rzetelnego zarządzania jako czegoś zbędnego. Kościół musi też przestrzegać prawa cywilnego dotyczącego zatrudnienia, podatków i bezpieczeństwa.</p>
+<p>Po drugie liczy się skala. Według statystyk watykańskich ochrzczeni katolicy to około 17,8% ludności świata, czyli szacunkowo ponad 1,4 miliarda osób, a Kościołem kieruje ponad pięć tysięcy biskupów. Do tego dochodzą szkoły, szpitale i instytucje charytatywne. Taka złożoność sprawia, że nadzór staje się koniecznością praktyczną, a nie tylko problemem teologicznym. Trudno się w tym zorientować, a co dopiero pilnować zgodności działań biskupów i proboszczów z przepisami i polityką Stolicy Apostolskiej.</p>
+<p>Po trzecie, od lat głośno jest o skandalach w Kościele. Najbardziej widoczne dotyczyły nadużyć seksualnych, ale media informują też o sprawach związanych z niegospodarnością, długami i konfliktami w diecezjach. Autorzy krytyczni wobec obecnego systemu nadzoru podkreślają potrzebę wprowadzenia ładu korporacyjnego. Cytuje ich Pfang (pisali w latach 2003–2006):</p>
+<ul>
+<li><strong>Cafardi (2004)</strong> ostrzega, że jeśli hierarchowie nie uznają odpowiedzialności, społeczeństwo zmusi ich do rozliczenia przez procesy cywilne lub postępowania karne.</li>
+<li><strong>Doost (2003)</strong>, w artykule zestawiającym Enron i Kościół, uważa, że Kościół, jako największa denominacja chrześcijańska, powinien mieć system ładu korporacyjnego na akceptowalnym poziomie.</li>
+<li><strong>Post (2003)</strong> twierdzi, że porażki ładu korporacyjnego w firmach XXI wieku bledną w porównaniu z tym, jak Kościół poradził sobie ze skandalami. Proponuje zasady demokratyczne, silniejszą odpowiedzialność duchowieństwa, która ograniczałaby niemal absolutną władzę biskupów, i większą odpowiedzialność finansową.</li>
+<li><strong>Gluck (2003)</strong> wskazuje na brak skutecznego systemu pomiaru wyników, mechanizmów planowania i zarządzania zasobami ludzkimi.</li>
+<li><strong>Martin (2006)</strong> podkreśla potrzebę przejrzystości finansowej.</li>
+</ul>
+<p>Sam fakt ich cytowania nie przesądza o tym, że mają rację. Nie analizuję tu przyczyn skandali, podobnie jak autor rozprawy, i nie twierdzę, że lepszy governance by im zapobiegł. Badania z biznesu nie pozwalają zresztą twierdzić nawet tego, że governance zapobiega upadkom firm.</p>
+<p>Diecezja nie jest też bezduszną korporacją, a wierni i księża nie są zasobami ludzkimi. Nie ma w niej akcjonariuszy ani rady dyrektorów w sensie korporacyjnym. Są ciała doradcze, jak rada kapłańska, rada ds. ekonomicznych i kolegium konsultorów, ale w większości spraw mają głos doradczy. Nie ma odpowiedzialności zbiorowej za decyzje, bo odpowiedzialność spoczywa na biskupie diecezjalnym. Diecezja nie jest też firmą, której głównym celem jest zarabianie pieniędzy. Część wiernych patrzy z niechęcią na bogactwo Kościoła. Kościół potrzebuje środków na swoją działalność, ale jednocześnie głosi, że nie można służyć Bogu i Mamonie (Mt 6,24) ani gromadzić sobie skarbów na ziemi (Mt 6,19). Wskaźniki finansowe dają łatwy sposób oceny firmy rynkowej. Zły wybór miary może być jednak katastrofalny dla misji Kościoła, jeśli jedynym kryterium stanie się nie dobro dusz, lecz na przykład nadwyżka finansowa.</p>
+<p>Kluczowa różnica między firmą z ładem korporacyjnym a diecezją polega według autora rozprawy na tym, że w Kościele odpowiedzialność jest osobista. Cała władza, ale też cała odpowiedzialność, spoczywa w rękach biskupa. Nie anonimowa „rada nadzorcza”, lecz „biskup X Y” odpowiada za stan diecezji. Choć mianuje go Rzym, kieruje diecezją samodzielnie, we własnym imieniu. Przede wszystkim odpowiada przed Bogiem. Co do odpowiedzialności ziemskiej, autor rozprawy (na podstawie badań w Anglii) twierdzi, że prawo kanoniczne nie nakłada na biskupa ogólnego obowiązku tłumaczenia się ze swoich decyzji przed „interesariuszami”, czyli księżmi i wiernymi. Biskup jest natomiast zobowiązany raportować „w górę”: co pięć lat składa Stolicy Apostolskiej sprawozdanie o stanie diecezji.</p>
+</section>
+<section id="co-z-tego-wynika" class="level1">
+<h1>Co z tego wynika?</h1>
+<p>Prawdziwe pytanie nie brzmi, czy przenieść do Kościoła rozwiązania z firm rynkowych jeden do jednego. Brzmi: jak mogłaby wyglądać rozliczalność z podejmowanych decyzji w instytucji sakralnej, której misją jest zbawienie dusz? Jak wprowadzić mechanizmy, które pomagałyby unikać nadużyć, a nie zamazywały odpowiedzialności biskupa i nie stawały na przeszkodzie misji prowadzenia dusz do zbawienia? Czy w Kościele z ładem korporacyjnym czulibyśmy się bardziej jak w domu, czy jak w pracy? Na pewno do rozwiązania tego problemu potrzeba wiele roztropności.</p>
+<hr>
+</section>
+<section id="źródła" class="level1">
+<h1>Źródła</h1>
+<ul>
+<li>Pfang, T. Raymond. (2013). <em>Management in the Catholic Church: Towards an Ecclesiastical Model of Corporate Governance.</em> University of Surrey.</li>
+<li>Kodeks Prawa Kanonicznego (1983), kan. 1284 [i 1287 §2, 1277 po sprawdzeniu].</li>
+<li>Vatican News (marzec 2026), dane z Annuario Pontificio 2026 i Annuarium Statisticum Ecclesiae 2024.</li>
+</ul>
+<div class="article-btn">
+<p><a href="../../Articles/index.html">Więcej</a></p>
+</div>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>O autorze</dt>
+<dd>
+<a href="../../About/about.html">Ks. Tomasz Włodarczyk</a>
+</dd>
+<dt><!-- Copyright and licence --></dt>
+<dd>
+© 2026 Ks. Dr Tomasz Włodarczyk. All rights reserved.
+</dd>
+<dd>
+Image: By Diego Velázquez - <a href="http://picasaweb.google.com/EnrikeCdC/VelazquezObraCompleta#5297131513290212530">Link</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9556265">wikipedia</a>
+</dd>
+</dl>
+</div>
+<div class="g-col-12 g-col-md-6">
+
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2026" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2026. <span>“Czym jest governance (ład
+korporacyjny)? Przewodnik dla początkujących i znaczenie dla
+Kościoła.”</span> <em>Ecclesia Cybernetica</em>, accepted, October 10.
+<a href="https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/">https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/</a>.
+</div></div></section></div> ]]></description>
+  <category>governance</category>
+  <category>management</category>
+  <category>church governance</category>
+  <category>diocese,</category>
+  <category>canon law</category>
+  <guid>https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/</guid>
+  <pubDate>Fri, 09 Oct 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/images/Inocencio10.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Konstytucja Dogmatyczna o Kościele - streszczenie</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/</link>
   <description><![CDATA[ 
 
@@ -611,10 +720,10 @@ Image: By <a href="//commons.wikimedia.org/wiki/User:Tournasol7" title="User:Tou
 <ol>
 <li id="fn1"><p>Do wykonania streszczenia zostały użyte narzędzia SI.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2026" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2026. <span>“Konstytucja Dogmatyczna o Kościele -
-streszczenie.”</span> <em>Ecclesia Cybernetica</em>, accepted, September
-30. <a href="https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/">https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/</a>.
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2026" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2026. <span>“Konstytucja Dogmatyczna o
+Kościele - streszczenie.”</span> <em>Ecclesia Cybernetica</em>,
+accepted, September 30. <a href="https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/">https://ecclesiacybernetica.org/Articles/2026-09-30-Lumen-gentium/</a>.
 </div></div></section></div> ]]></description>
   <category>Lumen Gentium</category>
   <category>Vatican Council</category>
@@ -625,7 +734,7 @@ streszczenie.”</span> <em>Ecclesia Cybernetica</em>, accepted, September
 </item>
 <item>
   <title>Święty Piotr jest większym filozofem od Platona</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/</link>
   <description><![CDATA[ 
 
@@ -670,9 +779,10 @@ Image: Peter Paul Rubens, <em>The Apostle Saint Peter</em>, Public domain, via <
 <ol>
 <li id="fn1"><p>Przetłumaczone z: J. Walker, J. Sheppard and H. Browne, and revised by George B. Stevens. From Nicene and Post-Nicene Fathers, First Series, Vol. 11. Edited by Philip Schaff. (Buffalo, NY: Christian Literature Publishing Co., 1889.) Revised and edited for New Advent by Kevin Knight. <a href="http://www.newadvent.org/fathers/210104.htm" class="uri">http://www.newadvent.org/fathers/210104.htm</a>.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Święty Piotr jest większym filozofem od
-Platona.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 21. <a href="https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/">https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/</a>.
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Święty Piotr jest większym
+filozofem od Platona.”</span> <em>Ecclesia Cybernetica</em>, accepted,
+August 21. <a href="https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/">https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-greater-than-Plato/</a>.
 </div></div></section></div> ]]></description>
   <category>Quotation</category>
   <category>St. Peter</category>
@@ -683,7 +793,7 @@ Platona.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 21. <a href="
 </item>
 <item>
   <title>Jak szukać słów w Biblii?</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-07-Biblia-lodz/</link>
   <description><![CDATA[ 
 
@@ -755,8 +865,8 @@ Platona.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 21. <a href="
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Jak szukać słów w Biblii?”</span>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Jak szukać słów w Biblii?”</span>
 <em>Ecclesia Cybernetica</em>, accepted, August 15. <a href="https://ecclesiacybernetica.org/Articles/2025-08-07-Biblia-lodz/">https://ecclesiacybernetica.org/Articles/2025-08-07-Biblia-lodz/</a>.
 </div></div></section></div> ]]></description>
   <category>Tutorial</category>
@@ -768,7 +878,7 @@ Włodarczyk, Tomasz. 2025. <span>“Jak szukać słów w Biblii?”</span>
 </item>
 <item>
   <title>Platon i Piotr jako cybernetycy</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-and-Plato/</link>
   <description><![CDATA[ 
 
@@ -849,8 +959,8 @@ Image: Duccio di Buoninsegna, Public Domain, via <a href="https://commons.wikime
 <ol>
 <li id="fn1"><p>Przetłumaczone z: J. Walker, J. Sheppard and H. Browne, and revised by George B. Stevens. From Nicene and Post-Nicene Fathers, First Series, Vol. 11. Edited by Philip Schaff. (Buffalo, NY: Christian Literature Publishing Co., 1889.) Revised and edited for New Advent by Kevin Knight. <a href="http://www.newadvent.org/fathers/210104.htm" class="uri">http://www.newadvent.org/fathers/210104.htm</a>.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Platon i Piotr jako
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Platon i Piotr jako
 cybernetycy.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 12.
 <a href="https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-and-Plato/">https://ecclesiacybernetica.org/Articles/2025-08-20-Peter-and-Plato/</a>.
 </div></div></section></div> ]]></description>
@@ -862,7 +972,7 @@ cybernetycy.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 12.
 </item>
 <item>
   <title>Sprzężenia zwrotne w zarządzaniu Watykanem</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-20-Feedback-in-Vatican/</link>
   <description><![CDATA[ 
 
@@ -951,8 +1061,8 @@ Image: Nicolas Béatrizet, Según Giotto di Bondone, “Der Titulus Von Giottos 
 <ol>
 <li id="fn1"><p>Przy stawianiu obelisku na placu świętego Piotra był ściśle określony sposób komunikowania, pod karą więzienia nie wolno było się odzywać. Ale rzekomo, mimo to, jeden z pracowników krzyknął: zwilżyć liny, bo pękają! I ocalił życie pracowników i sam obelisk.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Sprzężenia zwrotne w zarządzaniu
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Sprzężenia zwrotne w zarządzaniu
 Watykanem.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 11.
 <a href="https://ecclesiacybernetica.org/Articles/2025-08-20-Feedback-in-Vatican/">https://ecclesiacybernetica.org/Articles/2025-08-20-Feedback-in-Vatican/</a>.
 </div></div></section></div> ]]></description>
@@ -965,7 +1075,7 @@ Watykanem.”</span> <em>Ecclesia Cybernetica</em>, accepted, August 11.
 </item>
 <item>
   <title>Statek Platona</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/</link>
   <description><![CDATA[ 
 
@@ -1004,9 +1114,9 @@ Image: Plato’s Academy mosaic. Roman mosaic of the 1st century BCE from Pompei
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Statek Platona.”</span> <em>Ecclesia
-Cybernetica</em>, accepted, August 10. <a href="https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/">https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/</a>.
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Statek Platona.”</span>
+<em>Ecclesia Cybernetica</em>, accepted, August 10. <a href="https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/">https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/</a>.
 </div></div></section></div> ]]></description>
   <guid>https://ecclesiacybernetica.org/Articles/2025-08-05-PlStPa/</guid>
   <pubDate>Sat, 09 Aug 2025 22:00:00 GMT</pubDate>
@@ -1014,7 +1124,7 @@ Cybernetica</em>, accepted, August 10. <a href="https://ecclesiacybernetica.org/
 </item>
 <item>
   <title>Cybernetyczny Papież</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-1-Cybernetic-Pope/</link>
   <description><![CDATA[ 
 
@@ -1126,8 +1236,8 @@ Harari, Yuval Noah. 2017. <em>Homo <span>Deus</span>: <span>A Brief History</spa
 <ol>
 <li id="fn1"><p>“Pur essendo una rivista di cultura generale, La Civiltà Cattolica non è un periodico «popolare», bensì di alta divulgazione. Gli argomenti vi sono trattati in modo che possano essere compresi anche da persone non specializzate in quella materia; ma la trattazione è, per quanto possibile, scientificamente rigorosa e seriamente approfondita.” (pl. “Mimo że La Civiltà Cattolica jest czasopismem poświęconym kulturze ogólnej, nie jest to magazyn „popularny”, lecz o wysokim poziomie merytorycznym. Tematy są w nim poruszane w sposób zrozumiały również dla osób niebędących specjalistami w danej dziedzinie, ale omówienie jest, w miarę możliwości, naukowo rygorystyczne i poważnie pogłębione.”) Oficjalna strona <a href="https://web.archive.org/web/20070928072606/http://www.laciviltacattolica.it/Storia/Divulgazione.htm">Zarchiwizowane</a> 28 września 2007 na Wayback Machine.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Cybernetyczny Papież.”</span>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Cybernetyczny Papież.”</span>
 <em>Ecclesia Cybernetica</em>, accepted, August 1. <a href="https://ecclesiacybernetica.org/Articles/2025-08-1-Cybernetic-Pope/">https://ecclesiacybernetica.org/Articles/2025-08-1-Cybernetic-Pope/</a>.
 </div></div></section></div> ]]></description>
   <category>Cybernetics</category>
@@ -1140,7 +1250,7 @@ Włodarczyk, Tomasz. 2025. <span>“Cybernetyczny Papież.”</span>
 </item>
 <item>
   <title>Jezus Chrystus, Piotr i jego łódź</title>
-  <dc:creator>Tomasz Włodarczyk</dc:creator>
+  <dc:creator>Ks. Dr Tomasz Włodarczyk</dc:creator>
   <link>https://ecclesiacybernetica.org/Articles/2025-08-06-Jezus-ratuje-Piotra/</link>
   <description><![CDATA[ 
 
@@ -1217,8 +1327,8 @@ Picture: Lorenzo Veneziano, <em>Christ Rescuing Peter from Drowning</em>, Public
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-włodarczyk2025" class="csl-entry quarto-appendix-citeas">
-Włodarczyk, Tomasz. 2025. <span>“Jezus Chrystus, Piotr i jego
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2025" class="csl-entry quarto-appendix-citeas">
+Dr Tomasz Włodarczyk, Ks. 2025. <span>“Jezus Chrystus, Piotr i jego
 łódź.”</span> <em>Ecclesia Cybernetica</em>, accepted, July 17. <a href="https://ecclesiacybernetica.org/Articles/2025-08-06-Jezus-ratuje-Piotra/">https://ecclesiacybernetica.org/Articles/2025-08-06-Jezus-ratuje-Piotra/</a>.
 </div></div></section></div> ]]></description>
   <category>Bible</category>

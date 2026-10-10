@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ks. Dr Tomasz Włodarczyk">
+<meta name="description" content="Ład korporacyjny (governance) to nie to samo, co zarządzanie. Przystępny przewodnik: na czym polega governance, czy się sprawdza i jaki ma związek z Kościołem katolickim.">
+
+<title>Czym jest governance (ład korporacyjny)? Przewodnik dla początkujących i znaczenie dla Kościoła – Ecclesia Cybernetica</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo-crc.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-237844a96d9f42ede84c715f4bbff11c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(images/Inocencio10.jpg);
+background-size: cover;
+      }
+</style>
+<!--Source: https://github.com/quarto-dev/quarto-cli/discussions/3842#discussioncomment-4591721 -->
+
+
+<meta property="og:title" content="Czym jest governance (ład korporacyjny)? Przewodnik dla początkujących i znaczenie dla Kościoła – Ecclesia Cybernetica">
+<meta property="og:description" content="Ład korporacyjny (governance) to nie to samo, co zarządzanie. Przystępny przewodnik: na czym polega governance, czy się sprawdza i jaki ma związek z Kościołem katolickim.">
+<meta property="og:image" content="https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/images/Inocencio10.jpg">
+<meta property="og:site_name" content="Ecclesia Cybernetica">
+<meta name="citation_title" content="Czym jest governance (ład korporacyjny)? Przewodnik dla początkujących i znaczenie dla Kościoła">
+<meta name="citation_author" content="Ks. Dr Tomasz Włodarczyk">
+<meta name="citation_publication_date" content="2026-10-10">
+<meta name="citation_cover_date" content="2026-10-10">
+<meta name="citation_year" content="2026">
+<meta name="citation_online_date" content="2026-10-10">
+<meta name="citation_fulltext_html_url" content="https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/">
+<meta name="citation_language" content="pl">
+<meta name="citation_journal_title" content="Ecclesia Cybernetica">
+</head><body class="nav-fixed quarto-light"><div id="progress-bar" style="width: 0%; height:5px; background-color: #FEC017;; position: fixed; top: 0px; z-index: 2000;"></div>
+
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+
+
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo light-content">
+    <img src="../../images/logo-black.png" alt="Ecclesia Cybernetica" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ecclesia Cybernetica</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Szukaj"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Przełącz nawigację" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../Articles/index.html"> 
+<span class="menu-text">Artykuły</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Cybernetics/index.html"> 
+<span class="menu-text">Cybernetyka</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-info" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Info</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-info">    
+        <li>
+    <a class="dropdown-item" href="../../About/about.html">
+ <span class="dropdown-text">O stronie i autorze</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../About/contribute.html">
+ <span class="dropdown-text">Dołącz!</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../About/contact.html">
+ <span class="dropdown-text">Kontakt</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../Donate/index.html"> 
+<span class="menu-text"><span class="btn btn-primary">Wesprzyj</span></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://ecclesiacybernetica.org/"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Czym jest governance (ład korporacyjny)? Przewodnik dla początkujących i znaczenie dla Kościoła</h1>
+                  <div>
+        <div class="description">
+          <p>Ład korporacyjny (governance) to nie to samo, co zarządzanie. Przystępny przewodnik: na czym polega governance, czy się sprawdza i jaki ma związek z Kościołem katolickim.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">governance</div>
+                <div class="quarto-category">management</div>
+                <div class="quarto-category">church governance</div>
+                <div class="quarto-category">diocese,</div>
+                <div class="quarto-category">canon law</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ks. Dr Tomasz Włodarczyk </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Opublikowano</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">10 października 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na tej stronie</h2>
+   
+  <ul>
+  <li><a href="#wprowadzenie" id="toc-wprowadzenie" class="nav-link active" data-scroll-target="#wprowadzenie">Wprowadzenie</a></li>
+  <li><a href="#co-oznacza-pojęcie-governance" id="toc-co-oznacza-pojęcie-governance" class="nav-link" data-scroll-target="#co-oznacza-pojęcie-governance">Co oznacza pojęcie „governance”</a></li>
+  <li><a href="#dlaczego-organizacje-zadają-sobie-tyle-trudu" id="toc-dlaczego-organizacje-zadają-sobie-tyle-trudu" class="nav-link" data-scroll-target="#dlaczego-organizacje-zadają-sobie-tyle-trudu">Dlaczego organizacje zadają sobie tyle trudu</a></li>
+  <li><a href="#czy-to-się-sprawdza-w-praktyce" id="toc-czy-to-się-sprawdza-w-praktyce" class="nav-link" data-scroll-target="#czy-to-się-sprawdza-w-praktyce">Czy to się sprawdza w praktyce?</a></li>
+  <li><a href="#czy-governance-to-coś-dla-kościoła" id="toc-czy-governance-to-coś-dla-kościoła" class="nav-link" data-scroll-target="#czy-governance-to-coś-dla-kościoła">Czy governance to coś dla Kościoła?</a></li>
+  <li><a href="#co-z-tego-wynika" id="toc-co-z-tego-wynika" class="nav-link" data-scroll-target="#co-z-tego-wynika">Co z tego wynika?</a></li>
+  <li><a href="#źródła" id="toc-źródła" class="nav-link" data-scroll-target="#źródła">Źródła</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Inne formaty</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="wprowadzenie" class="level1">
+<h1>Wprowadzenie</h1>
+<p>Zajrzyj do klasycznych książek, do greckich filozofów czy Ojców Kościoła, i zapytaj, czym jest kierowanie (łac. <em>gubernare</em>, gr. <em>kybernein</em>). Potem zapytaj współczesnego dyrektora firmy, czym jest <em>governance</em>, czyli ład korporacyjny. Usłyszysz dwie różne odpowiedzi.</p>
+<p>Słowo pochodzi od greckiego <em>kybernein</em>, czyli sterować: okrętem, państwem, każdą instytucją. W tradycji klasycznej i kościelnej oznacza ono przede wszystkim prowadzenie, pasterzowanie. W zarządzaniu znaczy coś węższego: to system, dzięki któremu organizacja, przez swoich odpowiedzialnych przedstawicieli, przestrzega zasad, przepisów i dobrych praktyk, a to ma prowadzić do lepszych wyników. Zajmuje się tym zwykle rada dyrektorów.</p>
+<p>Opieram się na rozprawie doktorskiej Raymonda Pfanga o zarządzaniu w Kościele katolickim w Anglii [2015, uczelnia]. Postaram się wyjaśnić, co znaczy to słowo, czy ta koncepcja sprawdza się w biznesie i dlaczego pytanie o governance pojawia się w kontekście Kościoła, mimo że nie jest on instytucją rynkową.</p>
+</section>
+<section id="co-oznacza-pojęcie-governance" class="level1">
+<h1>Co oznacza pojęcie „governance”</h1>
+<p>W zarządzaniu firmą <em>governance</em> to system, za pomocą którego organizacja jest kierowana i rozliczana. Jest to zazwyczaj zadanie rady. Rada zatwierdza strategię firmy i rozlicza menedżerów z jej wykonania. Na przykład rada firmy technologicznej może zatwierdzić pięcioletni plan ekspansji w usługach opartych na sztucznej inteligencji, a potem co kwartał sprawdzać przychody, postępy w rozwoju produktów i ryzyka.</p>
+<p>Choć <em>governance</em> dosłownie znaczy kierowanie, w żargonie organizacyjnym nie jest tym samym co zarządzanie (<em>management</em>). Jedno wyznacza kierunek i sprawdza, czy idziemy dobrze. Drugie prowadzi codzienną działalność w tych ramach. Wróćmy do okrętu: rada ustala port docelowy i sprawdza, czy statek płynie właściwym kursem, a menedżerowie dbają o to, jak tam dopłynąć, i prowadzą statek na co dzień. Pierwsza strona pyta: „Czy to właściwy kierunek i czy jesteśmy na dobrej drodze?”. Druga: „Jak osiągnąć nasze cele?”. W polityce jest podobnie. Politycy wyznaczają cele, a eksperci wskazują jak je osiągnąć.</p>
+<p>Dobry ład korporacyjny opiera się na trzech filarach, które można zweryfikować: odpowiedzialności, przejrzystości i ujawnianiu informacji. Odpowiedzialność wymaga trzech elementów: jasnych standardów, informacji o tym, jak się do nich stosujemy, i sankcji za ich łamanie.</p>
+<p>Autor rozprawy opisuje governance także przez trzy elementy: mechanizmy, zgodność i wyniki. Skuteczne mechanizmy i przestrzeganie zasad mają prowadzić do lepszych rezultatów, niezależnie od tego, czy mierzy się je zwrotem dla inwestorów, wartością firmy czy realizacją celów strategicznych.</p>
+<p>Autor zaznacza też, że governance nie jest jedynym czynnikiem wpływającym na wyniki. Liczą się również strategia, zasoby, sytuacja w branży i otoczenie zewnętrzne. Dobry ład tworzy jednak warunki, w których kierownictwo może skutecznie działać w tych ograniczeniach.</p>
+</section>
+<section id="dlaczego-organizacje-zadają-sobie-tyle-trudu" class="level1">
+<h1>Dlaczego organizacje zadają sobie tyle trudu</h1>
+<p>Na jaki problem odpowiada governance? Istnieje dlatego, że właściciele firmy rzadko kierują nią osobiście, tylko przez zarządców. W literaturze nazywa się to problemem pryncypała i agenta (teorią agencji). Menedżerowie wiedzą o firmie znacznie więcej niż właściciele, a ich cele, zwłaszcza gdy są zatrudnieni na kilka lat, mogą być inne niż cele właścicieli.</p>
+<p>Ewangelie znają ten konflikt. W przypowieści o talentach właściciel wyjeżdża, powierza majątek sługom, a po powrocie żąda rozliczenia (Mt 25,14–30). W przypowieści o dzierżawcach winnicy ludzie, którym powierzono winnicę, nie chcą oddać właścicielowi plonów i zabijają jego syna, licząc na przejęcie dziedzictwa (Mt 21,33–39).</p>
+<p>W biznesie ten konflikt przybiera różne formy. Po kryzysie finansowym z 2007 roku brytyjski przegląd Walkera i raport De Larosière’a dla Komisji Europejskiej wskazały wśród przyczyn słabości rad dyrektorów oraz system zachęt, który premiował chciwość i nadmierne ryzyko.</p>
+<p>Celem governance jest ograniczenie ryzyka, że zarządca będzie działał na własną korzyść. Dzięki niemu menedżerowie powinni kierować organizacją uczciwie i zgodnie z celami właścicieli, w nadziei, że to da też lepsze wyniki. Założenie jest takie: skoro na rynku wypracowano praktyki chroniące przed znanymi błędami, firma, która ich przestrzega, powinna tych błędów popełniać mniej i średnio osiągać lepsze wyniki.</p>
+</section>
+<section id="czy-to-się-sprawdza-w-praktyce" class="level1">
+<h1>Czy to się sprawdza w praktyce?</h1>
+<p>Zaskakujące, ale badania nie dają jednoznacznej odpowiedzi, czy governance poprawia wyniki firm. Część badań znajduje związek, inne nie. Jedna duża analiza łącząca dziesiątki badań nie wykazała istotnego związku między strukturą rady a wynikami firm (Dalton i współautorzy, 1998, za: Pfang).</p>
+<p>Przyczyn sporu jest kilka. Po pierwsze, trudno zmierzyć, jak przejrzystość, struktura rady czy odpowiedzialność przekładają się na wyniki, i oddzielić ich wpływ od innych czynników. Po drugie, nie wiadomo, w którą stronę idzie przyczynowość: czy dobre rady tworzą dobre firmy, czy dobre firmy stać na dobre rady. Po trzecie, governance dotyczy ludzkich zachowań, które trudno obserwować i mierzyć. Każdy nauczyciel wie, że uczeń, który chce, znajdzie sposób na obejście reguł. Pytanie brzmi, czy przepisy mogą sprawić, że nawet człowiek zły będzie postępował dobrze. Dużo zależy od motywacji.</p>
+<p>Są też powody czysto praktyczne. Posiedzenia rad odbywają się za zamkniętymi drzwiami, więc badacze rzadko widzą, co się na nich dzieje, a badania posługują się wskaźnikami finansowymi jako miarą wyników. Mimo niejednoznacznych wyników badań statystycznych regulatorzy i inwestorzy nadal domagają się ładu korporacyjnego.</p>
+</section>
+<section id="czy-governance-to-coś-dla-kościoła" class="level1">
+<h1>Czy governance to coś dla Kościoła?</h1>
+<p>Ład korporacyjny, rada dyrektorów, wyniki finansowe: to nie jest słownictwo, do którego przywykliśmy w Kościele. Te pojęcia nie powstały w kontekście Kościoła ani dla Kościoła. A jednak pytania o governance wciąż płyną pod jego adresem.</p>
+<p>Zasady ładu korporacyjnego opracowano z myślą o spółkach giełdowych, które mają akcjonariuszy, wskaźniki finansowe i dążą do zysku. Misja Kościoła jest inna: zbawienie dusz. To cel trudny do zmierzenia.</p>
+<p>Dlaczego mimo to problem governance dla Kościoła jest dyskutowany? Po pierwsze dlatego, że Kościół ma własne prawo, które nakłada na zarządców dóbr kościelnych obowiązki o charakterze zarządczym. Kanon 1284 Kodeksu Prawa Kanonicznego mówi, że zarządcy mają działać „starannością dobrego gospodarza”, prowadzić księgi, spłacać zobowiązania, inwestować nadwyżki. To jeszcze nie jest governance w sensie nadzoru nad rządzącymi, ale pokazuje, że Kościół nie traktuje rzetelnego zarządzania jako czegoś zbędnego. Kościół musi też przestrzegać prawa cywilnego dotyczącego zatrudnienia, podatków i bezpieczeństwa.</p>
+<p>Po drugie liczy się skala. Według statystyk watykańskich ochrzczeni katolicy to około 17,8% ludności świata, czyli szacunkowo ponad 1,4 miliarda osób, a Kościołem kieruje ponad pięć tysięcy biskupów. Do tego dochodzą szkoły, szpitale i instytucje charytatywne. Taka złożoność sprawia, że nadzór staje się koniecznością praktyczną, a nie tylko problemem teologicznym. Trudno się w tym zorientować, a co dopiero pilnować zgodności działań biskupów i proboszczów z przepisami i polityką Stolicy Apostolskiej.</p>
+<p>Po trzecie, od lat głośno jest o skandalach w Kościele. Najbardziej widoczne dotyczyły nadużyć seksualnych, ale media informują też o sprawach związanych z niegospodarnością, długami i konfliktami w diecezjach. Autorzy krytyczni wobec obecnego systemu nadzoru podkreślają potrzebę wprowadzenia ładu korporacyjnego. Cytuje ich Pfang (pisali w latach 2003–2006):</p>
+<ul>
+<li><strong>Cafardi (2004)</strong> ostrzega, że jeśli hierarchowie nie uznają odpowiedzialności, społeczeństwo zmusi ich do rozliczenia przez procesy cywilne lub postępowania karne.</li>
+<li><strong>Doost (2003)</strong>, w artykule zestawiającym Enron i Kościół, uważa, że Kościół, jako największa denominacja chrześcijańska, powinien mieć system ładu korporacyjnego na akceptowalnym poziomie.</li>
+<li><strong>Post (2003)</strong> twierdzi, że porażki ładu korporacyjnego w firmach XXI wieku bledną w porównaniu z tym, jak Kościół poradził sobie ze skandalami. Proponuje zasady demokratyczne, silniejszą odpowiedzialność duchowieństwa, która ograniczałaby niemal absolutną władzę biskupów, i większą odpowiedzialność finansową.</li>
+<li><strong>Gluck (2003)</strong> wskazuje na brak skutecznego systemu pomiaru wyników, mechanizmów planowania i zarządzania zasobami ludzkimi.</li>
+<li><strong>Martin (2006)</strong> podkreśla potrzebę przejrzystości finansowej.</li>
+</ul>
+<p>Sam fakt ich cytowania nie przesądza o tym, że mają rację. Nie analizuję tu przyczyn skandali, podobnie jak autor rozprawy, i nie twierdzę, że lepszy governance by im zapobiegł. Badania z biznesu nie pozwalają zresztą twierdzić nawet tego, że governance zapobiega upadkom firm.</p>
+<p>Diecezja nie jest też bezduszną korporacją, a wierni i księża nie są zasobami ludzkimi. Nie ma w niej akcjonariuszy ani rady dyrektorów w sensie korporacyjnym. Są ciała doradcze, jak rada kapłańska, rada ds. ekonomicznych i kolegium konsultorów, ale w większości spraw mają głos doradczy. Nie ma odpowiedzialności zbiorowej za decyzje, bo odpowiedzialność spoczywa na biskupie diecezjalnym. Diecezja nie jest też firmą, której głównym celem jest zarabianie pieniędzy. Część wiernych patrzy z niechęcią na bogactwo Kościoła. Kościół potrzebuje środków na swoją działalność, ale jednocześnie głosi, że nie można służyć Bogu i Mamonie (Mt 6,24) ani gromadzić sobie skarbów na ziemi (Mt 6,19). Wskaźniki finansowe dają łatwy sposób oceny firmy rynkowej. Zły wybór miary może być jednak katastrofalny dla misji Kościoła, jeśli jedynym kryterium stanie się nie dobro dusz, lecz na przykład nadwyżka finansowa.</p>
+<p>Kluczowa różnica między firmą z ładem korporacyjnym a diecezją polega według autora rozprawy na tym, że w Kościele odpowiedzialność jest osobista. Cała władza, ale też cała odpowiedzialność, spoczywa w rękach biskupa. Nie anonimowa „rada nadzorcza”, lecz „biskup X Y” odpowiada za stan diecezji. Choć mianuje go Rzym, kieruje diecezją samodzielnie, we własnym imieniu. Przede wszystkim odpowiada przed Bogiem. Co do odpowiedzialności ziemskiej, autor rozprawy (na podstawie badań w Anglii) twierdzi, że prawo kanoniczne nie nakłada na biskupa ogólnego obowiązku tłumaczenia się ze swoich decyzji przed „interesariuszami”, czyli księżmi i wiernymi. Biskup jest natomiast zobowiązany raportować „w górę”: co pięć lat składa Stolicy Apostolskiej sprawozdanie o stanie diecezji.</p>
+</section>
+<section id="co-z-tego-wynika" class="level1">
+<h1>Co z tego wynika?</h1>
+<p>Prawdziwe pytanie nie brzmi, czy przenieść do Kościoła rozwiązania z firm rynkowych jeden do jednego. Brzmi: jak mogłaby wyglądać rozliczalność z podejmowanych decyzji w instytucji sakralnej, której misją jest zbawienie dusz? Jak wprowadzić mechanizmy, które pomagałyby unikać nadużyć, a nie zamazywały odpowiedzialności biskupa i nie stawały na przeszkodzie misji prowadzenia dusz do zbawienia? Czy w Kościele z ładem korporacyjnym czulibyśmy się bardziej jak w domu, czy jak w pracy? Na pewno do rozwiązania tego problemu potrzeba wiele roztropności.</p>
+<hr>
+</section>
+<section id="źródła" class="level1">
+<h1>Źródła</h1>
+<ul>
+<li>Pfang, T. Raymond. (2013). <em>Management in the Catholic Church: Towards an Ecclesiastical Model of Corporate Governance.</em> University of Surrey.</li>
+<li>Kodeks Prawa Kanonicznego (1983), kan. 1284 [i 1287 §2, 1277 po sprawdzeniu].</li>
+<li>Vatican News (marzec 2026), dane z Annuario Pontificio 2026 i Annuarium Statisticum Ecclesiae 2024.</li>
+</ul>
+<div class="article-btn">
+<p><a href="../../Articles/index.html">Więcej</a></p>
+</div>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<dl>
+<dt>O autorze</dt>
+<dd>
+<a href="../../About/about.html">Ks. Tomasz Włodarczyk</a>
+</dd>
+<dt><!-- Copyright and licence --></dt>
+<dd>
+© 2026 Ks. Dr Tomasz Włodarczyk. All rights reserved.
+</dd>
+<dd>
+Image: By Diego Velázquez - <a href="http://picasaweb.google.com/EnrikeCdC/VelazquezObraCompleta#5297131513290212530">Link</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9556265">wikipedia</a>
+</dd>
+</dl>
+</div>
+<div class="g-col-12 g-col-md-6">
+
+</div>
+</div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cytowanie</h2><div><div class="quarto-appendix-secondary-label">W celu atrybucji, proszę cytować tę pracę jako:</div><div id="ref-dr_tomasz_włodarczyk2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Dr Tomasz Włodarczyk, Ks. 2026. <span>“Czym jest governance (ład
+korporacyjny)? Przewodnik dla początkujących i znaczenie dla
+Kościoła.”</span> <em>Ecclesia Cybernetica</em>, accepted, October 10.
+<a href="https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/">https://ecclesiacybernetica.org/Articles/2026-10-10-church-governance/</a>.
+</div></div></section></div></main> <!-- /main -->
+<!-- 100% privacy-first analytics -->
+<script async="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Skopiowano!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Skopiowano!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ecclesiacybernetica\.org\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright © 2026 Tomasz Włodarczyk. All rights reserved.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
