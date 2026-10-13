@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-content .list');
+    const listingTargetEl = window.document.querySelector('#listing-Articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -93,7 +93,36 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-content'] = new List('listing-latest-content', options);
+    window['quarto-listings']['listing-Articles'] = new List('listing-Articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ECNews .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ECNews'] = new List('listing-ECNews', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -199,6 +228,10 @@ window.Quarto = {
 <span class="menu-text">Artykuły</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./ECNews/index.html"> 
+<span class="menu-text">EC News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./Cybernetics/index.html"> 
 <span class="menu-text">Cybernetyka</span></a>
   </li>  
@@ -272,10 +305,27 @@ window.Quarto = {
 
 
 
-<div id="content" style="padding-top: 1rem">
-<div id="listing-latest-content" class="quarto-listing quarto-listing-container-default">
+<!-- :::{#content style="padding-top: 1rem"}
+
+::: {#latest-content}
+:::
+::: -->
+<!-- :::{#content style="padding-top: 1rem"}
+
+::: {#latest-content}
+:::
+::: -->
+<!-- ~~~~~~ -->
+<div id="content" style="padding-top: 1rem ">
+<div class="grid">
+<!-- ARTICLES -->
+<div class="g-col-12 g-col-lg-8">
+<p><a href="./Articles/index.html"></a></p><a href="./Articles/index.html">
+<h2 id="artykuły" class="anchored">Artykuły</h2>
+</a><p><a href="./Articles/index.html"></a></p>
+<div id="listing-Articles" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Z292ZXJuYW5jZSUyQ21hbmFnZW1lbnQlMkNjaHVyY2glMjBnb3Zlcm5hbmNlJTJDZGlvY2VzZSUyQyUyQ2Nhbm9uJTIwbGF3" data-listing-date-sort="1791583200000" data-listing-file-modified-sort="1791655278692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1561">
+<div class="quarto-post image-left" data-index="0" data-categories="Z292ZXJuYW5jZSUyQ21hbmFnZW1lbnQlMkNDaHVyY2glMjBnb3Zlcm5hbmNlJTJDZGlvY2VzZSUyQyUyQ2Nhbm9uJTIwbGF3" data-listing-date-sort="1791583200000" data-listing-file-modified-sort="1791655278692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1561">
 <div class="thumbnail"><a href="./Articles/2026-10-10-church-governance/index.html" class="no-external">
 
 <img loading="lazy" src="./Articles/2026-10-10-church-governance/images/Inocencio10.jpg" class="thumbnail-image">
@@ -417,6 +467,145 @@ Ks. Dr Tomasz Włodarczyk
 </div>
 </div>
 <div class="listing-no-matching d-none">Brak pasujących</div>
+</div>
+</div>
+<!-- NEWS -->
+<div class="g-col-12 g-col-lg-4">
+<p><a href="./ECNews/index.html"></a></p><a href="./ECNews/index.html">
+<h3 id="nowości" class="anchored">Nowości</h3>
+</a><p><a href="./ECNews/index.html"></a></p>
+<div id="listing-ECNews" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+
+<th>
+Data
+</th>
+
+<th>
+Tytuł
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="U2luJTIwY2F0ZWdvciVDMyVBRGE=" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Modlitwa św. Jakuba Apostoła do Najświętszej Maryi Panny z Pilar" data-listing-filename-sort="2026-10-12-prayer-of-saint-james-the-apostle-to-the-blessed-v.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-prayer-of-saint-james-the-apostle-to-the-blessed-v.html" class="title listing-title">Modlitwa św. Jakuba Apostoła do Najświętszej Maryi Panny z Pilar</a>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73" data-listing-title-sort="Co najmniej 139 migrantów ginie w katastrofie łodzi u wybrzeży Rogu Afryki" data-listing-filename-sort="2026-10-12-at-least-139-migrants-die-in-boat-tragedy-off-horn.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-at-least-139-migrants-die-in-boat-tragedy-off-horn.html" class="title listing-title">Co najmniej 139 migrantów ginie w katastrofie łodzi u wybrzeży Rogu Afryki</a>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="SWdsZXNpYQ==" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Rosario de Cristal powróci na ulice Saragossy" data-listing-filename-sort="2026-10-12-rosario-de-cristal-to-return-to-zaragoza-streets.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-rosario-de-cristal-to-return-to-zaragoza-streets.html" class="title listing-title">Rosario de Cristal powróci na ulice Saragossy</a>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="RXV0aGFuYXNpYSUyQ0ZlYXR1cmUyJTJDRmVhdHVyZTM=" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65" data-listing-title-sort="Kanada wstrzymuje rozszerzenie programu wspomaganego samobójstwa na osoby z chorobami psychicznymi" data-listing-filename-sort="2026-10-12-canada-halts-expansion-of-assisted-suicide-to-peop.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-canada-halts-expansion-of-assisted-suicide-to-peop.html" class="title listing-title">Kanada wstrzymuje rozszerzenie programu wspomaganego samobójstwa na osoby z chorobami psychicznymi</a>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="QW5hbHlzaXMlMjBPcGluaW9uJTJDTG9jYWwlMjBDaHVyY2glMkNGZWF0dXJlMiUyQ0ZlYXR1cmUz" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Australijscy katolicy pozostają wierni pomimo nieregularnego uczestnictwa: wyniki badania" data-listing-filename-sort="2026-10-12-catholic-australians-remain-faithful-despite-irreg.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-catholic-australians-remain-faithful-despite-irreg.html" class="title listing-title">Australijscy katolicy pozostają wierni pomimo nieregularnego uczestnictwa: wyniki badania</a>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-listing-title-sort="Uroczystości ku czci św. Carlo Acutisa zakończyły się w Asyżu" data-listing-filename-sort="2026-10-12-celebrations-for-saint-carlo-acutis-conclude-in-as.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-celebrations-for-saint-carlo-acutis-conclude-in-as.html" class="title listing-title">Uroczystości ku czci św. Carlo Acutisa zakończyły się w Asyżu</a>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80" data-listing-title-sort="Proces synodalny kładzie nacisk na budowanie relacji w Kościołach europejskich" data-listing-filename-sort="2026-10-12-synodal-process-emphasizes-relationship-building-i.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-synodal-process-emphasizes-relationship-building-i.html" class="title listing-title">Proces synodalny kładzie nacisk na budowanie relacji w Kościołach europejskich</a>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80" data-listing-title-sort="Caritas krytykuje osobiste ataki na niemiecką minister pracy Bärbel Bas" data-listing-filename-sort="2026-10-12-caritas-criticizes-personal-attacks-against-german.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-caritas-criticizes-personal-attacks-against-german.html" class="title listing-title">Caritas krytykuje osobiste ataki na niemiecką minister pracy Bärbel Bas</a>
+</td>
+
+</tr>
+
+<tr data-index="8" data-categories="V29ybGQ=" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Lekarze wspominają spokojne ostatnie dni Carlo Acutisa w szpitalu" data-listing-filename-sort="2026-10-12-doctors-recall-carlo-acutis-serene-final-days-in-h.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-doctors-recall-carlo-acutis-serene-final-days-in-h.html" class="title listing-title">Lekarze wspominają spokojne ostatnie dni Carlo Acutisa w szpitalu</a>
+</td>
+
+</tr>
+
+<tr data-index="9" data-categories="bm90aXppZSUyQ2NoaWVzYSUyMGNhdHRvbGljYSUyQ1ZhdGljYW5v" data-listing-date-sort="1791756000000" data-listing-file-modified-sort="1791881670835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81" data-listing-title-sort="500. rocznica splądrowania Rzymu: Rok Jubileuszowy Gwardii Szwajcarskiej" data-listing-filename-sort="2026-10-12-500th-anniversary-of-the-sacking-of-rome-commemora.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">12.10.2026</span>
+</td>
+<td>
+<a href="./ECNews/2026-10-12-500th-anniversary-of-the-sacking-of-rome-commemora.html" class="title listing-title">500. rocznica splądrowania Rzymu: Rok Jubileuszowy Gwardii Szwajcarskiej</a>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Brak pasujących</div>
+</div>
+</div>
 </div>
 </div>
 
